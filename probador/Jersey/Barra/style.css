@@ -74,8 +74,8 @@ nav a {
   font-size: 13px;
 }
 
-nav a:hover {
-  color:#87c0cd;
+nav .estaSI:hover {
+  color: #87c0cd;
 }
 
 nav li::before {
