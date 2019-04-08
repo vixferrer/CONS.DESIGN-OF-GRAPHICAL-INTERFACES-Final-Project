@@ -50,6 +50,7 @@ ul, ol {
   transition: 0.3s all;
   color: #FFF;
   background-color: #226597;
+  border-radius: 30px;
 }
 
 .primary-btn:hover, .primary-btn:focus {
@@ -62,7 +63,7 @@ ul, ol {
 \*----------------------------*/
 
 .section {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 30px;
 }
 
@@ -351,12 +352,12 @@ ul, ol {
 .slick-prev, .slick-next {
   width: 40px;
   height: 40px;
-  background: #226597;
+  background: #87c0cd;
   z-index: 22;
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-  background: #30323A;
+  background: #226597;
 }
 
 .slick-prev:before, .slick-next:before {
