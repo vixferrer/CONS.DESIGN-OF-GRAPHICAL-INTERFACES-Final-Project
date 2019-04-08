@@ -2,6 +2,17 @@
 	Typography
 \*----------------------------*/
 
+body{
+	background: #f3f9fb;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background: #fff;
+  display : flex;
+  flex-direction: row;
+}
+
 .contenedor {
   margin-left: 350px;
   width: 50%;
