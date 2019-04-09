@@ -365,6 +365,7 @@ ul, ol {
   height: 40px;
   background: #87c0cd;
   z-index: 22;
+  border-radius: 20px;
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
