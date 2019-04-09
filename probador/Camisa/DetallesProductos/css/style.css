@@ -192,6 +192,10 @@ ul, ol {
   font-size: 70%;
 }
 
+.product-price{
+  color: #226597;
+}
+
 .product .product-label>span {
   position: relative;
   display: inline-block;
