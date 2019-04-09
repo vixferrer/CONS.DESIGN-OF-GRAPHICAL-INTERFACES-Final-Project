@@ -1,0 +1,119 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BARRA NAVEGACIÓN:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+  margin: 0;
+  background-color: #e6ecf0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+  background: #fff;
+  display : flex;
+  flex-direction: row;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo{
+  margin-top: 7px;
+  margin-right: 40px;
+  margin-left: 10px;
+  width: 205px;
+  height: 37px;
+}
+
+.iconos{
+  display: block;
+  margin: auto;
+  width: 112px;
+  height: 42px;
+  padding: 4px 40px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  vertical-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  position: relative;
+  border-right: 1.5px solid rgb(31, 31, 31);
+}
+
+.marcada{
+  background-color: #87c0cd;
+}
+
+nav a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; 
+  margin-left: 10px; 
+  text-align: center;
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+nav .estaSI:hover {
+  color: #87c0cd;
+}
+
+nav li::before {
+  content: '';
+  display: block;
+  height: 4px;
+  position: absolute;
+  background-color: #87c0cd;
+  bottom: 0;
+  width: 0%;
+  transition: all ease-in-out 230ms;
+}
+
+nav li:hover::before {
+  width: 100%;
+}
+
+.probador{
+  display: inline-block;
+  margin: auto;
+  width: 30px;
+  height: 35px;
+  padding: 3px 0;
+}
+
+.finalizar{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px; 
+  margin-left: 90px; 
+  text-align: center;
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.atuendo:hover {
+  color: #87c0cd;
+}
+
