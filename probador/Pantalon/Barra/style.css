@@ -10,6 +10,11 @@ body {
 	font-weight: 800;
 }
 
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
 header {
   background: #fff;
   display : flex;
@@ -55,6 +60,10 @@ nav li {
 
 .marcada{
   background-color: #87c0cd;
+}
+
+nav .marcada a{
+  color: rgb(255, 255, 255);
 }
 
 nav a {
@@ -111,4 +120,3 @@ nav li:hover::before {
 .atuendo:hover {
   color: #87c0cd;
 }
-

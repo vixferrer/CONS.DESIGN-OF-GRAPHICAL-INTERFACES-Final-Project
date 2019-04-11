@@ -62,6 +62,10 @@ nav li {
   background-color: #87c0cd;
 }
 
+nav .marcada a{
+  color: rgb(255, 255, 255);
+}
+
 nav a {
   display: inline-block;
   vertical-align: middle;
@@ -74,7 +78,11 @@ nav a {
   font-size: 13px;
 }
 
-nav li::before{
+nav .estaSI:hover {
+  color: #87c0cd;
+}
+
+nav li::before {
   content: '';
   display: block;
   height: 4px;
@@ -87,10 +95,6 @@ nav li::before{
 
 nav li:hover::before {
   width: 100%;
-}
-
-nav .estaSI:hover {
-  color: #87c0cd;
 }
 
 .probador{

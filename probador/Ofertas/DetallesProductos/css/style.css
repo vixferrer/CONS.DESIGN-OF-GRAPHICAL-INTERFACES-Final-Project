@@ -69,6 +69,14 @@ ul, ol {
   background-color: #30323A;
 }
 
+.percha{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /*----------------------------*\
 	Sections
 \*----------------------------*/
@@ -190,6 +198,10 @@ ul, ol {
 .product .product-old-price {
   color: #226597;
   font-size: 70%;
+}
+
+.product-price{
+  color: #226597;
 }
 
 .product .product-label>span {

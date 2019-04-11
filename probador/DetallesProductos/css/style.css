@@ -69,6 +69,14 @@ ul, ol {
   background-color: #30323A;
 }
 
+.percha{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /*----------------------------*\
 	Sections
 \*----------------------------*/
