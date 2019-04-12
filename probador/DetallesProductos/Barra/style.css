@@ -110,7 +110,6 @@ nav li:hover::before {
   color: rgb(27, 27, 27);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
 }
 
 .atuendo:hover {
