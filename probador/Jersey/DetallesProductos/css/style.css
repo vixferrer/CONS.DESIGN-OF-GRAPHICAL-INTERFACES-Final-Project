@@ -64,9 +64,16 @@ ul, ol {
   border-radius: 30px;
 }
 
+.sinExistencias{
+  background-color: #6e6e6e;
+}
+
 .primary-btn:hover, .primary-btn:focus {
-  color: #FFF;
   background-color: #30323A;
+}
+
+.sinExistencias:hover{
+  background-color: #6e6e6e;
 }
 
 .percha{
