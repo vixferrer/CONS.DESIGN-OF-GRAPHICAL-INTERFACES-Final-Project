@@ -73,6 +73,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+			<?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from calzado where id=6") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+			?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -82,35 +87,34 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/bamba1.jpg" alt="">
+								<img src="img/tacon1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/bamba2.jpg" alt="">
+								<img src="img/tacon2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/bamba3.jpg" alt="">
+								<img src="img/tacon3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/bamba1.jpg" alt="">
+								<img src="img/tacon1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/bamba2.jpg" alt="">
+								<img src="img/tacon2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/bamba3.jpg" alt="">
+								<img src="img/tacon3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
-								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Bambas Colores</h2>
-							<h3 class="product-price">16.99€ </h3>
-							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
+							<h2 class="product-name">Sandalias con Tacón</h2>
+							<h3 class="product-price">17.99€ </h3>
+							<p style="color:rgb(175, 3, 3);"><strong style="color:black">Disponibilidad: </strong>Sin existencias</p>
 							<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Talla:</span></li>
@@ -123,12 +127,12 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(146, 1, 139);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(14, 0, 13);"></a></li>
 								</ul>
 							</div>
 
 							<div class="product-btns">
-								<button class="primary-btn add-to-cart">Añadir al vestuario 
+								<button class="primary-btn add-to-cart sinExistencias">Añadir al vestuario 
 									<img src = "../../Iconos/probadorBLANCO.png" 
 										class="percha"></button>
 							</div>
@@ -140,6 +144,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+   }
+  ?>
 	</div>
 	<!-- /section -->
 

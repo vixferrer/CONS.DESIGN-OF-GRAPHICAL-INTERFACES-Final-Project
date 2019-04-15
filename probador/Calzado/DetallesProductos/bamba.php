@@ -73,6 +73,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+			<?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from calzado where id=1") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+			?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -82,24 +87,24 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/zapatosNegros1.jpg" alt="">
+								<img src="img/bamba1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/zapatosNegros2.jpg" alt="">
+								<img src="img/bamba2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/zapatosNegros3.jpg" alt="">
+								<img src="img/bamba3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/zapatosNegros1.jpg" alt="">
+								<img src="img/bamba1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/zapatosNegros2.jpg" alt="">
+								<img src="img/bamba2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/zapatosNegros3.jpg" alt="">
+								<img src="img/bamba3.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -108,21 +113,22 @@
 							<div class="product-label">
 								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Deportivas</h2>
-							<h3 class="product-price">25.99€</h3>
+							<h2 class="product-name">Bambas Colores</h2>
+							<h3 class="product-price">16.99€ </h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Talla:</span></li>
+									<li class="active"><a href="#">36</a></li>
+									<li><a href="#">37</a></li>
+									<li><a href="#">38</a></li>
 									<li><a href="#">39</a></li>
-									<li class="active"><a href="#">40</a></li>
+									<li><a href="#">40</a></li>
 									<li><a href="#">41</a></li>
-									<li><a href="#">42</a></li>
-									<li><a href="#">43</a></li>
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(8, 0, 0);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(146, 1, 139);"></a></li>
 								</ul>
 							</div>
 
@@ -139,6 +145,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+<?php
+}
+?>
 	</div>
 	<!-- /section -->
 
