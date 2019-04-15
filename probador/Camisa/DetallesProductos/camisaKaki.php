@@ -120,7 +120,7 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="camisaNegra.html" style="background-color:rgb(8, 0, 0);"></a></li>
+									<li><a href="camisaNegra.php" style="background-color:rgb(8, 0, 0);"></a></li>
 									<li class="active"><a href="#" style="background-color:rgb(103, 114, 1);"></a></li>
 								</ul>
 							</div>

@@ -127,7 +127,7 @@
 										</ul>
 										<ul class="color-option">
 											<li><span class="text-uppercase">Color:</span></li>
-											<li><a href="camisaCuadrosRoj.html" style="background-color:rgb(100, 1, 1);"></a></li>
+											<li><a href="camisaCuadrosRoj.php" style="background-color:rgb(100, 1, 1);"></a></li>
 											<li class="active"><a href="#" style="background-color:rgb(161, 145, 1);"></a></li>
 										</ul>
 									</div>
