@@ -73,6 +73,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+    include 'conexion.php';
+    $re=mysqli_query($con, "select * from abrigos where id=6") or die(mysql_error());
+    while($f=mysqli_fetch_array($re)){
+    ?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -120,7 +125,7 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="cazadoraOcreMarr.html" style="background-color:rgb(121, 68, 0);"></a></li>
+									<li><a href="cazadoraOcreMarr.php" style="background-color:rgb(121, 68, 0);"></a></li>
 									<li class="active"><a href="#" style="background-color:rgb(19, 0, 0);"></a></li>
 								</ul>
 							</div>
@@ -138,6 +143,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+<?php
+   }
+  ?>
 	</div>
 	<!-- /section -->
 
