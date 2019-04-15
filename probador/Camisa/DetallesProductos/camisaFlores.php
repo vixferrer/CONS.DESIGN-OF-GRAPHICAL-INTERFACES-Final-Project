@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Camisa Negra</title>
+    <title>Camisa Flores</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../Barra/style.css">
@@ -72,6 +72,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	 <?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from camisas where id=9") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+				?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,24 +86,24 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/camisaNegra1.jpg" alt="">
+								<img src="img/camisaFlores1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaNegra2.jpg" alt="">
+								<img src="img/camisaFlores2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaNegra3.jpg" alt="">
+								<img src="img/camisaFlores3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/camisaNegra1.jpg" alt="">
+								<img src="img/camisaFlores1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaNegra2.jpg" alt="">
+								<img src="img/camisaFlores2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaNegra3.jpg" alt="">
+								<img src="img/camisaFlores3.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -106,8 +111,8 @@
 						<div class="product-body">
 							<div class="product-label">
 							</div>
-							<h2 class="product-name">Camisa Negra</h2>
-							<h3 class="product-price">9.99€ </h3>
+							<h2 class="product-name">Camisa Flores</h2>
+							<h3 class="product-price">18.99€ </h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -116,11 +121,6 @@
 									<li><a href="#">M</a></li>
 									<li><a href="#">L</a></li>
 									<li><a href="#">XL</a></li>
-								</ul>
-								<ul class="color-option">
-									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(8, 0, 0);"></a></li>
-									<li><a href="camisaKaki.html" style="background-color:rgb(103, 114, 1);"></a></li>
 								</ul>
 							</div>
 
@@ -137,6 +137,10 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+    <?php
+		}
+	?>
+		
 	</div>
 	<!-- /section -->
 

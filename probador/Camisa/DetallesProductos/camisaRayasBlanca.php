@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Camisa Etnica</title>
+    <title>Camisa Rayas</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../Barra/style.css">
@@ -72,6 +72,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+			<?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from camisas where id=6") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+				?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,34 +86,33 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/camisaEtnica1.jpg" alt="">
+								<img src="img/camisaRayasBlanca1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaEtnica2.jpg" alt="">
+								<img src="img/camisaRayasBlanca2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaEtnica3.jpg" alt="">
+								<img src="img/camisaRayasBlanca3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/camisaEtnica1.jpg" alt="">
+								<img src="img/camisaRayasVerde1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaEtnica2.jpg" alt="">
+								<img src="img/camisaRayasVerde2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaEtnica3.jpg" alt="">
+								<img src="img/camisaRayasVerde3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
-								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Camisa Etnica</h2>
-							<h3 class="product-price">12.99€</h3>
+							<h2 class="product-name">Camisa Lineas</h2>
+							<h3 class="product-price">16.99€ </h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -117,6 +121,11 @@
 									<li><a href="#">M</a></li>
 									<li><a href="#">L</a></li>
 									<li><a href="#">XL</a></li>
+								</ul>
+								<ul class="color-option">
+									<li><span class="text-uppercase">Color:</span></li>
+									<li><a href="camisaRayasVerde.html" style="background-color:rgb(0, 104, 99);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(209, 210, 216);"></a></li>
 								</ul>
 							</div>
 
@@ -133,6 +142,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+		}
+	?>
 	</div>
 	<!-- /section -->
 
