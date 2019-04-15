@@ -72,72 +72,85 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
-		<!-- container -->
-		<div class="contenedor">
-			<!-- row -->
-			<div class="row">
-				<!--  Product Details -->
-				<div class="product product-details clearfix">
-					<div class="col-md-6">
-						<div id="product-main-view">
-							<div class="product-view">
-								<img src="img/camisaCuadrosMostaza1.jpg" alt="">
-							</div>
-							<div class="product-view">
-								<img src="img/camisaCuadrosMostaza2.jpg" alt="">
-							</div>
-							<div class="product-view">
-								<img src="img/camisaCuadrosMostaza3.jpg" alt="">
-							</div>
-						</div>
-						<div id="product-view">
-							<div class="product-view">
-								<img src="img/camisaCuadrosMostaza1.jpg" alt="">
-							</div>
-							<div class="product-view">
-								<img src="img/camisaCuadrosMostaza2.jpg" alt="">
-							</div>
-							<div class="product-view">
-								<img src="img/camisaCuadrosMostaza3.jpg" alt="">
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="product-body">
-							<div class="product-label">
-								<span>Nuevo</span>
-							</div>
-							<h2 class="product-name">Camisa Cuadros</h2>
-							<h3 class="product-price">14.99€</h3>
-							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
-							<div class="product-options">
-								<ul class="size-option">
-									<li><span class="text-uppercase">Talla:</span></li>
-									<li class="active"><a href="#">S</a></li>
-									<li><a href="#">M</a></li>
-									<li><a href="#">L</a></li>
-									<li><a href="#">XL</a></li>
-								</ul>
-								<ul class="color-option">
-									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="camisaCuadrosRoj.html" style="background-color:rgb(100, 1, 1);"></a></li>
-									<li class="active"><a href="#" style="background-color:rgb(161, 145, 1);"></a></li>
-								</ul>
-							</div>
+		<?php
+			include 'conexion.php';
+			$re=mysql_query("select * from camisas") or die(mysql_error());
+			while($f=mysql_fetch_array($re)){
+				
+				?>
 
-							<div class="product-btns">
-								<button class="primary-btn add-to-cart">Añadir al vestuario 
-									<img src = "../../Iconos/probadorBLANCO.png" 
-										class="percha"></button>
+
+				<!-- container -->
+				<div class="contenedor">
+					<!-- row -->
+					<div class="row">
+						<!--  Product Details -->
+						<div class="product product-details clearfix">
+							<div class="col-md-6">
+								<div id="product-main-view">
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza1.jpg" alt="">
+									</div>
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
+									</div>
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza3.jpg" alt="">
+									</div>
+								</div>
+								<div id="product-view">
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza1.jpg" alt="">
+									</div>
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
+									</div>
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza3.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="product-body">
+									<div class="product-label">
+										<span>Nuevo</span>
+									</div>
+									<h2 class="product-name">Camisa Cuadros</h2>
+									<h3 class="product-price">14.99€</h3>
+									<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
+									<div class="product-options">
+										<ul class="size-option">
+											<li><span class="text-uppercase">Talla:</span></li>
+											<li class="active"><a href="#">S</a></li>
+											<li><a href="#">M</a></li>
+											<li><a href="#">L</a></li>
+											<li><a href="#">XL</a></li>
+										</ul>
+										<ul class="color-option">
+											<li><span class="text-uppercase">Color:</span></li>
+											<li><a href="camisaCuadrosRoj.html" style="background-color:rgb(100, 1, 1);"></a></li>
+											<li class="active"><a href="#" style="background-color:rgb(161, 145, 1);"></a></li>
+										</ul>
+									</div>
+		
+									<div class="product-btns">
+										<button class="primary-btn add-to-cart">Añadir al vestuario 
+											<img src = "../../Iconos/probadorBLANCO.png" 
+												class="percha"></button>
+									</div>
+								</div>
 							</div>
 						</div>
+						<!-- /Product Details -->
 					</div>
+					<!-- /row -->
 				</div>
-				<!-- /Product Details -->
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
+				<!-- /container -->
+
+				<?php
+			}
+		?>
+		
 	</div>
 	<!-- /section -->
 
