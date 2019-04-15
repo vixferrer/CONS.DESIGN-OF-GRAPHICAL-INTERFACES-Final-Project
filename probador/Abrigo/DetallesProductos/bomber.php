@@ -73,6 +73,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+    include 'conexion.php';
+    $re=mysqli_query($con, "select * from abrigos where id=8") or die(mysql_error());
+    while($f=mysqli_fetch_array($re)){
+    ?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -82,24 +87,24 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/cazadoraCuelloNegra1.jpg" alt="">
+								<img src="img/bomberAzul1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraCuelloNegra2.jpg" alt="">
+								<img src="img/bomberAzul2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraCuelloNegra3.jpg" alt="">
+								<img src="img/bomberAzul3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/cazadoraCuelloNegra1.jpg" alt="">
+								<img src="img/bomberAzul1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraCuelloNegra2.jpg" alt="">
+								<img src="img/bomberAzul2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraCuelloNegra3.jpg" alt="">
+								<img src="img/bomberAzul3.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -107,8 +112,8 @@
 						<div class="product-body">
 							<div class="product-label">
 							</div>
-							<h2 class="product-name">Cazadora Negra</h2>
-							<h3 class="product-price">25.99€ </h3>
+							<h2 class="product-name">Bomber Azul</h2>
+							<h3 class="product-price">28.99€ </h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -120,8 +125,7 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="cazadoraOcreMarr.html" style="background-color:rgb(121, 68, 0);"></a></li>
-									<li class="active"><a href="#" style="background-color:rgb(19, 0, 0);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(44, 47, 88);"></a></li>
 								</ul>
 							</div>
 
@@ -138,6 +142,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+   }
+  ?>
 	</div>
 	<!-- /section -->
 
@@ -151,4 +158,3 @@
 
 </body>
 </html>
-

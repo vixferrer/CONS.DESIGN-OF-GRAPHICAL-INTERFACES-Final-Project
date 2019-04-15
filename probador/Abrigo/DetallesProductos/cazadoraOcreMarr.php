@@ -73,6 +73,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+    include 'conexion.php';
+    $re=mysqli_query($con, "select * from abrigos where id=5") or die(mysql_error());
+    while($f=mysqli_fetch_array($re)){
+    ?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -82,34 +87,33 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/cazadoraAcolchada1.jpg" alt="">
+								<img src="img/cazadoraCuelloOcre1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraAcolchada2.jpg" alt="">
+								<img src="img/cazadoraCuelloOcre2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraAcolchada3.jpg" alt="">
+								<img src="img/cazadoraCuelloOcre3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/cazadoraAcolchada1.jpg" alt="">
+								<img src="img/cazadoraCuelloOcre1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraAcolchada2.jpg" alt="">
+								<img src="img/cazadoraCuelloOcre2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/cazadoraAcolchada3.jpg" alt="">
+								<img src="img/cazadoraCuelloOcre3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
-								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Abrigo Acolchado</h2>
-							<h3 class="product-price">24.99€ </h3>
+							<h2 class="product-name">Cazadora Ocre</h2>
+							<h3 class="product-price">25.99€ </h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -121,7 +125,8 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(185, 2, 2);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(121, 68, 0);"></a></li>
+									<li><a href="cazadoraOcreNeg.php" style="background-color:rgb(19, 0, 0);"></a></li>
 								</ul>
 							</div>
 
@@ -138,6 +143,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+   }
+  ?>
 	</div>
 	<!-- /section -->
 

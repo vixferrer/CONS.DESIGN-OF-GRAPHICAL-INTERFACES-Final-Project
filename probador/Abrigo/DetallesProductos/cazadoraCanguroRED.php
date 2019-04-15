@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Pantalon Verde</title>
+    <title>Abrigo Acolchado</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../Barra/style.css">
+ 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
@@ -31,33 +32,33 @@
 	<div class="container">
 			<nav>
 			 <ul>
-				<li><a href="../../index.html"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
-				<li><a class="estaSI" href="../../Camisa/Camisa.html">Camisas<img src = "../Barra/Iconos/camisa.png" 
-				  onmouseover="src='../Barra/Iconos/camisa2.png'" 
-				  onmouseout="src='../Barra/Iconos/camisa.png'" 
-					class="iconos"></a></li>
-				<li class="marcada"><a href="../Pantalon.html">Pantalones <img src = "../Barra/Iconos/pantalonBLANCO.png" 
-					class="iconos"></a></li>
-				<li><a class="estaSI "  href="../../Abrigo/Abrigo.html">Abrigos<img src = "../Barra/Iconos/abrigo.png" 
-					onmouseover="src='../Barra/Iconos/abrigo2.png'" 
-					onmouseout="src='../Barra/Iconos/abrigo.png'" 
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../../Jersey/Jersey.html">Jerseys<img src = "../Barra/Iconos/jersey.png" 
-					onmouseover="src='../Barra/Iconos/jersey2.png'" 
-					onmouseout="src='../Barra/Iconos/jersey.png'"
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../../Falda/Falda.html">Faldas<img src = "../Barra/Iconos/falda.png" 
-					onmouseover="src='../Barra/Iconos/falda2.png'" 
-					onmouseout="src='../Barra/Iconos/falda.png'"
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../../Calzado/Calzado.html">Calzado<img src = "../Barra/Iconos/calzado.png" 
-					onmouseover="src='../Barra/Iconos/calzado2.png'" 
-					onmouseout="src='../Barra/Iconos/calzado.png'"
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../../Ofertas/Ofertas.html">Ofertas<img src = "../Barra/Iconos/ofertas.png"
-					onmouseover="src='../Barra/Iconos/ofertas2.png'" 
-					onmouseout="src='../Barra/Iconos/ofertas.png'"
-					class="iconos"></a></li>  
+			   <li><a href="../../index.html"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
+			   <li><a class="estaSI " href="../../Camisa/Camisa.html">Camisas<img src = "../Barra/Iconos/camisa.png" 
+				 onmouseover="src='../Barra/Iconos/camisa2.png'" 
+				 onmouseout="src='../Barra/Iconos/camisa.png'" 
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../../Pantalon/Pantalon.html">Pantalones <img src = "../Barra/Iconos/pantalon.png" 
+				onmouseover="src='../Barra/Iconos/pantalon2.png'" 
+				onmouseout="src='../Barra/Iconos/pantalon.png'" 
+				class="iconos"></a></li>
+			   <li class="marcada"><a href="../Abrigo.html">Abrigos<img src = "../Barra/Iconos/abrigoBLANCO.png" 
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../../Jersey/Jersey.html">Jerseys<img src = "../Barra/Iconos/jersey.png" 
+				   onmouseover="src='../Barra/Iconos/jersey2.png'" 
+				   onmouseout="src='../Barra/Iconos/jersey.png'"
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../../Falda/Falda.html">Faldas<img src = "../Barra/Iconos/falda.png" 
+				   onmouseover="src='../Barra/Iconos/falda2.png'" 
+				   onmouseout="src='../Barra/Iconos/falda.png'"
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../../Calzado/Calzado.html">Calzado<img src = "../Barra/Iconos/calzado.png" 
+				   onmouseover="src='../Barra/Iconos/calzado2.png'" 
+				   onmouseout="src='../Barra/Iconos/calzado.png'"
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../../Ofertas/Ofertas.html">Ofertas<img src = "../Barra/Iconos/ofertas.png"
+				   onmouseover="src='../Barra/Iconos/ofertas2.png'" 
+				   onmouseout="src='../Barra/Iconos/ofertas.png'"
+				   class="iconos"></a></li>  
 		 
 				   <a class="estaSI finalizar" href=#>Finalizar Selección
 					 <img src = "../Barra/Iconos/probador.png" 
@@ -72,6 +73,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+    include 'conexion.php';
+    $re=mysqli_query($con, "select * from abrigos where id=2") or die(mysql_error());
+    while($f=mysqli_fetch_array($re)){
+    ?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,24 +87,24 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde1.jpg" alt="">
+								<img src="img/cazadoraCanguroRoja1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde2.jpg" alt="">
+								<img src="img/cazadoraCanguroRoja2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde3.jpg" alt="">
+								<img src="img/cazadoraCanguroRoja3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde1.jpg" alt="">
+								<img src="img/cazadoraCanguroRoja1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde2.jpg" alt="">
+								<img src="img/cazadoraCanguroRoja2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde3.jpg" alt="">
+								<img src="img/cazadoraCanguroRoja3.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -107,8 +113,8 @@
 							<div class="product-label">
 								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Pantalón Militar</h2>
-							<h3 class="product-price">15.99€ </h3>
+							<h2 class="product-name">Cazadora Canguro</h2>
+							<h3 class="product-price">22.99€ </h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -120,8 +126,8 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(40, 77, 6);"></a></li>
-									<li><a href="pantalonMilitarAzul.html" style="background-color:rgb(3, 20, 95);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(100, 1, 1);"></a></li>
+									<li><a href="cazadoraCanguroBlanca.php" style="background-color:rgb(233, 233, 233);"></a></li>
 								</ul>
 							</div>
 
@@ -138,6 +144,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+<?php
+   }
+  ?>
 	</div>
 	<!-- /section -->
 

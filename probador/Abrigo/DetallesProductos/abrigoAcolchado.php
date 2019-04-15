@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bambas Colores</title>
+    <title>Abrigo Acolchado</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../Barra/style.css">
-
+ 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
@@ -32,18 +32,16 @@
 	<div class="container">
 			<nav>
 			 <ul>
-				<li><a href="../../index.html"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
-			   <li><a class="estaSI" href="../../Camisa/Camisa.html">Camisas<img src = "../Barra/Iconos/camisa.png" 
+			   <li><a href="../../index.html"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
+			   <li><a class="estaSI " href="../../Camisa/Camisa.html">Camisas<img src = "../Barra/Iconos/camisa.png" 
 				 onmouseover="src='../Barra/Iconos/camisa2.png'" 
 				 onmouseout="src='../Barra/Iconos/camisa.png'" 
 				   class="iconos"></a></li>
 			   <li><a class="estaSI" href="../../Pantalon/Pantalon.html">Pantalones <img src = "../Barra/Iconos/pantalon.png" 
-				   onmouseover="src='../Barra/Iconos/pantalon2.png'" 
-				   onmouseout="src='../Barra/Iconos/pantalon.png'" 
-				   class="iconos"></a></li>
-			   <li><a class="estaSI "  href="../../Abrigo/Abrigo.html">Abrigos<img src = "../Barra/Iconos/abrigo.png" 
-				   onmouseover="src='../Barra/Iconos/abrigo2.png'" 
-				   onmouseout="src='../Barra/Iconos/abrigo.png'" 
+				onmouseover="src='../Barra/Iconos/pantalon2.png'" 
+				onmouseout="src='../Barra/Iconos/pantalon.png'" 
+				class="iconos"></a></li>
+			   <li class="marcada"><a href="../Abrigo.html">Abrigos<img src = "../Barra/Iconos/abrigoBLANCO.png" 
 				   class="iconos"></a></li>
 			   <li><a class="estaSI" href="../../Jersey/Jersey.html">Jerseys<img src = "../Barra/Iconos/jersey.png" 
 				   onmouseover="src='../Barra/Iconos/jersey2.png'" 
@@ -53,7 +51,9 @@
 				   onmouseover="src='../Barra/Iconos/falda2.png'" 
 				   onmouseout="src='../Barra/Iconos/falda.png'"
 				   class="iconos"></a></li>
-			   <li class="marcada"><a href="../Calzado.html">Calzado<img src = "../Barra/Iconos/calzadoBLANCO.png" 
+			   <li><a class="estaSI" href="../../Calzado/Calzado.html">Calzado<img src = "../Barra/Iconos/calzado.png" 
+				   onmouseover="src='../Barra/Iconos/calzado2.png'" 
+				   onmouseout="src='../Barra/Iconos/calzado.png'"
 				   class="iconos"></a></li>
 			   <li><a class="estaSI" href="../../Ofertas/Ofertas.html">Ofertas<img src = "../Barra/Iconos/ofertas.png"
 				   onmouseover="src='../Barra/Iconos/ofertas2.png'" 
@@ -73,6 +73,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	 <?php
+    include 'conexion.php';
+    $re=mysqli_query($con, "select * from abrigos where id=1") or die(mysql_error());
+    while($f=mysqli_fetch_array($re)){
+    ?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -82,52 +87,51 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/tacon1.jpg" alt="">
+								<img src="img/cazadoraAcolchada1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/tacon2.jpg" alt="">
+								<img src="img/cazadoraAcolchada2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/tacon3.jpg" alt="">
+								<img src="img/cazadoraAcolchada3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/tacon1.jpg" alt="">
+								<img src="img/cazadoraAcolchada1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/tacon2.jpg" alt="">
+								<img src="img/cazadoraAcolchada2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/tacon3.jpg" alt="">
+								<img src="img/cazadoraAcolchada3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
+								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Sandalias con Tacón</h2>
-							<h3 class="product-price">17.99€ </h3>
-							<p style="color:rgb(175, 3, 3);"><strong style="color:black">Disponibilidad: </strong>Sin existencias</p>
+							<h2 class="product-name">Abrigo Acolchado</h2>
+							<h3 class="product-price">24.99€ </h3>
+							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Talla:</span></li>
-									<li class="active"><a href="#">36</a></li>
-									<li><a href="#">37</a></li>
-									<li><a href="#">38</a></li>
-									<li><a href="#">39</a></li>
-									<li><a href="#">40</a></li>
-									<li><a href="#">41</a></li>
+									<li class="active"><a href="#">S</a></li>
+									<li><a href="#">M</a></li>
+									<li><a href="#">L</a></li>
+									<li><a href="#">XL</a></li>
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(14, 0, 13);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(185, 2, 2);"></a></li>
 								</ul>
 							</div>
 
 							<div class="product-btns">
-								<button class="primary-btn add-to-cart sinExistencias">Añadir al vestuario 
+								<button class="primary-btn add-to-cart">Añadir al vestuario 
 									<img src = "../../Iconos/probadorBLANCO.png" 
 										class="percha"></button>
 							</div>
@@ -139,6 +143,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+   }
+  ?>
 	</div>
 	<!-- /section -->
 
