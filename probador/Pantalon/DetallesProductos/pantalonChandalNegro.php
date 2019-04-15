@@ -72,6 +72,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from pantalones where id=5") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+				?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,33 +86,34 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/pantalonChinoMarron1.jpg" alt="">
+								<img src="img/pantalonChandal1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoMarron2.jpg" alt="">
+								<img src="img/pantalonChandal2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoMarron3.jpg" alt="">
+								<img src="img/pantalonChandal3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/pantalonChinoMarron1.jpg" alt="">
+								<img src="img/pantalonChandal1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoMarron2.jpg" alt="">
+								<img src="img/pantalonChandal2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoMarron3.jpg" alt="">
+								<img src="img/pantalonChandal3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
+								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Pantalón Chino</h2>
-							<h3 class="product-price">13.99€ </h3>
+							<h2 class="product-name">Pantalón Chandal Dark</h2>
+							<h3 class="product-price">12.99€ </h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -119,8 +125,7 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="pantalonChino.html" style="background-color:rgb(0, 1, 31);"></a></li>
-									<li class="active"><a href="#" style="background-color:rgb(44, 21, 12);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(0, 4, 19);"></a></li>
 								</ul>
 							</div>
 
@@ -137,6 +142,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+		}
+	?>
 	</div>
 	<!-- /section -->
 

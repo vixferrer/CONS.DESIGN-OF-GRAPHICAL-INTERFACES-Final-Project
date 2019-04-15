@@ -72,6 +72,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from pantalones where id=2") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+				?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,24 +86,24 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde1.jpg" alt="">
+								<img src="img/pantalonAzul1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde2.jpg" alt="">
+								<img src="img/pantalonAzul2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde3.jpg" alt="">
+								<img src="img/pantalonAzul3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde1.jpg" alt="">
+								<img src="img/pantalonAzul1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde2.jpg" alt="">
+								<img src="img/pantalonAzul2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonMilitarVerde3.jpg" alt="">
+								<img src="img/pantalonAzul3.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -108,7 +113,7 @@
 								<span>Nuevo</span>
 							</div>
 							<h2 class="product-name">Pantalón Militar</h2>
-							<h3 class="product-price">15.99€ </h3>
+							<h3 class="product-price">15.99€</h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -120,8 +125,8 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(40, 77, 6);"></a></li>
-									<li><a href="pantalonMilitarAzul.html" style="background-color:rgb(3, 20, 95);"></a></li>
+									<li><a href="pantalonMilitarVerde.php" style="background-color:rgb(40, 77, 6);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(3, 20, 95);"></a></li>
 								</ul>
 							</div>
 
@@ -138,6 +143,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+		}
+	?>
 	</div>
 	<!-- /section -->
 

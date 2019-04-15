@@ -72,6 +72,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from pantalones where id=10") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+				?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,24 +86,24 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/pantalonChinoNegro1.jpg" alt="">
+								<img src="img/pantalonChinoMarron1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoNegro2.jpg" alt="">
+								<img src="img/pantalonChinoMarron2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoNegro3.jpg" alt="">
+								<img src="img/pantalonChinoMarron3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/pantalonChinoNegro1.jpg" alt="">
+								<img src="img/pantalonChinoMarron1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoNegro2.jpg" alt="">
+								<img src="img/pantalonChinoMarron2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonChinoNegro3.jpg" alt="">
+								<img src="img/pantalonChinoMarron3.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -119,8 +124,8 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="#" style="background-color:rgb(0, 1, 31);"></a></li>
-									<li><a href="pantalonChinoMarron.html" style="background-color:rgb(44, 21, 12);"></a></li>
+									<li><a href="pantalonChino.php" style="background-color:rgb(0, 1, 31);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(44, 21, 12);"></a></li>
 								</ul>
 							</div>
 
@@ -137,6 +142,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+		}
+	?>
 	</div>
 	<!-- /section -->
 

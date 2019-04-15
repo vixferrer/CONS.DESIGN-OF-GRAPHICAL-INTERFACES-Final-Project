@@ -72,6 +72,11 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+			include 'conexion.php';
+			$re=mysqli_query($con, "select * from camisas where id=7") or die(mysql_error());
+			while($f=mysqli_fetch_array($re)){
+				?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,35 +86,34 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris3.jpg" alt="">
+								<img src="img/pantalonGranate1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris2.jpg" alt="">
+								<img src="img/pantalonGranate2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris1.jpg" alt="">
+								<img src="img/pantalonGranate3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris3.jpg" alt="">
+								<img src="img/pantalonGranate1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris2.jpg" alt="">
+								<img src="img/pantalonGranate2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris1.jpg" alt="">
+								<img src="img/pantalonGranate3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
-								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Pantalón de Cuadros</h2>
-							<h3 class="product-price">19.99€ </h3>
-							<p style="color:rgb(175, 3, 3);"><strong style="color:black">Disponibilidad: </strong>Sin existencias</p>
+							<h2 class="product-name">Pantalón Granate</h2>
+							<h3 class="product-price">9.99€ </h3>
+							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Talla:</span></li>
@@ -120,13 +124,13 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="../DetallesProductos/pantalonCuadrosRED.html" style="background-color:#8A2454;"></a></li>
-									<li class="active"><a href="pantalonCuadrosGRIS.html" style="background-color:rgb(165, 161, 163);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(114, 5, 5);"></a></li>
+									<li><a href="pantalonVERDE.php" style="background-color:rgb(0, 136, 125);"></a></li>
 								</ul>
 							</div>
 
 							<div class="product-btns">
-								<button class="primary-btn add-to-cart sinExistencias">Añadir al vestuario 
+								<button class="primary-btn add-to-cart">Añadir al vestuario 
 									<img src = "../../Iconos/probadorBLANCO.png" 
 										class="percha"></button>
 							</div>
@@ -138,6 +142,9 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
+		<?php
+		}
+	?>
 	</div>
 	<!-- /section -->
 
