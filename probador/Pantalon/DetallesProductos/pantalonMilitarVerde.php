@@ -74,7 +74,7 @@
 	<div class="section">
 	<?php
 			include 'conexion.php';
-			$re=mysqli_query($con, "select * from camisas where id=1") or die(mysql_error());
+			$re=mysqli_query($con, "select * from pantalones where id=1") or die(mysql_error());
 			while($f=mysqli_fetch_array($re)){
 				?>
 		<!-- container -->

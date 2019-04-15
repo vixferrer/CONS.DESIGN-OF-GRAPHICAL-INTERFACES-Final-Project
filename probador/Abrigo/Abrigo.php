@@ -25,25 +25,25 @@
 					onmouseover="src='Barra/Iconos/camisa2.png'" 
 					onmouseout="src='Barra/Iconos/camisa.png'" 
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Pantalon/Pantalon.html">Pantalones <img src = "Barra/Iconos/pantalon.png" 
+                  <li><a class="estaSI" href="../Pantalon/Pantalon.php">Pantalones <img src = "Barra/Iconos/pantalon.png" 
                       onmouseover="src='Barra/Iconos/pantalon2.png'" 
                       onmouseout="src='Barra/Iconos/pantalon.png'" 
                       class="iconos"></a></li>
                   <li class="marcada"><a href=#>Abrigos<img src = "Barra/Iconos/abrigoBLANCO.png" 
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Jersey/Jersey.html">Jerseys<img src = "Barra/Iconos/jersey.png" 
+                  <li><a class="estaSI" href="../Jersey/Jersey.php">Jerseys<img src = "Barra/Iconos/jersey.png" 
                       onmouseover="src='Barra/Iconos/jersey2.png'" 
                       onmouseout="src='Barra/Iconos/jersey.png'"
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Falda/Falda.html">Faldas<img src = "Barra/Iconos/falda.png" 
+                  <li><a class="estaSI" href="../Falda/Falda.php">Faldas<img src = "Barra/Iconos/falda.png" 
                       onmouseover="src='Barra/Iconos/falda2.png'" 
                       onmouseout="src='Barra/Iconos/falda.png'"
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Calzado/Calzado.html">Calzado<img src = "Barra/Iconos/calzado.png" 
+                  <li><a class="estaSI" href="../Calzado/Calzado.php">Calzado<img src = "Barra/Iconos/calzado.png" 
                       onmouseover="src='Barra/Iconos/calzado2.png'" 
                       onmouseout="src='Barra/Iconos/calzado.png'"
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Ofertas/Ofertas.html">Ofertas<img src = "Barra/Iconos/ofertas.png"
+                  <li><a class="estaSI" href="../Ofertas/Ofertas.php">Ofertas<img src = "Barra/Iconos/ofertas.png"
                       onmouseover="src='Barra/Iconos/ofertas2.png'" 
                       onmouseout="src='Barra/Iconos/ofertas.png'"
 					  class="iconos"></a></li>  
@@ -67,7 +67,7 @@
 					<img src="FotosProductos/cazadoraAcolchada1.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Abrigo Acolchado</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/abrigoAcolchado.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/abrigoAcolchado.php">+ Ver detalles</a>
 						<span class="precio">24.99 €</span>
 						</nav>
 				</div>
@@ -75,7 +75,7 @@
 					<img src="FotosProductos/abrigoCanguro.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Cazadora Canguro</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/cazadoraCanguroRED.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/cazadoraCanguroRED.php">+ Ver detalles</a>
 						<span class="precio">22.99 €</span>
 						</nav>
 				</div>
@@ -83,7 +83,7 @@
 					<img src="FotosProductos/cazadoraMotera.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Cazadora Motera</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/cazadoraMotera.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/cazadoraMotera.php">+ Ver detalles</a>
 						<span class="precio">34.99 €</span>
 						</nav>
 				</div>
@@ -91,7 +91,7 @@
 					<img src="FotosProductos/cazadoraOcre.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Cazadora Ocre</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/cazadoraOcreMarr.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/cazadoraOcreMarr.php">+ Ver detalles</a>
 						<span class="precio">25.99 €</span>
 						</nav>
 				</div>
@@ -99,7 +99,7 @@
 					<img src="FotosProductos/cazadoraVaquera1.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Cazadora Vaquera</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/vaquera.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/vaquera.php">+ Ver detalles</a>
 						<span class="precio">19.99 €</span>
 						</nav>
 				</div>
@@ -107,7 +107,7 @@
 					<img src="FotosProductos/bomberAzul1.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Bomber Azul</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/bomber.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/bomber.php">+ Ver detalles</a>
 						<span class="precio">28.99 €</span>
 						</nav>
 				</div>
