@@ -72,6 +72,15 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+
+	<?php
+			include 'conexion.php';
+			$consulta='select * from camisas where id=8';
+			$sentencia = $pdo->prepare($consulta);
+			$sentencia->execute();
+			$det=$sentencia->fetch(PDO::FETCH_NUM);
+		?>
+
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,7 +90,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="<?php echo $f['imagen'];?>">
+								<img src="<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/camisaKaki2.jpg" alt="">
@@ -107,8 +116,8 @@
 							<div class="product-label">
 								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name"><?php echo $f['nombre'];?></h2>
-							<h3 class="product-price"><?php echo $f['precio'];?></h3>
+							<h2 class="product-name"><?php echo $det[1];?></h2>
+							<h3 class="product-price"><?php echo $det[3];?></h3>
 							<p><strong>Disponibilidad:</strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">

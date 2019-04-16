@@ -74,9 +74,11 @@
 	<div class="section">
 	<?php
 			include 'conexion.php';
-			$re=mysqli_query($con, "select * from camisas where id=8") or die(mysql_error());
-			while($f=mysqli_fetch_array($re)){
-				?>
+			$consulta='select * from camisas where id=5';
+			$sentencia = $pdo->prepare($consulta);
+			$sentencia->execute();
+			$det=$sentencia->fetch(PDO::FETCH_NUM);
+		?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -86,7 +88,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/<?php echo $f['imagen'];?>">
+								<img src="img/<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/camisaRayasVerde2.jpg" alt="">
@@ -111,8 +113,8 @@
 						<div class="product-body">
 							<div class="product-label">
 							</div>
-							<h2 class="product-name">C<?php echo $f['nombre'];?></h2>
-							<h3 class="product-price"><?php echo $f['precio'];?></h3>
+							<h2 class="product-name">C<?php echo $det[1];?></h2>
+							<h3 class="product-price"><?php echo $det[3];?></h3>
 							<p style="color:rgb(175, 3, 3);"><strong style="color:black">Disponibilidad: </strong>Sin existencias</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -142,9 +144,6 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
-		<?php
-		}
-	?>
 	</div>
 	<!-- /section -->
 

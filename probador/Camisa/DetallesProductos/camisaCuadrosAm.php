@@ -79,7 +79,6 @@
 			$sentencia->execute();
 			$det=$sentencia->fetch(PDO::FETCH_NUM);
 		?>
-
 				<!-- container -->
 				<div class="contenedor">
 					<!-- row -->
