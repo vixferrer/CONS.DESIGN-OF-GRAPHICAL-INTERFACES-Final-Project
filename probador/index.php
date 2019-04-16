@@ -69,7 +69,7 @@
 					<img src="FotosPopu/camisetaMarvel.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Camiseta Marvel</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/camisetaMarvel.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/camisetaMarvel.php">+ Ver detalles</a>
 						<span class="precio">9.99 €</span>
 						</nav>
 				</div>
@@ -77,7 +77,7 @@
 					<img src="FotosPopu/bermudaVerde.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Bermuda Verde</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/bermuda.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/bermuda.php">+ Ver detalles</a>
 						<span class="precio">14.99 €</span>
 						</nav>
 				</div>
@@ -85,7 +85,7 @@
 					<img src="FotosPopu/camisetaAzul.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Camiseta Azul</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/camisetaAzul.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/camisetaAzul.php">+ Ver detalles</a>
 						<span class="precio">6.99 €</span>
 						</nav>
 				</div>
@@ -93,7 +93,7 @@
 					<img src="FotosPopu/camisetaBlanquiAzul.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Top Azul</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/topAzul.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/topAzul.php">+ Ver detalles</a>
 						<span class="precio">8.99 €</span>
 						</nav>
 				</div>
@@ -101,7 +101,7 @@
 					<img src="FotosPopu/camisetaFlorida.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Camiseta Flores</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/camisetaFlorida.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/camisetaFlorida.php">+ Ver detalles</a>
 						<span class="precio">7.99 €</span>
 						</nav>
 				</div>
@@ -109,7 +109,7 @@
 					<img src="FotosPopu/sandaliasPlaya.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Sandalias Playa</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/sandalias.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/sandalias.php">+ Ver detalles</a>
 						<span class="precio">12.99 €</span>
 						</nav>
 				</div>
