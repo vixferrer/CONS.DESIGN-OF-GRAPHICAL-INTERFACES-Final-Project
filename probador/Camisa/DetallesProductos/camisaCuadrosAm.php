@@ -91,7 +91,7 @@
 							<div class="col-md-6">
 								<div id="product-main-view">
 									<div class="product-view">
-										<img src="img/<?php echo $f['imagen'];?>">
+										<img src="img/<?php echo $details['id'];?>">
 									</div>
 									<div class="product-view">
 										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
