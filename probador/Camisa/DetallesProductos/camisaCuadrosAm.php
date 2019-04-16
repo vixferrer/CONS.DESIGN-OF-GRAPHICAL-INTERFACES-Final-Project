@@ -80,7 +80,6 @@
 			$det=$sentencia->fetch(PDO::FETCH_NUM);
 		?>
 
-
 				<!-- container -->
 				<div class="contenedor">
 					<!-- row -->
@@ -90,7 +89,7 @@
 							<div class="col-md-6">
 								<div id="product-main-view">
 									<div class="product-view">
-										<img src="img/<?php echo $details[2];?>">
+										<img src="img/<?php echo $det[2];?>">
 									</div>
 									<div class="product-view">
 										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
@@ -116,8 +115,8 @@
 									<div class="product-label">
 										<span>Nuevo</span>
 									</div>
-									<h2 class="product-name"><?php echo $details[1];?></h2>
-									<h3 class="product-price"><?php echo $details[3];?></h3>
+									<h2 class="product-name"><?php echo $det[1];?></h2>
+									<h3 class="product-price"><?php echo $det[3];?></h3>
 									<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 									<div class="product-options">
 										<ul class="size-option">
