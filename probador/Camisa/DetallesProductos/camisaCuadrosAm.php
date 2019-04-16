@@ -77,7 +77,7 @@
 			$consulta='select * from camisas where id=2';
 			$sentencia = $pdo->prepare($consulta);
 			$sentencia->execute();
-			$det=$sentencia->fetch();
+			$det=$sentencia->fetch(PDO::FETCH_NUM);
 			print_r($det);
 		?>
 
@@ -91,7 +91,7 @@
 							<div class="col-md-6">
 								<div id="product-main-view">
 									<div class="product-view">
-										<img src="img/<?php echo $f['imagen'];?>">
+										<img src="img/<?php echo $details[1];?>">
 									</div>
 									<div class="product-view">
 										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
