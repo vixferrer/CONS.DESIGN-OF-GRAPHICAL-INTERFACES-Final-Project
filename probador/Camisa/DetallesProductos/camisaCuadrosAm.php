@@ -32,7 +32,7 @@
 			<nav>
 			 <ul>
 			   <li><a href="../../index.html"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
-			   <li class="marcada"><a href="../Camisa.html">Camisas<img src = "../Barra/Iconos/camisaBlanca.png" 
+			   <li class="marcada"><a href="../Camisa.php">Camisas<img src = "../Barra/Iconos/camisaBlanca.png" 
 				   class="iconos"></a></li>
 			   <li><a class="estaSI" href="../../Pantalon/Pantalon.html">Pantalones <img src = "../Barra/Iconos/pantalon.png" 
 				   onmouseover="src='../Barra/Iconos/pantalon2.png'" 
