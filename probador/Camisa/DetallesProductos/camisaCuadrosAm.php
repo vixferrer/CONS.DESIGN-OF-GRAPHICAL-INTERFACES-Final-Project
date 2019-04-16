@@ -79,7 +79,7 @@
 			$sentencia->execute();
 			$sentencia->bind_result($nombre, $imagen, $precio);
 			$sentencia->fetch();
-			printf($sentencia);
+			print_r($sentencia);
 		?>
 
 
