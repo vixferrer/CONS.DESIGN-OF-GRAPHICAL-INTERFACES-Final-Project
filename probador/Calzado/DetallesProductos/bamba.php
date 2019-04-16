@@ -72,6 +72,7 @@
 		</header>
 	<!-- BARRA NAV -->
 	<!-- section -->
+	<div class="section">
 	<?php
 			include '../../../conexion.php';
 			$consulta='select * from calzado where id=1';
