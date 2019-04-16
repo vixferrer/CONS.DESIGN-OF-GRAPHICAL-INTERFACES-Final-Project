@@ -82,7 +82,7 @@
 
 			while($resul->fetch())
 			{
-				printf ("%s, %s, %s", $nombre, $imagen, $precio);
+				printf ("HOLA");
 			}
 		?>
 
