@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Top Rojo</title>
+    <title>Sandalias Playa</title>
     <link rel="shortcut icon" href="../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="Barra/style.css">
@@ -32,35 +32,35 @@
 	<div class="container">
 			<nav>
 			 <ul>
-				<li><a href="../index.html"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
-				<li><a class="estaSI" href="../Camisa/Camisa.html">Camisas<img src = "Barra/Iconos/camisa.png" 
-				  onmouseover="src='Barra/Iconos/camisa2.png'" 
-				  onmouseout="src='Barra/Iconos/camisa.png'" 
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../Pantalon/Pantalon.html">Pantalones <img src = "Barra/Iconos/pantalon.png" 
-				 onmouseover="src='Barra/Iconos/pantalon2.png'" 
-				 onmouseout="src='Barra/Iconos/pantalon.png'"
-					class="iconos"></a></li>
-				<li><a class="estaSI "  href="../Abrigo/Abrigo.html">Abrigos<img src = "Barra/Iconos/abrigo.png" 
-					onmouseover="src='Barra/Iconos/abrigo2.png'" 
-					onmouseout="src='Barra/Iconos/abrigo.png'" 
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../Jersey/Jersey.html">Jerseys<img src = "Barra/Iconos/jersey.png" 
-					onmouseover="src='Barra/Iconos/jersey2.png'" 
-					onmouseout="src='Barra/Iconos/jersey.png'"
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../Falda/Falda.html">Faldas<img src = "Barra/Iconos/falda.png" 
-					onmouseover="src='Barra/Iconos/falda2.png'" 
-					onmouseout="src='Barra/Iconos/falda.png'"
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../Calzado/Calzado.html">Calzado<img src = "Barra/Iconos/calzado.png" 
-					onmouseover="src='Barra/Iconos/calzado2.png'" 
-					onmouseout="src='Barra/Iconos/calzado.png'"
-					class="iconos"></a></li>
-				<li><a class="estaSI" href="../Ofertas/Ofertas.html">Ofertas<img src = "Barra/Iconos/ofertas.png"
-					onmouseover="src='Barra/Iconos/ofertas2.png'" 
-					onmouseout="src='Barra/Iconos/ofertas.png'"
-					class="iconos"></a></li> 
+			   <li><a href="../index.php"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
+			   <li><a class="estaSI" href="../Camisa/Camisa.php">Camisas<img src = "Barra/Iconos/camisa.png" 
+				   onmouseover="src='Barra/Iconos/camisa2.png'" 
+				   onmouseout="src='Barra/Iconos/camisa.png'" 
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../Pantalon/Pantalon.php">Pantalones <img src = "Barra/Iconos/pantalon.png" 
+				   onmouseover="src='Barra/Iconos/pantalon2.png'" 
+				   onmouseout="src='Barra/Iconos/pantalon.png'"
+				   class="iconos"></a></li>
+			   <li><a class="estaSI "  href="../Abrigo/Abrigo.php">Abrigos<img src = "Barra/Iconos/abrigo.png" 
+				   onmouseover="src='Barra/Iconos/abrigo2.png'" 
+				   onmouseout="src='Barra/Iconos/abrigo.png'" 
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../Jersey/Jersey.php">Jerseys<img src = "Barra/Iconos/jersey.png" 
+				   onmouseover="src='Barra/Iconos/jersey2.png'" 
+				   onmouseout="src='Barra/Iconos/jersey.png'"
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../Falda/Falda.php">Faldas<img src = "Barra/Iconos/falda.png" 
+				   onmouseover="src='Barra/Iconos/falda2.png'" 
+				   onmouseout="src='Barra/Iconos/falda.png'"
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../Calzado/Calzado.php">Calzado<img src = "Barra/Iconos/calzado.png" 
+				   onmouseover="src='Barra/Iconos/calzado2.png'" 
+				   onmouseout="src='Barra/Iconos/calzado.png'"
+				   class="iconos"></a></li>
+			   <li><a class="estaSI" href="../Ofertas/Ofertas.php">Ofertas<img src = "Barra/Iconos/ofertas.png"
+				   onmouseover="src='Barra/Iconos/ofertas2.png'" 
+				   onmouseout="src='Barra/Iconos/ofertas.png'"
+				   class="iconos"></a></li>  
 		 
 				   <a class="estaSI finalizar" href=#>Finalizar Selección
 					 <img src = "Barra/Iconos/probador.png" 
@@ -75,6 +75,14 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+			include '../../../conexion.php';
+			$consulta='select * from populares where id=7';
+			$sentencia = $pdo->prepare($consulta);
+			$sentencia->execute();
+			$det=$sentencia->fetch(PDO::FETCH_NUM);
+		?>
+
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -84,47 +92,46 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/camisetaBasicaRoja1.jpg" alt="">
+							<img src="img/<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
-								<img src="img/camisetaBasicaRoja2.jpg" alt="">
+								<img src="img/sandalias2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisetaBasicaRoja3.jpg" alt="">
+								<img src="img/sandalias3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/camisetaBasicaRoja1.jpg" alt="">
+								<img src="img/sandalias1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisetaBasicaRoja2.jpg" alt="">
+								<img src="img/sandalias2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisetaBasicaRoja3.jpg" alt="">
+								<img src="img/sandalias3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
-								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Top Rojo</h2>
-							<h3 class="product-price">8.99€ </h3>
-							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad:</strong> En stock</p>
+							<h2 class="product-name"><?php echo $det[1];?></h2>
+							<h3 class="product-price"><?php echo $det[3];?></h3>
+							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Talla:</span></li>
-									<li class="active"><a href="#">S</a></li>
-									<li><a href="#">M</a></li>
-									<li><a href="#">L</a></li>
-									<li><a href="#">XL</a></li>
+									<li class="active"><a href="#">36</a></li>
+									<li><a href="#">37</a></li>
+									<li><a href="#">38</a></li>
+									<li><a href="#">39</a></li>
+									<li><a href="#">40</a></li>
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="topAzul.html" style="background-color:rgb(43, 28, 255);"></a></li>
-									<li class="active"><a href="topRojo.html" style="background-color:rgb(202, 29, 29);"></a></li>
+									<li class="active"><a href="sandalias.php" style="background-color:rgb(121, 115, 30);"></a></li>
 								</ul>
 							</div>
 

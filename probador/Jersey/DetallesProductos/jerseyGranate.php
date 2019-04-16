@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Abrigo Casual</title>
+    <title>Jersey Amarillo</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../Barra/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
@@ -28,43 +29,43 @@
 <body>
 	<!-- BARRA NAV -->
 	<header>
-	<div class="container">
-			<nav>
-			 <ul>
-			   <li><a href="../../index.html"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
-			   <li><a class="estaSI" href="../../Camisa/Camisa.html">Camisas<img src = "../Barra/Iconos/camisa.png" 
-				 onmouseover="src='../Barra/Iconos/camisa2.png'" 
-				 onmouseout="src='../Barra/Iconos/camisa.png'" 
-				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Pantalon/Pantalon.html">Pantalones <img src = "../Barra/Iconos/pantalon.png"
-				onmouseover="src='../Barra/Iconos/pantalon2.png'" 
-				onmouseout="src='../Barra/Iconos/pantalon.png'"  
-				   class="iconos"></a></li>
-			   <li><a class="estaSI "  href="../../Abrigo/Abrigo.html">Abrigos<img src = "../Barra/Iconos/abrigo.png" 
-				   onmouseover="src='../Barra/Iconos/abrigo2.png'" 
-				   onmouseout="src='../Barra/Iconos/abrigo.png'" 
-				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Jersey/Jersey.html">Jerseys<img src = "../Barra/Iconos/jersey.png" 
-				   onmouseover="src='../Barra/Iconos/jersey2.png'" 
-				   onmouseout="src='../Barra/Iconos/jersey.png'"
-				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Falda/Falda.html">Faldas<img src = "../Barra/Iconos/falda.png" 
-				   onmouseover="src='../Barra/Iconos/falda2.png'" 
-				   onmouseout="src='../Barra/Iconos/falda.png'"
-				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Calzado/Calzado.html">Calzado<img src = "../Barra/Iconos/calzado.png" 
-				   onmouseover="src='../Barra/Iconos/calzado2.png'" 
-				   onmouseout="src='../Barra/Iconos/calzado.png'"
-				   class="iconos"></a></li>
-			   <li class="marcada"><a href="../Ofertas.html">Ofertas<img src = "../Barra/Iconos/ofertasBLANCO.png"
-				   class="iconos"></a></li>  
-		 
-				   <a class="estaSI finalizar" href=#>Finalizar Selección
-					 <img src = "../Barra/Iconos/probador.png" 
-					   onmouseover="src='../Barra/Iconos/probador2.png'" 
-					   onmouseout="src='../Barra/Iconos/probador.png'"
-					   class="iconos"></a>
-			 </ul>
+			<div class="container">
+				 <nav>
+					<ul>
+		<li><a href="../index.php"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
+						<li><a class="estaSI" href="../Camisa/Camisa.php">Camisas<img src = "Barra/Iconos/camisa.png" 
+		onmouseover="src='Barra/Iconos/camisa2.png'" 
+		onmouseout="src='Barra/Iconos/camisa.png'" 
+								class="iconos"></a></li>
+						<li><a class="estaSI" href="../Pantalon/Pantalon.php">Pantalones <img src = "Barra/Iconos/pantalon.png" 
+								onmouseover="src='Barra/Iconos/pantalon2.png'" 
+								onmouseout="src='Barra/Iconos/pantalon.png'" 
+								class="iconos"></a></li>
+						<li><a class="estaSI" href="../Abrigo/Abrigo.php">Abrigos<img src = "Barra/Iconos/abrigo.png" 
+								onmouseover="src='Barra/Iconos/abrigo2.png'" 
+								onmouseout="src='Barra/Iconos/abrigo.png'" 
+								class="iconos"></a></li>
+						<li class="marcada"><a href=#>Jerseys<img src = "Barra/Iconos/jerseyBLANCO.png" 
+								class="iconos"></a></li>
+						<li><a class="estaSI" href="../Falda/Falda.php">Faldas<img src = "Barra/Iconos/falda.png" 
+								onmouseover="src='Barra/Iconos/falda2.png'" 
+								onmouseout="src='Barra/Iconos/falda.png'"
+								class="iconos"></a></li>
+						<li><a class="estaSI" href="../Calzado/Calzado.php">Calzado<img src = "Barra/Iconos/calzado.png" 
+								onmouseover="src='Barra/Iconos/calzado2.png'" 
+								onmouseout="src='Barra/Iconos/calzado.png'"
+								class="iconos"></a></li>
+						<li><a class="estaSI" href="../Ofertas/Ofertas.php">Ofertas<img src = "Barra/Iconos/ofertas.png"
+								onmouseover="src='Barra/Iconos/ofertas2.png'" 
+								onmouseout="src='Barra/Iconos/ofertas.png'"
+			class="iconos"></a></li>  
+
+			<a class="estaSI finalizar" href=#>Finalizar Selección
+			<img src = "Barra/Iconos/probador.png" 
+				onmouseover="src='Barra/Iconos/probador2.png'" 
+				onmouseout="src='Barra/Iconos/probador.png'"
+				class="iconos"></a>
+	</ul>
 							 
 		   </nav>
 		 </div>
@@ -72,6 +73,13 @@
 	<!-- BARRA NAV -->
 	<!-- section -->
 	<div class="section">
+	<?php
+			include '../../../conexion.php';
+			$consulta='select * from jerseys where id=6';
+			$sentencia = $pdo->prepare($consulta);
+			$sentencia->execute();
+			$det=$sentencia->fetch(PDO::FETCH_NUM);
+		?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -81,34 +89,33 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/sudadera1.jpg" alt="">
+							<img src="img/<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
-								<img src="img/sudadera2.jpg" alt="">
+								<img src="img/jerseyBoyGranate2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/sudadera3.jpg" alt="">
+								<img src="img/jerseyBoyGranate3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/sudadera1.jpg" alt="">
+								<img src="img/jerseyBoyGranate1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/sudadera2.jpg" alt="">
+								<img src="img/jerseyBoyGranate2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/sudadera3.jpg" alt="">
+								<img src="img/jerseyBoyGranate3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
-								<span class="sale">-25%</span>
 							</div>
-							<h2 class="product-name">Sudadera Stranger Things</h2>
-							<h3 class="product-price">12.75€ <del class="product-old-price">16.99€</del></h3>
+							<h2 class="product-name"><?php echo $det[1];?></h2>
+							<h3 class="product-price"><?php echo $det[3];?></h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> Últimas Unidades</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -117,6 +124,11 @@
 									<li><a href="#">M</a></li>
 									<li><a href="#">L</a></li>
 									<li><a href="#">XL</a></li>
+								</ul>
+								<ul class="color-option">
+									<li><span class="text-uppercase">Color:</span></li>
+									<li class="active"><a href="#" style="background-color:rgb(99, 0, 0);"></a></li>
+									<li><a href="jerseyMarino.php" style="background-color:rgb(3, 1, 65);"></a></li>
 								</ul>
 							</div>
 

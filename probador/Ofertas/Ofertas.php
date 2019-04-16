@@ -20,28 +20,28 @@
             <div class="container">
                <nav>
                 <ul>
-				  <li><a href="../index.html"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
-                  <li><a class="estaSI" href="../Camisa/Camisa.html">Camisas<img src = "Barra/Iconos/camisa.png" 
+				  <li><a href="../index.php"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
+                  <li><a class="estaSI" href="../Camisa/Camisa.php">Camisas<img src = "Barra/Iconos/camisa.png" 
 					onmouseover="src='Barra/Iconos/camisa2.png'" 
 					onmouseout="src='Barra/Iconos/camisa.png'" 
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Pantalon/Pantalon.html">Pantalones <img src = "Barra/Iconos/pantalon.png" 
+                  <li><a class="estaSI" href="../Pantalon/Pantalon.php">Pantalones <img src = "Barra/Iconos/pantalon.png" 
                       onmouseover="src='Barra/Iconos/pantalon2.png'" 
                       onmouseout="src='Barra/Iconos/pantalon.png'" 
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Abrigo/Abrigo.html">Abrigos<img src = "Barra/Iconos/abrigo.png" 
+                  <li><a class="estaSI" href="../Abrigo/Abrigo.php">Abrigos<img src = "Barra/Iconos/abrigo.png" 
                       onmouseover="src='Barra/Iconos/abrigo2.png'" 
                       onmouseout="src='Barra/Iconos/abrigo.png'" 
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Jersey/Jersey.html">Jerseys<img src = "Barra/Iconos/jersey.png" 
+                  <li><a class="estaSI" href="../Jersey/Jersey.php">Jerseys<img src = "Barra/Iconos/jersey.png" 
                       onmouseover="src='Barra/Iconos/jersey2.png'" 
                       onmouseout="src='Barra/Iconos/jersey.png'"
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Falda/Falda.html">Faldas<img src = "Barra/Iconos/falda.png" 
+                  <li><a class="estaSI" href="../Falda/Falda.php">Faldas<img src = "Barra/Iconos/falda.png" 
                       onmouseover="src='Barra/Iconos/falda2.png'" 
                       onmouseout="src='Barra/Iconos/falda.png'"
                       class="iconos"></a></li>
-                  <li><a class="estaSI" href="../Calzado/Calzado.html">Calzado<img src = "Barra/Iconos/calzado.png" 
+                  <li><a class="estaSI" href="../Calzado/Calzado.php">Calzado<img src = "Barra/Iconos/calzado.png" 
                       onmouseover="src='Barra/Iconos/calzado2.png'" 
                       onmouseout="src='Barra/Iconos/calzado.png'"
                       class="iconos"></a></li>
@@ -68,7 +68,7 @@
 					<img src="FotosProductos/abrigoCasual.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Abrigo Casual</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/abrigo.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/abrigo.php">+ Ver detalles</a>
 						<span class="precio">14.99 €</span>
 						</nav>
 				</div>
@@ -76,7 +76,7 @@
 					<img src="FotosProductos/botasOcre.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Botas Ocre</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/botas.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/botas.php">+ Ver detalles</a>
 						<span class="precio">12.99 €</span>
 						</nav>
 				</div>
@@ -84,7 +84,7 @@
 					<img src="FotosProductos/camisaAzul.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Camisa Azul</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/camisa.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/camisa.php">+ Ver detalles</a>
 						<span class="precio">8.25 €</span>
 						</nav>
 				</div>
@@ -92,7 +92,7 @@
 					<img src="FotosProductos/pantalonNegra.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Pantalon Negro</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/pantalon.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/pantalon.php">+ Ver detalles</a>
 						<span class="precio">13.60 €</span>
 						</nav>
 				</div>
@@ -100,7 +100,7 @@
 					<img src="FotosProductos/sudaderaSerie.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Sudadera Serie</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/sudadera.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/sudadera.php">+ Ver detalles</a>
 						<span class="precio">12.75 €</span>
 						</nav>
 				</div>
@@ -108,7 +108,7 @@
 					<img src="FotosProductos/zaptillasAnimal.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Zapatillas Mainstream</a>
 					<nav class="detallesYPrecio">
-						<a class = "boton" href="DetallesProductos/zapatillas.html">+ Ver detalles</a>
+						<a class = "boton" href="DetallesProductos/zapatillas.php">+ Ver detalles</a>
 						<span class="precio">12.99 €</span>
 						</nav>
 				</div>
