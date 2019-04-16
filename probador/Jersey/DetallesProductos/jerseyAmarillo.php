@@ -47,7 +47,7 @@
 								class="iconos"></a></li>
 						<li class="marcada"><a href="../Jersey.php">Jerseys<img src = "../Barra/Iconos/jerseyBLANCO.png" 
 								class="iconos"></a></li>
-						<li><a class="estaSI" href="../Falda/Falda.php">Faldas<img src = "../Barra/Iconos/falda.png" 
+						<li><a class="estaSI" href="../../Falda/Falda.php">Faldas<img src = "../Barra/Iconos/falda.png" 
 								onmouseover="src='../Barra/Iconos/falda2.png'" 
 								onmouseout="src='../Barra/Iconos/falda.png'"
 								class="iconos"></a></li>
