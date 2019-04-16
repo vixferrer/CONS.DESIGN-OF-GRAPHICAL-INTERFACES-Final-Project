@@ -32,30 +32,30 @@
 	<div class="container">
 			<nav>
 			 <ul>
-			   <li><a href="../../index.html"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
-			   <li><a class="estaSI " href="../../Camisa/Camisa.html">Camisas<img src = "../Barra/Iconos/camisa.png" 
+			   <li><a href="../../index.php"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
+			   <li><a class="estaSI " href="../../Camisa/Camisa.php">Camisas<img src = "../Barra/Iconos/camisa.png" 
 				 onmouseover="src='../Barra/Iconos/camisa2.png'" 
 				 onmouseout="src='../Barra/Iconos/camisa.png'" 
 				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Pantalon/Pantalon.html">Pantalones <img src = "../Barra/Iconos/pantalon.png" 
+			   <li><a class="estaSI" href="../../Pantalon/Pantalon.php">Pantalones <img src = "../Barra/Iconos/pantalon.png" 
 				onmouseover="src='../Barra/Iconos/pantalon2.png'" 
 				onmouseout="src='../Barra/Iconos/pantalon.png'" 
 				class="iconos"></a></li>
-			   <li class="marcada"><a href="../Abrigo.html">Abrigos<img src = "../Barra/Iconos/abrigoBLANCO.png" 
+			   <li class="marcada"><a href="../Abrigo.php">Abrigos<img src = "../Barra/Iconos/abrigoBLANCO.png" 
 				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Jersey/Jersey.html">Jerseys<img src = "../Barra/Iconos/jersey.png" 
+			   <li><a class="estaSI" href="../../Jersey/Jersey.php">Jerseys<img src = "../Barra/Iconos/jersey.png" 
 				   onmouseover="src='../Barra/Iconos/jersey2.png'" 
 				   onmouseout="src='../Barra/Iconos/jersey.png'"
 				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Falda/Falda.html">Faldas<img src = "../Barra/Iconos/falda.png" 
+			   <li><a class="estaSI" href="../../Falda/Falda.php">Faldas<img src = "../Barra/Iconos/falda.png" 
 				   onmouseover="src='../Barra/Iconos/falda2.png'" 
 				   onmouseout="src='../Barra/Iconos/falda.png'"
 				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Calzado/Calzado.html">Calzado<img src = "../Barra/Iconos/calzado.png" 
+			   <li><a class="estaSI" href="../../Calzado/Calzado.php">Calzado<img src = "../Barra/Iconos/calzado.png" 
 				   onmouseover="src='../Barra/Iconos/calzado2.png'" 
 				   onmouseout="src='../Barra/Iconos/calzado.png'"
 				   class="iconos"></a></li>
-			   <li><a class="estaSI" href="../../Ofertas/Ofertas.html">Ofertas<img src = "../Barra/Iconos/ofertas.png"
+			   <li><a class="estaSI" href="../../Ofertas/Ofertas.php">Ofertas<img src = "../Barra/Iconos/ofertas.png"
 				   onmouseover="src='../Barra/Iconos/ofertas2.png'" 
 				   onmouseout="src='../Barra/Iconos/ofertas.png'"
 				   class="iconos"></a></li>  
@@ -74,10 +74,12 @@
 	<!-- section -->
 	<div class="section">
 	<?php
-    include 'conexion.php';
-    $re=mysqli_query($con, "select * from abrigos where id=3") or die(mysql_error());
-    while($f=mysqli_fetch_array($re)){
-    ?>
+			include '../../../conexion.php';
+			$consulta='select * from abrigos where id=3';
+			$sentencia = $pdo->prepare($consulta);
+			$sentencia->execute();
+			$det=$sentencia->fetch(PDO::FETCH_NUM);
+		?>
 		<!-- container -->
 		<div class="contenedor">
 			<!-- row -->
@@ -87,7 +89,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/<?php echo $f['imagen'];?>">
+								<img src="img/<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/cazadoraCanguroBlanca2.jpg" alt="">
@@ -113,8 +115,8 @@
 							<div class="product-label">
 								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name"><?php echo $f['nombre'];?></h2>
-							<h3 class="product-price"><?php echo $f['precio'];?></h3>
+							<h2 class="product-name"><?php echo $det[1];?></h2>
+							<h3 class="product-price"><?php echo $det[3];?></h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
@@ -144,9 +146,6 @@
 			<!-- /row -->
 		</div>
 		<!-- /container -->
-		<?php
-   }
-  ?>
 	</div>
 	<!-- /section -->
 
