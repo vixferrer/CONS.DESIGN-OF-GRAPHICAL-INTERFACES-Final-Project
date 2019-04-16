@@ -78,11 +78,8 @@
 			$sentencia = $pdo->prepare($consulta);
 			$sentencia->execute();
 			$sentencia->bind_result($nombre, $imagen, $precio);
-
-			while($sentencia->fetch())
-			{
-				printf ("HOLA");
-			}
+			$sentencia->fetch();
+			printf($sentencia);
 		?>
 
 
