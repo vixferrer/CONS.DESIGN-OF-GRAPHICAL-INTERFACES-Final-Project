@@ -74,12 +74,11 @@
 	<div class="section">
 		<?php
 			include 'conexion.php';
-			$consulta='select nombre, imagen, precio from camisas where id=2';
+			$consulta='select * from camisas where id=2';
 			$sentencia = $pdo->prepare($consulta);
 			$sentencia->execute();
-			$sentencia->bind_result($nombre, $imagen, $precio);
-			$sentencia->fetch();
-			print_r($sentencia);
+			$details = $sentencia->fetch();
+			print_r($details);
 		?>
 
 
