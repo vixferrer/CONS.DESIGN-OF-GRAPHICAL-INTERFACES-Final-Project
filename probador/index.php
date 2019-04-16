@@ -20,7 +20,7 @@
             <div class="container">
                <nav>
                 <ul>
-				  <li><a href="../home.php"><img src = "BarraPopu/Iconos/LOGO.png" class="logo"></a></li>
+				  <li><a href="../index.php"><img src = "BarraPopu/Iconos/LOGO.png" class="logo"></a></li>
                   <li><a href="Camisa/Camisa.php">Camisas<img src = "BarraPopu/Iconos/camisa.png" 
 					onmouseover="src='BarraPopu/Iconos/camisa2.png'" 
 					onmouseout="src='BarraPopu/Iconos/camisa.png'" 
