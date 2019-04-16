@@ -20,7 +20,7 @@
             <div class="container">
                <nav>
                 <ul>
-				  <li><a href="../index.html"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
+				  <li><a href="../index.php"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
                   <li class="marcada"><a href=#>Camisas<img src = "Barra/Iconos/camisaBlanca.png" 
                       class="iconos"></a></li>
                   <li><a class="estaSI" href="../Pantalon/Pantalon.php">Pantalones <img src = "Barra/Iconos/pantalon.png" 

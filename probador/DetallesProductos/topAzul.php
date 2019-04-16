@@ -130,7 +130,7 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li class="active"><a href="topAzul.html" style="background-color:rgb(43, 28, 255);"></a></li>
+									<li class="active"><a href="topAzul.php" style="background-color:rgb(43, 28, 255);"></a></li>
 									<li><a href="topRojo.php" style="background-color:rgb(202, 29, 29);"></a></li>
 								</ul>
 							</div>

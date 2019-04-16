@@ -127,7 +127,7 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="jerseyGranate.html" style="background-color:rgb(99, 0, 0);"></a></li>
+									<li><a href="jerseyGranate.php" style="background-color:rgb(99, 0, 0);"></a></li>
 									<li class="active"><a href="#" style="background-color:rgb(3, 1, 65);"></a></li>
 								</ul>
 							</div>

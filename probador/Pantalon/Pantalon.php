@@ -19,7 +19,7 @@
             <div class="container">
                <nav>
                 <ul>
-				  <li><a href="../index.html"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
+				  <li><a href="../index.php"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
                   <li><a class="estaSI" href="../Camisa/Camisa.php">Camisas<img src = "Barra/Iconos/camisa.png" 
 					onmouseover="src='Barra/Iconos/camisa2.png'" 
 					onmouseout="src='Barra/Iconos/camisa.png'" 
