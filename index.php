@@ -40,7 +40,7 @@
                     <div class="icons-media-container mbr-white">
                         <div class="card col-12 col-md-6 col-lg-3">
                             <div class="icon-block">
-                            <a href="probador/index.html">
+                            <a href="probador/index.php">
                                 <span class="mbr-iconfont mbri-login" style="color: rgb(135, 192, 205); fill: rgb(135, 192, 205);"></span>
                             </a>
                             </div>
@@ -67,7 +67,7 @@
 
                         <div class="card col-12 col-md-6 col-lg-3">
                             <div class="icon-block">
-                                <a href="https://mobirise.co/">
+                                <a href="#">
                                     <span class="mbr-iconfont mbri-question" style="color: rgb(135, 192, 205); fill: rgb(135, 192, 205);"></span>
                                 </a>
                             </div>
