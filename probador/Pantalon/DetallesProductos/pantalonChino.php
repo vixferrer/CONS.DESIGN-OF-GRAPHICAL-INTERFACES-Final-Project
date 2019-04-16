@@ -86,7 +86,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/pantalonChinoNegro1.jpg" alt="">
+								<img src="img/<?php echo $f['imagen'];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/pantalonChinoNegro2.jpg" alt="">
@@ -111,8 +111,8 @@
 						<div class="product-body">
 							<div class="product-label">
 							</div>
-							<h2 class="product-name">Pantalón Chino</h2>
-							<h3 class="product-price">13.99€ </h3>
+							<h2 class="product-name"><?php echo $f['nombre'];?></h2>
+							<h3 class="product-price"><?php echo $f['precio'];?></h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad: </strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">

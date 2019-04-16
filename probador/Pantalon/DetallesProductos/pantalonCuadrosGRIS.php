@@ -86,7 +86,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris3.jpg" alt="">
+								<img src="img/<?php echo $f['imagen'];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/pantalonCuadrosGris2.jpg" alt="">
@@ -112,8 +112,8 @@
 							<div class="product-label">
 								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Pantalón de Cuadros</h2>
-							<h3 class="product-price">19.99€ </h3>
+							<h2 class="product-name"><?php echo $f['nombre'];?></h2>
+							<h3 class="product-price"><?php echo $f['precio'];?></h3>
 							<p style="color:rgb(175, 3, 3);"><strong style="color:black">Disponibilidad: </strong>Sin existencias</p>
 							<div class="product-options">
 								<ul class="size-option">
