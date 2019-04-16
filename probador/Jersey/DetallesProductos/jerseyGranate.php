@@ -32,38 +32,38 @@
 			<div class="container">
 				 <nav>
 					<ul>
-		<li><a href="../index.php"><img src = "Barra/Iconos/LOGO.png" class="logo"></a></li>
-						<li><a class="estaSI" href="../Camisa/Camisa.php">Camisas<img src = "Barra/Iconos/camisa.png" 
-		onmouseover="src='Barra/Iconos/camisa2.png'" 
-		onmouseout="src='Barra/Iconos/camisa.png'" 
+		<li><a href="../../index.php"><img src = "../Barra/Iconos/LOGO.png" class="logo"></a></li>
+						<li><a class="estaSI" href="../../Camisa/Camisa.php">Camisas<img src = "../Barra/Iconos/camisa.png" 
+		onmouseover="src='../Barra/Iconos/camisa2.png'" 
+		onmouseout="src='../Barra/Iconos/camisa.png'" 
 								class="iconos"></a></li>
-						<li><a class="estaSI" href="../Pantalon/Pantalon.php">Pantalones <img src = "Barra/Iconos/pantalon.png" 
-								onmouseover="src='Barra/Iconos/pantalon2.png'" 
-								onmouseout="src='Barra/Iconos/pantalon.png'" 
+						<li><a class="estaSI" href="../../Pantalon/Pantalon.php">Pantalones <img src = "../Barra/Iconos/pantalon.png" 
+								onmouseover="src='../Barra/Iconos/pantalon2.png'" 
+								onmouseout="src='../Barra/Iconos/pantalon.png'" 
 								class="iconos"></a></li>
-						<li><a class="estaSI" href="../Abrigo/Abrigo.php">Abrigos<img src = "Barra/Iconos/abrigo.png" 
-								onmouseover="src='Barra/Iconos/abrigo2.png'" 
-								onmouseout="src='Barra/Iconos/abrigo.png'" 
+						<li><a class="estaSI" href="../../Abrigo/Abrigo.php">Abrigos<img src = "../Barra/Iconos/abrigo.png" 
+								onmouseover="src='../Barra/Iconos/abrigo2.png'" 
+								onmouseout="src='../Barra/Iconos/abrigo.png'" 
 								class="iconos"></a></li>
-						<li class="marcada"><a href=#>Jerseys<img src = "Barra/Iconos/jerseyBLANCO.png" 
+						<li class="marcada"><a href="../Jersey.php">Jerseys<img src = "../Barra/Iconos/jerseyBLANCO.png" 
 								class="iconos"></a></li>
-						<li><a class="estaSI" href="../Falda/Falda.php">Faldas<img src = "Barra/Iconos/falda.png" 
-								onmouseover="src='Barra/Iconos/falda2.png'" 
-								onmouseout="src='Barra/Iconos/falda.png'"
+						<li><a class="estaSI" href="../Falda/Falda.php">Faldas<img src = "../Barra/Iconos/falda.png" 
+								onmouseover="src='../Barra/Iconos/falda2.png'" 
+								onmouseout="src='../Barra/Iconos/falda.png'"
 								class="iconos"></a></li>
-						<li><a class="estaSI" href="../Calzado/Calzado.php">Calzado<img src = "Barra/Iconos/calzado.png" 
-								onmouseover="src='Barra/Iconos/calzado2.png'" 
-								onmouseout="src='Barra/Iconos/calzado.png'"
+						<li><a class="estaSI" href="../../Calzado/Calzado.php">Calzado<img src = "../Barra/Iconos/calzado.png" 
+								onmouseover="src='../Barra/Iconos/calzado2.png'" 
+								onmouseout="src='../Barra/Iconos/calzado.png'"
 								class="iconos"></a></li>
-						<li><a class="estaSI" href="../Ofertas/Ofertas.php">Ofertas<img src = "Barra/Iconos/ofertas.png"
-								onmouseover="src='Barra/Iconos/ofertas2.png'" 
-								onmouseout="src='Barra/Iconos/ofertas.png'"
+						<li><a class="estaSI" href="../../Ofertas/Ofertas.php">Ofertas<img src = "../Barra/Iconos/ofertas.png"
+								onmouseover="src='../Barra/Iconos/ofertas2.png'" 
+								onmouseout="src='../Barra/Iconos/ofertas.png'"
 			class="iconos"></a></li>  
 
 			<a class="estaSI finalizar" href=#>Finalizar Selección
-			<img src = "Barra/Iconos/probador.png" 
-				onmouseover="src='Barra/Iconos/probador2.png'" 
-				onmouseout="src='Barra/Iconos/probador.png'"
+			<img src = "../Barra/Iconos/probador.png" 
+				onmouseover="src='../Barra/Iconos/probador2.png'" 
+				onmouseout="src='../Barra/Iconos/probador.png'"
 				class="iconos"></a>
 	</ul>
 							 
