@@ -74,9 +74,12 @@
 	<div class="section">
 		<?php
 			include 'conexion.php';
-			$re=mysqli_query($pdo, "select * from camisas where id=2") or die(mysql_error());
-			while($f=mysqli_fetch_array($re)){
-				?>
+			$sql='select * from camisas where id=2';
+			$stmt = $pdo->prepare($sql);
+			$stmt->execute();
+			$details = $stmt->fetch();
+			print_r($details);
+		?>
 
 
 				<!-- container -->
@@ -145,10 +148,6 @@
 					<!-- /row -->
 				</div>
 				<!-- /container -->
-
-				<?php
-			}
-		?>
 		
 	</div>
 	<!-- /section -->
