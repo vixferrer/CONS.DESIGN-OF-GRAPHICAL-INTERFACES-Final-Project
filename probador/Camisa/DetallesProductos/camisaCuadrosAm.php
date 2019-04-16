@@ -74,13 +74,12 @@
 	<div class="section">
 		<?php
 			include 'conexion.php';
-			$sql='select nombre, imagen, precio from camisas where id=2';
-			$stmt = $pdo->prepare($sql);
-			$stmt->execute();
-			$resul = $stmt->fetch();
-			$resul->bind_result($nombre, $imagen, $precio);
+			$consulta='select nombre, imagen, precio from camisas where id=2';
+			$sentencia = $pdo->prepare($consulta);
+			$sentencia->execute();
+			$sentencia->bind_result($nombre, $imagen, $precio);
 
-			while($resul->fetch())
+			while($sentencia->fetch())
 			{
 				printf ("HOLA");
 			}
