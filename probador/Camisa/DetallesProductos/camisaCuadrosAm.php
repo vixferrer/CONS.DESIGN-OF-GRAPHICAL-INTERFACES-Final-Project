@@ -77,7 +77,7 @@
 			$consulta='select * from camisas where id=2';
 			$sentencia = $pdo->prepare($consulta);
 			$sentencia->execute();
-			$det=$sentencia->fetch_num();
+			$det=$sentencia->fetch();
 			print_r($det);
 		?>
 
