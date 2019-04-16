@@ -81,7 +81,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/camisaKaki1.jpg" alt="">
+								<img src="<?php echo $f['imagen'];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/camisaKaki2.jpg" alt="">
@@ -107,8 +107,8 @@
 							<div class="product-label">
 								<span>Nuevo</span>
 							</div>
-							<h2 class="product-name">Camisa Kaki</h2>
-							<h3 class="product-price">9.99€ <del class="product-old-price">12.99€</del></h3>
+							<h2 class="product-name"><?php echo $f['nombre'];?></h2>
+							<h3 class="product-price"><?php echo $f['precio'];?></h3>
 							<p><strong>Disponibilidad:</strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
