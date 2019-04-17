@@ -96,12 +96,14 @@ fieldset{
 }
 
 .producto a .eliminar{
-	border-radius: 20px;
+	background-color: #b91818;
 	padding:10px;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #b91818;
 	color:white;
 	margin-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
 }
 
 .aceptar{
