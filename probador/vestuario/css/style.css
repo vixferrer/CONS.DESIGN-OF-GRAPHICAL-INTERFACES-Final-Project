@@ -202,6 +202,20 @@ ul, ol {
 	06 -> PRODUCT
 ===========================================================*/
 
+.maniq{
+		position:absolute;
+		top: 10px;
+		left: 10px;
+		z-index: 1;
+}
+
+.prendas{
+		position:absolute;
+		top: 25px;
+		left: 25px;
+		z-index: 2;
+}
+
 .product .product-old-price {
   color: #226597;
   font-size: 70%;

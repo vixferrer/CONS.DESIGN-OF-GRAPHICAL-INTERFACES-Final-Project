@@ -48,14 +48,13 @@
 	<div class="section">
 				<!-- container -->
 				<div class="contenedor">
-					<!-- row -->
-					<div class="row">
-						<!--  Product Details -->
 							<div style="position: relative; left: 0; top: 0;">
 									<img src="img/maniquies.jpg" class="maniq"/>
 									<img src="img/cazadoraCuelloNegra1TRANS.png" class="prendas"/>
 							</div>
-
+					<!-- row -->
+					<div class="row">
+						<!--  Product Details -->
 							<div class="col-md-6">
 								<div class="product-body">
 									<h2 class="product-name">Camisa lineas</h2>
