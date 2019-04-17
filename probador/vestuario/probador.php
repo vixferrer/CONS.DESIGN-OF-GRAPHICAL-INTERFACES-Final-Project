@@ -52,33 +52,10 @@
 					<div class="row">
 						<!--  Product Details -->
 						<div class="product product-details clearfix">
-							<div class="col-md-6">
-										<div id="product-main-view">
-													<div style="position: relative; left: 0; top: 0;">
-															<img src="img/maniquies.jpg" class="maniq"/>
-															<div class="product-view">
-															<img src="img/cazadoraVaquera1TRANS.png" class="prendas"/>
-															</div>
-													</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-										</div>
-										<div id="product-view">
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-										</div>
-							 </div>
+							<div style="position: relative; left: 0; top: 0;">
+									<img src="img/fishes.png" class="fishes"/>
+									<img src="img/fish.png" class="fish"/>
+						</div>
 
 							<div class="col-md-6">
 								<div class="product-body">
