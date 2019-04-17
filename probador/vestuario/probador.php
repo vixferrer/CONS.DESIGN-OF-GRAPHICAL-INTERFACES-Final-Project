@@ -54,38 +54,38 @@
 							<div class="col-md-6">
 								<div id="product-view">
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza1.jpg" alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza3.jpg" alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 								</div>
 								<div id="product-main-view">
 									<div class="product-view">
-										<img src="img/cazadoraVaquera1TRANS.png"alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza3.jpg" alt="">
-									</div>
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
+								</div>
 								</div>
 								<div id="product-view">
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza1.jpg" alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 									<div class="product-view">
-										<img src="img/camisaCuadrosMostaza3.jpg" alt="">
+									<img src="img/cazadoraVaquera1TRANS.png"alt="">
 									</div>
 								</div>
-							</div>
+							 </div>
 							<div class="col-md-6">
 								<div class="product-body">
 									<h2 class="product-name">Camisa lineas</h2>
