@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\probador",
-    "\\probador\\DetallesProductos",
-    "\\probador\\Falda\\DetallesProductos"
+    "\\probador"
   ],
-  "SelectedNode": "\\probador\\DetallesProductos\\topRojo.html",
+  "SelectedNode": "\\probador\\index.php",
   "PreviewInSolutionExplorer": false
 }
