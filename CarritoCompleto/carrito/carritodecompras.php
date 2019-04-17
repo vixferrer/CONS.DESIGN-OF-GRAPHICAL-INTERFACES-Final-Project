@@ -94,13 +94,6 @@
 						<img src="./productos/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span ><?php echo $datos[$i]['Nombre'];?></span><br>
 						<span>Precio: <?php echo $datos[$i]['Precio'];?></span><br>
-						<span>Cantidad: 
-							<input type="text" value="<?php echo $datos[$i]['Cantidad'];?>"
-							data-precio="<?php echo $datos[$i]['Precio'];?>"
-							data-id="<?php echo $datos[$i]['Id'];?>"
-							class="cantidad">
-						</span><br>
-						<span class="subtotal">Subtotal:<?php echo $datos[$i]['Cantidad']*$datos[$i]['Precio'];?></span><br>
 						<a href="restarCantidad.php" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 					</center>
 				</div>
