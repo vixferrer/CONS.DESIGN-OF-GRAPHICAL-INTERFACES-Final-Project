@@ -76,7 +76,19 @@
 										</div>
 							 </div>
 
-							 <div class="col-md-6">
+							 <div>
+							 			<div id="product-view">
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+										</div>
+
 										<div id="product-main-view">
 												<div class="product-view">
 													<img src="img/cazadoraVaquera1TRANS.png"alt="">
@@ -88,17 +100,7 @@
 													<img src="img/cazadoraVaquera1TRANS.png"alt="">
 												</div>
 										</div>
-										<div id="product-view">
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-										</div>
+										
 							 </div>
 
 							<div class="col-md-6">
