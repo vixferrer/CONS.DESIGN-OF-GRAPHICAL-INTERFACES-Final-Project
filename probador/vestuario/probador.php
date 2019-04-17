@@ -33,12 +33,13 @@
 			<nav>
 			 <ul>
 			   <li><img src = "../Iconos/LOGO.png" class="logo"></li>
-						<a class="estaSI finalizar" href="../index.php">Volver a categorías
+			 </ul>
+
+			 <a class="estaSI finalizar" href="../index.php">Volver a categorías
 						<img src = "../Iconos/atuendo.png" 
 						  onmouseover="src='../Iconos/atuendo2.png'"
 						  onmouseout="src='../Iconos/atuendo.png'"
 						  class="iconos"></a>
-			 </ul>
 							 
 		   </nav>
 		 </div>
