@@ -88,8 +88,12 @@ fieldset{
 .producto a{
 	background-color: #4a4a4a;
 	color: white;
-	/*width: 50%;*/
 	border-radius: 4px;
+}
+
+.precio{
+	margin-bottom: 10px;
+	position: center;
 }
 
 .producto .eliminar{
