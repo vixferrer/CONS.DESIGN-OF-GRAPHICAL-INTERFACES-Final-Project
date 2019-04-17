@@ -90,12 +90,10 @@
 				
 	?>
 				<div class="producto">
-					<center>
 						<img src="./productos/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span ><?php echo $datos[$i]['Nombre'];?></span><br>
 						<span>Precio: <?php echo $datos[$i]['Precio'];?></span><br>
-						<center><a href="restarCantidad.php"  class="aceptar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a></center>;
-					</center>
+						<a href="restarCantidad.php"  class="aceptar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 				</div>
 			<?php
 				$total=($datos[$i]['Cantidad']*$datos[$i]['Precio'])+$total;
@@ -110,7 +108,7 @@
 			}
 			
 		?>
-		<center><a href="../../probador/index.php">Volver a tienda</a></center>
+		<a href="../../probador/index.php">Volver a tienda</a>
 		
 		
 		
