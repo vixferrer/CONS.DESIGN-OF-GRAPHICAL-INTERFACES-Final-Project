@@ -132,8 +132,8 @@
 										</ul>
 									</div>
 		
-									<div class="product-btns">
-										<button class="primary-btn add-to-cart" role="link" onclick="window.location.href = '../../../CarritoCompleto/carrito/carritodecompras.php';" >Añadir al vestuario 
+									<div class="product-btns"> 
+										<button class="primary-btn add-to-cart" role="link" onclick="window.location.href = '../../../CarritoCompleto/carrito/carritodecompras.php?id=<?php  echo $det[0];?>';" >Añadir al vestuario 
 											<img src = "../../Iconos/probadorBLANCO.png" 
 												class="percha"></button>
 									</div>
