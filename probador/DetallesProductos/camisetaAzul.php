@@ -76,7 +76,7 @@
 	<!-- section -->
 	<div class="section">
 	<?php
-			include '../../../conexion.php';
+			include 'conexion.php';
 			$consulta='select * from populares where id=3';
 			$sentencia = $pdo->prepare($consulta);
 			$sentencia->execute();
