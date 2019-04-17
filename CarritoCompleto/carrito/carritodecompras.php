@@ -101,7 +101,7 @@
 							class="cantidad">
 						</span><br>
 						<span class="subtotal">Subtotal:<?php echo $datos[$i]['Cantidad']*$datos[$i]['Precio'];?></span><br>
-						<a href="restarCantidad.php" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
+						<a href="#" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 					</center>
 				</div>
 			<?php
