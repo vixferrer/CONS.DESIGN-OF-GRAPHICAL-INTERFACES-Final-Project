@@ -95,7 +95,7 @@ fieldset{
 	border-radius: 4px;
 }
 
-.producto a .eliminar{
+.producto .eliminar{
 	background-color: #b91818;
 	padding:10px;
 	font-family: 'Open Sans', sans-serif;
