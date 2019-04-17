@@ -100,7 +100,7 @@
 							data-id="<?php echo $datos[$i]['Id'];?>"
 							class="cantidad">
 						</span><br>
-						<span class="subtotal">Subtotal:<?php echo $datos[$i]['Cantidad']*$datos[$i]['Precio'];?></span><br>
+						<span class="subtotal">Subtotal: <?php echo $datos[$i]['Cantidad']*$datos[$i]['Precio'];?></span><br>
 						<a href="#" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 					</center>
 				</div>
