@@ -95,6 +95,15 @@ fieldset{
 	border-radius: 4px;
 }
 
+.eliminar{
+	border-radius: 20px;
+	padding:10px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #b91818;
+	color:white;
+	margin-top: 10px;
+}
+
 .aceptar{
 	background-color: #226597;
 	border-radius: 30px;
