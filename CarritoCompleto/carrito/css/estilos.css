@@ -74,7 +74,7 @@ fieldset{
 
 
 .precio{
-	margin: 21%;
+	margin: 2px;
 }
 
 .nombreElemento{
@@ -84,13 +84,14 @@ fieldset{
 	color: #fff;
 	text-align: center;
 	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .producto .eliminar{
 	background-color: #b91818;
 	font-family: 'Open Sans', sans-serif;
 	color:white;
-	margin: 50px;
+	margin: 2px;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 3px;
