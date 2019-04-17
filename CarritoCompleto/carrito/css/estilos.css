@@ -64,13 +64,17 @@ fieldset{
 	color: #4a4a4a;
 	font-weight: bolder;
 	/* padding: 1%; */
-	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+	-webkit-box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(240, 240, 240, 0.75);
+	box-shadow:         0px 0px 10px rgba(240, 240, 240, 0.75);
 }
 
 .producto img{
 	width: 100%;
 	margin:0 auto;
-	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
 
 }
 
@@ -88,7 +92,6 @@ fieldset{
 .nombreElemento{
 	width: 100%;
 	padding: 8px 2px;
-	margin: 20%;
 	background: #87c0cd;
 	color: #fff;
 	text-align: center;
