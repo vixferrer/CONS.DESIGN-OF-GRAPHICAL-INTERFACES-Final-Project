@@ -52,6 +52,17 @@
 						<!--  Product Details -->
 						<div class="product product-details clearfix">
 							<div class="col-md-6">
+								<div id="product-view">
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza1.jpg" alt="">
+									</div>
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza2.jpg" alt="">
+									</div>
+									<div class="product-view">
+										<img src="img/camisaCuadrosMostaza3.jpg" alt="">
+									</div>
+								</div>
 								<div id="product-main-view">
 									<div class="product-view">
 										<img src="img/cazadoraVaquera1TRANS.png"alt="">
