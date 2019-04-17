@@ -101,7 +101,7 @@
 							class="cantidad">
 						</span><br>
 						<span class="subtotal">Subtotal:<?php echo $datos[$i]['Cantidad']*$datos[$i]['Precio'];?></span><br>
-						<a href="#" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
+						<a href="carritodecompras.php" class="eliminar" data-id="<?php echo $datos[$i]['Cantidad'-1]?>">Eliminar</a>
 					</center>
 				</div>
 			<?php
@@ -117,7 +117,7 @@
 			}
 			
 		?>
-		<center><a href="../../probador/index.php">Ver catalogo</a></center>
+		<center><a href="../../probador/index.php">Volver a tienda</a></center>
 		
 		
 		
