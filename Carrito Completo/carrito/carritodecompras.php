@@ -71,7 +71,7 @@
 </head>
 <body>
 	<header>
-		<h1>Carrito de compras</h1>
+		<img src="./imagenes/logo.png" id="logo">
 		<a href="./carritodecompras.php" title="ver carrito de compras">
 			<img src="./imagenes/carrito.png">
 		</a>
@@ -98,7 +98,7 @@
 							class="cantidad">
 						</span><br>
 						<span class="subtotal">Subtotal:<?php echo $datos[$i]['Cantidad']*$datos[$i]['Precio'];?></span><br>
-						
+						<a href="#" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 					</center>
 				</div>
 			<?php
@@ -109,9 +109,13 @@
 				echo '<center><h2>No has añadido ningun producto</h2></center>';
 			}
 			echo '<center><h2 id="total">Total: '.$total.'</h2></center>';
-		
+			if($total!=0){
+					echo '<center><a href="./compras/compras.php" class="aceptar">Comprar</a></center>;';
+			}
+			
 		?>
 		<center><a href="./">Ver catalogo</a></center>
+		
 		
 		
 
