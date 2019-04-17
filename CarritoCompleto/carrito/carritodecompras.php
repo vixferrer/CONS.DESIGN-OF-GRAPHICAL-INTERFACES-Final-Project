@@ -95,6 +95,9 @@
 						<span>Precio: <?php echo $datos[$i]['Precio'];?></span><br>
 						<a href="restarCantidad.php" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 				</div>
+				<div class="vestuario">
+					<img src="imagenes/maniqui.jpg"><br>
+				</div>
 			<?php
 				$total=($datos[$i]['Cantidad']*$datos[$i]['Precio'])+$total;
 			}

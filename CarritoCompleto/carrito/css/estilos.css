@@ -118,6 +118,11 @@ fieldset{
 	font-weight: 700;
 }
 
+.vestuario{
+	width: 50%;
+	height:40%;
+}
+
 .aceptar:hover{
 	background-color: #4a4a4a;
 	cursor: pointer;
