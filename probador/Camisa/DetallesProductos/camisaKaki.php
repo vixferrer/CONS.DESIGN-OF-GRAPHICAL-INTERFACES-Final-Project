@@ -90,7 +90,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="<?php echo $det[2];?>">
+							<img src="img/<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/camisaKaki2.jpg" alt="">
