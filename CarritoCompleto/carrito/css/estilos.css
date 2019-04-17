@@ -97,7 +97,7 @@ fieldset{
 
 .producto .eliminar{
 	background-color: #b91818;
-	padding: 5px;
+	/*padding: 5px;*/
 	font-family: 'Open Sans', sans-serif;
 	color:white;
 	margin-top: 50px;
