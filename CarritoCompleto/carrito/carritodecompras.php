@@ -15,7 +15,7 @@
 					}
 					if($encontro==true){
 						$arreglo[$numero]['Cantidad']=$arreglo[$numero]['Cantidad']+1;
-						$_SESSION['carrito']=$arreglo;
+						$_SESSION[$dbname]=$arreglo;
 					}else{
 						$nombre="";
 						$precio=0;
@@ -59,7 +59,7 @@
 							'Precio'=>$precio,
 							'Imagen'=>$imagen,
 							'Cantidad'=>1);
-			$_SESSION['carrito']=$arreglo;
+			$_SESSION[$dbname]=$arreglo;
 		}
 	}
 ?>
