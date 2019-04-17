@@ -117,7 +117,7 @@
 			}
 			
 		?>
-		<center><a href="../index.php">Ver catalogo</a></center>
+		<center><a href="../../probador/index.php">Ver catalogo</a></center>
 		
 		
 		
