@@ -133,7 +133,7 @@
 									</div>
 		
 									<div class="product-btns">
-										<button class="primary-btn add-to-cart" type="submit" formaction="../../../Carrito Completo/carrito/index.php" >Añadir al vestuario 
+										<button class="primary-btn add-to-cart" role="link" onclick="window.location.href = 'https://google.com';" >Añadir al vestuario 
 											<img src = "../../Iconos/probadorBLANCO.png" 
 												class="percha"></button>
 									</div>
