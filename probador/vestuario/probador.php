@@ -9,7 +9,8 @@
     <title>Vestuario</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="Barra/style.css">
+		<link rel="stylesheet" href="Barra/style.css">
+		<link rel="stylsheet" href="css/fotos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
@@ -54,7 +55,10 @@
 							<div class="col-md-6">
 										<div id="product-main-view">
 												<div class="product-view">
-													<img src="img/maniquies.jpg">
+															<div style="position: relative; left: 0; top: 0;">
+															<img src="img/maniquies.jpg" class="maniq"/>
+															<img src="img/cazadoraVaquera1TRANS.png" class="prendas"/>
+															</div>
 												</div>
 												<div class="product-view">
 													<img src="img/cazadoraVaquera1TRANS.png"alt="">
@@ -74,33 +78,6 @@
 													<img src="img/cazadoraVaquera1TRANS.png"alt="">
 												</div>
 										</div>
-							 </div>
-
-							 <div>
-							 			<div id="product-view">
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-										</div>
-
-										<div id="product-main-view">
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-												<div class="product-view">
-													<img src="img/cazadoraVaquera1TRANS.png"alt="">
-												</div>
-										</div>
-										
 							 </div>
 
 							<div class="col-md-6">
