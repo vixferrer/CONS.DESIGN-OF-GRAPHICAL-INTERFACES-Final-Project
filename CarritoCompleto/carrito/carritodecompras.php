@@ -8,7 +8,7 @@
 					$encontro=false;
 					$numero=0;
 					for($i=0;$i<count($arreglo);$i++){
-						if($arreglo[$i]['Id']==$_GET['id']){
+						if($arreglo[$i]['id']==$_GET['id']){
 							$encontro=true;
 							$numero=$i;
 						}
@@ -20,12 +20,13 @@
 						$nombre="";
 						$precio=0;
 						$imagen="";
-						$re=mysql_query("select * from camisas where id=".$_GET['id']);
-						while ($f=mysql_fetch_array($re)) {
-							$nombre=$f['nombre'];
-							$precio=$f['precio'];
-							$imagen=$f['imagen'];
-						}
+						$consulta='select * from camisas where id=2';
+						$sentencia = $pdo->prepare($consulta);
+						$sentencia->execute();
+						$det=$sentencia->fetch(PDO::FETCH_NUM);
+							$nombre=$det[1];
+							$precio=$det[3];
+							$imagen=$det[2];
 						$datosNuevos=array('Id'=>$_GET['id'],
 										'Nombre'=>$nombre,
 										'Precio'=>$precio,
@@ -46,12 +47,13 @@
 			$nombre="";
 			$precio=0;
 			$imagen="";
-			$re=mysql_query("select * from camisas where id=".$_GET['id']);
-			while ($f=mysql_fetch_array($re)) {
-				$nombre=$f['nombre'];
-				$precio=$f['precio'];
-				$imagen=$f['imagen'];
-			}
+			$consulta='select * from camisas where id=2';
+						$sentencia = $pdo->prepare($consulta);
+						$sentencia->execute();
+						$det=$sentencia->fetch(PDO::FETCH_NUM);
+							$nombre=$det[1];
+							$precio=$det[3];
+							$imagen=$det[2];
 			$arreglo[]=array('Id'=>$_GET['id'],
 							'Nombre'=>$nombre,
 							'Precio'=>$precio,
