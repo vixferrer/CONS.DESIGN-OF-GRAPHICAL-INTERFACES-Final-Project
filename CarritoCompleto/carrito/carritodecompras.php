@@ -117,7 +117,7 @@
 			}
 			
 		?>
-		<center><a href="./">Ver catalogo</a></center>
+		<center><a href="../../index.php">Ver catalogo</a></center>
 		
 		
 		
