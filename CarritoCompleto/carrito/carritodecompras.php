@@ -110,7 +110,7 @@
 			}
 			
 		?>
-		<center><a href="../../probador/index.php">Ver catalogo</a></center>
+		<center><a href="../../probador/index.php">Volver a tienda</a></center>
 		
 		
 		
