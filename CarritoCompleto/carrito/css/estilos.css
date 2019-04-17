@@ -97,12 +97,12 @@ fieldset{
 
 .producto .eliminar{
 	background-color: #b91818;
-	padding:10px;
+	padding: 5px;
 	font-family: 'Open Sans', sans-serif;
 	color:white;
 	margin-top: 50px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	border-radius: 20px;
 }
 
