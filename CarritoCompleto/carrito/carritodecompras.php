@@ -1,9 +1,10 @@
 <?php
 	session_start();
-	include './conexion.php';
-	if(isset($_SESSION['carrito'])){
+	$dbname = "d1ru6ujq85cesu";
+	include '../../conexion.php';
+	if(isset($_SESSION[$dbname])){
 		if(isset($_GET['id'])){
-					$arreglo=$_SESSION['carrito'];
+					$arreglo=$_SESSION[$dbname];
 					$encontro=false;
 					$numero=0;
 					for($i=0;$i<count($arreglo);$i++){
@@ -19,7 +20,7 @@
 						$nombre="";
 						$precio=0;
 						$imagen="";
-						$re=mysql_query("select * from productos where id=".$_GET['id']);
+						$re=mysql_query("select * from camisas where id=".$_GET['id']);
 						while ($f=mysql_fetch_array($re)) {
 							$nombre=$f['nombre'];
 							$precio=$f['precio'];
@@ -32,7 +33,7 @@
 										'Cantidad'=>1);
 
 						array_push($arreglo, $datosNuevos);
-						$_SESSION['carrito']=$arreglo;
+						$_SESSION[$dbname]=$arreglo;
 
 					}
 		}
@@ -45,7 +46,7 @@
 			$nombre="";
 			$precio=0;
 			$imagen="";
-			$re=mysql_query("select * from productos where id=".$_GET['id']);
+			$re=mysql_query("select * from camisas where id=".$_GET['id']);
 			while ($f=mysql_fetch_array($re)) {
 				$nombre=$f['nombre'];
 				$precio=$f['precio'];
@@ -64,7 +65,7 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8"/>
-	<title>Carrito de Compras</title>
+	<title>Vestuario</title>
 	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript"  src="./js/scripts.js"></script>
@@ -72,15 +73,15 @@
 <body>
 	<header>
 		<img src="./imagenes/logo.png" id="logo">
-		<a href="./carritodecompras.php" title="ver carrito de compras">
+		<a href="./carritodecompras.php" title="Ver vestuario">
 			<img src="./imagenes/carrito.png">
 		</a>
 	</header>
 	<section>
 		<?php
 			$total=0;
-			if(isset($_SESSION['carrito'])){
-			$datos=$_SESSION['carrito'];
+			if(isset($_SESSION[$dbname])){
+			$datos=$_SESSION[$dbname];
 			
 			$total=0;
 			for($i=0;$i<count($datos);$i++){
