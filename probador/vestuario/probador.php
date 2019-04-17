@@ -50,7 +50,8 @@
 				<div class="contenedor">
 							<div style="position: relative; left: 0; top: 0;">
 									<img src="img/maniquies.jpg" class="maniq"/>
-									<img src="img/cazadoraCuelloNegra1TRANS.png" class="prendas"/>
+									<img src="img/cazadoraCuelloNegra1TRANS.png" class="prendasChico"/>
+									<img src="img/cazadoraCuelloNegra1TRANS.png" class="prendasChica"/>
 							</div>
 					<!-- row -->
 					<div class="row">
