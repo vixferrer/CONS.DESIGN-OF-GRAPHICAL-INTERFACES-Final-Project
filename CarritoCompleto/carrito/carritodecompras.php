@@ -90,9 +90,9 @@
 				
 	?>
 				<div class="producto">
-						<img src="./productos/<?php echo $datos[$i]['Imagen'];?>"><br>
-						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
-						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?></span><br>
+						<img src="./productos/<?php echo $datos[$i]['Imagen'];?>">
+						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span>
+						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?></span>
 						<a href="#" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 				</div>
 			<?php
