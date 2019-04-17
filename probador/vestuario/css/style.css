@@ -203,19 +203,20 @@ ul, ol {
 ===========================================================*/
 
 .maniq{
-	position:absolute;
-	left: 292px;
+	position: absolute;
+  left: 292px;
   z-index: 1;
   height: 560px;
-  width: 250px;
+  width: 230px;
 }
 
 .prendas{
-	position:absolute;
-	top: 82px;
-	left: 325px;
+  position: absolute;
+  top: 84px;
+  left: 309px;
   z-index: 2;
-  height: 235px;
+  height: 210px;
+  width: 199px;
 }
 
 .product .product-old-price {
