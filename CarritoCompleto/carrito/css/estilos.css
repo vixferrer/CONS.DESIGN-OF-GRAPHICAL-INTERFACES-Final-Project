@@ -92,8 +92,8 @@ fieldset{
 }
 
 .precio{
-	margin-bottom: 10px;
-	position: center;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .producto .eliminar{
