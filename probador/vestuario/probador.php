@@ -54,12 +54,12 @@
 						<div class="product product-details clearfix">
 							<div class="col-md-6">
 										<div id="product-main-view">
-												<div class="product-view">
-															<div style="position: relative; left: 0; top: 0;">
+													<div style="position: relative; left: 0; top: 0;">
 															<img src="img/maniquies.jpg" class="maniq"/>
+															<div class="product-view">
 															<img src="img/cazadoraVaquera1TRANS.png" class="prendas"/>
 															</div>
-												</div>
+													</div>
 												<div class="product-view">
 													<img src="img/cazadoraVaquera1TRANS.png"alt="">
 												</div>
