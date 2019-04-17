@@ -51,11 +51,10 @@
 					<!-- row -->
 					<div class="row">
 						<!--  Product Details -->
-						<div class="product product-details clearfix">
 							<div style="position: relative; left: 0; top: 0;">
-									<img src="img/fishes.png" class="fishes"/>
-									<img src="img/fish.png" class="fish"/>
-						</div>
+									<img src="img/maniquies.jpg" class="maniq"/>
+									<img src="img/cazadoraCuelloNegra1TRANS.png" class="prendas"/>
+							</div>
 
 							<div class="col-md-6">
 								<div class="product-body">
@@ -78,7 +77,6 @@
 
 								</div>
 							</div>
-						</div>
 						<!-- /Product Details -->
 					</div>
 					<!-- /row -->
