@@ -54,7 +54,7 @@
 							<div class="col-md-6">
 										<div id="product-main-view">
 												<div class="product-view">
-													<img src="img/maniquies.jpg" <img src="img/cazadoraVaquera1TRANS.png">>
+													<img src="img/maniquies.jpg">
 												</div>
 												<div class="product-view">
 													<img src="img/cazadoraVaquera1TRANS.png"alt="">
