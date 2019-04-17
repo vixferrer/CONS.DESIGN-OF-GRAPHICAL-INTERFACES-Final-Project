@@ -105,7 +105,9 @@ fieldset{
 	margin: 50px;
 	padding-left: 15px;
 	padding-right: 15px;
-	border-radius: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 20px;
 }
 
 .aceptar{
