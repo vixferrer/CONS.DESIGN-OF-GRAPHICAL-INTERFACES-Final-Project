@@ -37,9 +37,9 @@ header::after {
 .iconos{
   display: block;
   margin: auto;
-  width: 112px;
-  height: 42px;
-  padding: 4px 40px;
+  width: 118px;
+  height: 35px;
+  padding: 0px 40px;
 }
 
 nav ul {
@@ -109,6 +109,7 @@ nav li:hover::before {
   vertical-align: middle;
   margin-right: 30px; 
   margin-left: 90px; 
+  margin-top: 4px;
   text-align: center;
   color: rgb(27, 27, 27);
   text-decoration: none;
