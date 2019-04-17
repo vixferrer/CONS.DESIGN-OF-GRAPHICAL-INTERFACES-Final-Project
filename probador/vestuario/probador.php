@@ -52,40 +52,55 @@
 						<!--  Product Details -->
 						<div class="product product-details clearfix">
 							<div class="col-md-6">
-								<div id="product-view">
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-								</div>
-								<div id="product-main-view">
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-								</div>
-								</div>
-								<div id="product-view">
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-									<div class="product-view">
-									<img src="img/cazadoraVaquera1TRANS.png"alt="">
-									</div>
-								</div>
+										<div id="product-main-view">
+												<div class="product-view">
+													<img src="img/maniquies.jpg" <img src="img/cazadoraVaquera1TRANS.png">>
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+										</div>
+										<div id="product-view">
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+										</div>
 							 </div>
+
+							 <div class="col-md-6">
+										<div id="product-main-view">
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+										</div>
+										<div id="product-view">
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+												<div class="product-view">
+													<img src="img/cazadoraVaquera1TRANS.png"alt="">
+												</div>
+										</div>
+							 </div>
+
 							<div class="col-md-6">
 								<div class="product-body">
 									<h2 class="product-name">Camisa lineas</h2>
