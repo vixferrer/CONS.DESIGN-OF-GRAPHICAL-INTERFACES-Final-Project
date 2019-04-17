@@ -94,7 +94,7 @@
 						<img src="./productos/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span ><?php echo $datos[$i]['Nombre'];?></span><br>
 						<span>Precio: <?php echo $datos[$i]['Precio'];?></span><br>
-						<a href="restarCantidad.php"  class="aceptar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
+						<center><a href="restarCantidad.php"  class="aceptar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a></center>;
 					</center>
 				</div>
 			<?php
