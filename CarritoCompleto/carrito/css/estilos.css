@@ -54,56 +54,49 @@ fieldset{
   height: 37px;
 }
 .producto{
-	width: 20%;
-	height: auto;
-	
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 1%;
-	/*margin-top: 1%;*/
-	color: #4a4a4a;
+	width: 22%;
+	margin-left: 4.5%;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
 	font-weight: bolder;
 	font-size: 1.2rem;
-	padding: 1%;
-	-webkit-box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.75);
-	-moz-box-shadow:    0px 0px 10px rgba(240, 240, 240, 0.75);
-	box-shadow:         0px 0px 10px rgba(240, 240, 240, 0.75);
-	-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
+ 	display:inline-flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+
+	transition: all .4s;
 }
 
 .producto img{
-	width: 200px;
-	height: 200px;
-	margin:0 auto;
-	border-radius: 50%;
-	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
-	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
-	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
-	-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
+	width: 100%;
+
 }
 
 
-.producto a{
-	background-color: #4a4a4a;
-	padding: 3px;
-	color: white;
-	width: 50%;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-radius: 4px;
+.precio{
+	margin: 2px;
+}
+
+.nombreElemento{
+	width: 100%;
+	padding: 8px 2px;
+	background: #87c0cd;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .producto .eliminar{
 	background-color: #b91818;
-	/*padding: 5px;*/
 	font-family: 'Open Sans', sans-serif;
 	color:white;
-	margin: 50px;
-	padding-top: 40px;
+	margin: 4px;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	border-radius: 20px;
 }
 
@@ -116,6 +109,12 @@ fieldset{
 	text-decoration: none;
 	color:white;
 	font-weight: 700;
+}
+
+.vestuario{
+	width: 50%;
+	height:40%;
+	position: center;
 }
 
 .aceptar:hover{
