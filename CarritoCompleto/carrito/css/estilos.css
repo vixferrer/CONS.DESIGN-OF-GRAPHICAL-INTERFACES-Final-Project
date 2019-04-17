@@ -60,7 +60,7 @@ fieldset{
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 1%;
-	margin-top: 1%;
+	/*margin-top: 1%;*/
 	color: #4a4a4a;
 	font-weight: bolder;
 	font-size: 1.2rem;
@@ -129,7 +129,6 @@ nav {
   left: 18%;
   top:.5%;
 }
-
 
 menu:after , menu:before {
   display : block;
