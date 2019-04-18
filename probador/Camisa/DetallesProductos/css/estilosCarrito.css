@@ -100,6 +100,10 @@ fieldset{
 	border-radius: 20px;
 }
 
+.volver{
+	margin: 4px 0px;
+}
+
 .aceptar{
 	background-color: #226597;
 	border-radius: 30px;
