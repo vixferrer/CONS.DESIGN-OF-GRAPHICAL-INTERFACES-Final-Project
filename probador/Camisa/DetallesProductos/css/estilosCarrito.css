@@ -100,10 +100,11 @@ fieldset{
 	border-radius: 20px;
 }
 
-.volver{
+.volver a{
 	margin-top: 15px;
 	padding-top: 10px;
 	font-weight: bolder;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
