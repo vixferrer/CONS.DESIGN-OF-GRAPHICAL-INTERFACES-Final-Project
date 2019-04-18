@@ -27,7 +27,7 @@ header a{
 	left: 90%;
 	display: inline-block;
 	vertical-align: top;
-	position: fixed;
+	position: relative;
 	z-index: 2;
 
 }
@@ -36,6 +36,10 @@ header a img{
 	margin-left:20px;
 	margin-bottom:10px;
 	width: 100%;
+}
+
+header a #logo{
+	position: initial;
 }
 
 section{
@@ -56,8 +60,6 @@ fieldset{
   width: 205px;
 	height: 37px;
 	right: 90%;
-	position: fixed;
-	z-index: 2;
 }
 .producto{
 	width: 22%;
