@@ -103,7 +103,7 @@
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/sandalias1.jpg" alt="">
+								<img src="img/sandaliasPlaya1.jpg" alt="">
 							</div>
 							<div class="product-view">
 								<img src="img/sandalias2.jpg" alt="">
