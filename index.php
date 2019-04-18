@@ -67,7 +67,7 @@
 
                         <div class="card col-12 col-md-6 col-lg-3">
                             <div class="icon-block">
-                                <a href="#">
+                                <a href="ayuda/ayuda.html">
                                     <span class="mbr-iconfont mbri-question" style="color: rgb(135, 192, 205); fill: rgb(135, 192, 205);"></span>
                                 </a>
                             </div>
