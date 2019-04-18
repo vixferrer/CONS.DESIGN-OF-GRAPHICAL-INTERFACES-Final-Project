@@ -108,7 +108,7 @@
 			}
 			
 		?>
-		<center><a href="../../../probador/index.php" class="volver" >Volver a tienda</a></center>
+		<center><a href="../../../probador/index.php" >Volver a tienda</a></center>
 		
 
 	</section>
