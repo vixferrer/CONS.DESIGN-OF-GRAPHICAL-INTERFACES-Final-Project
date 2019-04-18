@@ -99,13 +99,13 @@
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris3.jpg" alt="">
+								<img src="img/pantalonCuadrosGris1.jpg" alt="">
 							</div>
 							<div class="product-view">
 								<img src="img/pantalonCuadrosGris2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris1.jpg" alt="">
+								<img src="img/pantalonCuadrosGris3.jpg" alt="">
 							</div>
 						</div>
 					</div>
