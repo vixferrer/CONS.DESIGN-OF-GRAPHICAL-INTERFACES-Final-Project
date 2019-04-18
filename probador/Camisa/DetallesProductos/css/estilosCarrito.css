@@ -100,9 +100,10 @@ fieldset{
 	border-radius: 20px;
 }
 
-.volver a{
+.volver{
 	margin-top: 15px;
 	padding-top: 10px;
+	font-weight: bolder;
 
 }
 
