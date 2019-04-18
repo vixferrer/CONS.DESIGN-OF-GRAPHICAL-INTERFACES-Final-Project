@@ -74,7 +74,7 @@
 </head>
 <body>
 	<header>
-		<img src="./imagenes/logo.png" id="logo">
+		<img src="./imagenes/logo.png" href="../../probador/index.php" id="logo">
 		<a href="./carritodecompras.php" title="Ver vestuario">
 			<img src="./imagenes/carrito.png">
 		</a>
@@ -108,7 +108,7 @@
 			}
 			
 		?>
-		<center><a href="../../../probador/index.php" class="volver" >Volver a tienda</a></center>
+		<center><a href="../../probador/index.php" class="volver" >Volver a tienda</a></center>
 		
 
 	</section>
