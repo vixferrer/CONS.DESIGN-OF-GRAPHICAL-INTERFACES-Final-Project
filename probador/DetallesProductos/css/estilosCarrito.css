@@ -56,7 +56,7 @@ fieldset{
   margin-left: 10px;
   width: 205px;
 	height: 37px;
-	position: relative;
+	vertical-align: left;
 }
 .producto{
 	width: 22%;
