@@ -74,7 +74,7 @@
 </head>
 <body>
 	<header>
-		<a href="../../probador/index.php" id="logo"
+		<a href="../../probador/index.php" id="logo">
 			<img src="./imagenes/logo.png">
 		</a>
 		<a href="./carritodecompras.php" title="Ver vestuario">
