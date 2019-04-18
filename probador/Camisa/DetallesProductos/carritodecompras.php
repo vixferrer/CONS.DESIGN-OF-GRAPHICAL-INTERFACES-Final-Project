@@ -68,7 +68,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Vestuario</title>
-	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript"  src="./js/scripts.js"></script>
 </head>
@@ -90,10 +90,10 @@
 				
 	?>
 				<div class="producto">
-						<img src="./productos/<?php echo $datos[$i]['Imagen'];?>"><br>
+						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
 						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?></span><br>
-						<a href="#" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
+						<a href="eliminar.php" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
 				</div>
 			<?php
 				$total=($datos[$i]['Cantidad']*$datos[$i]['Precio'])+$total;
