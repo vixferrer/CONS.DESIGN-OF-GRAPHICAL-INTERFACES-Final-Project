@@ -20,12 +20,12 @@ var inicio=function () {
 		e.preventDefault();
 		var id=$(this).attr('data-id');
 		$(this).parentsUntil('.producto').remove();
-		$.post('./js/eliminar.php',{
+		$.post('eliminar.php',{
 			Id:id
 		},function(a){
 			
 			if(a=='0'){
-				location.href="./carritodecompras.php";
+				location.href="../carritodecompras.php";
 			}
 		});
 
