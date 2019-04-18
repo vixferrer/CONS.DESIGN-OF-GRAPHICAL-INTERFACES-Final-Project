@@ -12,6 +12,8 @@ header{
 	height: 60px;
 	background: #fff;
 	color:white;
+	display: flex;
+	flex-direction: row; 
 }
 a{
 	color: #4a4a4a;
@@ -36,9 +38,6 @@ header a img{
 	width: 100%;
 	position: left;
 }
-.in{
-	position: left;
-}
 
 section{
 	width: 80%;
@@ -56,7 +55,8 @@ fieldset{
   margin-right: 40px;
   margin-left: 10px;
   width: 205px;
-  height: 37px;
+	height: 37px;
+	position: relative;
 }
 .producto{
 	width: 22%;
