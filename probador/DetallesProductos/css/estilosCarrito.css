@@ -35,6 +35,9 @@ header a img{
 	margin-bottom:10px;
 	width: 100%;
 }
+header a img .in{
+	position: left;
+}
 
 section{
 	width: 80%;
