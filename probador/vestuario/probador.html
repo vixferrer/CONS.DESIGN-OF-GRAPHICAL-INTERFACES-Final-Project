@@ -38,8 +38,8 @@
 			</div>
 
 		<div class="contenedor">
-				<input type="radio" name="image" id="one">
-				<input type="radiO" name="image" id="two">
+				<input type="radio" name="image" id="uno">
+				<input type="radiO" name="image" id="dos">
 				<input type="radiO" name="image" id="tres">
 
 				<div class="display-image">

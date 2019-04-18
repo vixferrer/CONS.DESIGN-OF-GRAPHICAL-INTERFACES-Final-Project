@@ -6,10 +6,10 @@
 input[type="radio"]{
  	width: 145px;
  	height: 170px;
- 	border: 1px solid white;
+ 	border: 2px solid white;
  	display: block;
  	-webkit-appearance: none;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-left: 400px;
 	size: 100px;
 	z-index: 2;
@@ -26,6 +26,7 @@ input[type="radio"]{
 	background-size: 250px;
 	z-index: 1;
 	margin-top: 60px;
+	border: 3px solid white;
 }
 
 .camaraPrimero{
@@ -39,30 +40,15 @@ input[type="radio"]{
 	margin-top: 10px;
 	width: 70px;
 	height: 70px;
-	margin-left: 30px;
+	margin-left: 50px;
 }
 
-/*
-.maniq{
-	position:absolute;
-	top: 10px;
-	left: 10px;
-	z-index: 1;
-}
-
-.prendas{
-	position:absolute;
-	top: 25px;
-	left: 25px;
-	z-index: 2;
-}*/
-
-#one{
+#uno{
 	background-image: url(../../Abrigo/FotosProductos/abrigoCanguro.jpg);
 	background-size: cover;
 }
-#two{
-	background-image: url(../../Abrigo/FotosProductos/cazadoraVaquera1.jpg);
+#dos{
+	background-image: url(../../Jersey/FotosProductos/jerseyRayas.jpg);
 	background-size: cover;
 }
 #tres{
@@ -70,20 +56,6 @@ input[type="radio"]{
 	background-size: cover;
 }
 
-#one:checked~ .display-image{
-	background-image: url(../img/uno.jpg);
-	z-index: 2;
-	position:absolute;
-}
-
-#two:checked~ .display-image{
-	background-image: url(../img/dos.jpg);
-	z-index: 2;
-	position:absolute;
-}
-
-#tres:checked~ .display-image{
-	background-image: url(../img/seis.jpg);
-	z-index: 2;
-	position:absolute;
-}
+#uno:checked~ .display-image{background-image: url(../img/uno.jpg);}
+#dos:checked~ .display-image{background-image: url(../img/cinco.jpg);}
+#tres:checked~ .display-image{background-image: url(../img/seis.jpg);}
