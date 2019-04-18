@@ -20,7 +20,7 @@
 						$nombre="";
 						$precio=0;
 						$imagen="";
-						$consulta='select * from camisas where id=2';
+						$consulta='select * from camisas where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -47,7 +47,7 @@
 			$nombre="";
 			$precio=0;
 			$imagen="";
-			$consulta='select * from camisas where id=2';
+			$consulta='select * from camisas where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -68,9 +68,9 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Vestuario</title>
-	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript"  src="./js/scripts.js"></script>
+	<script type="text/javascript"  src="../js/scripts.js"></script>
 </head>
 <body>
 	<header>
@@ -90,7 +90,7 @@
 				
 	?>
 				<div class="producto">
-						<img src="./productos/<?php echo $datos[$i]['Imagen'];?>"><br>
+						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
 						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?></span><br>
 						<a href="#" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">Eliminar</a>
@@ -104,16 +104,13 @@
 			}
 			echo '<center><h2 id="total">Total: '.$total.'</h2></center>';
 			if($total!=0){
-					echo '<center><a href="./compras/compras.php" class="aceptar">Comprar</a></center>;';
+					echo '<center><a href="./compras/compras.php" class="aceptar">Comprar</a></center><br>';
 			}
 			
 		?>
-		<center><a href="../../probador/index.php">Volver a tienda</a></center>
-		
-		
+		<center><a href="../../../probador/index.php" class="volver" >Volver a tienda</a></center>
 		
 
-		
 	</section>
 </body>
 </html>
