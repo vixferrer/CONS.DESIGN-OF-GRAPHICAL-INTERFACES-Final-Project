@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	$dbname = "d1ru6ujq85cesu";
-	include '../../conexion.php';
+	include '../../../conexion.php';
 	if(isset($_SESSION[$dbname])){
 		if(isset($_GET['id'])){
 					$arreglo=$_SESSION[$dbname];
