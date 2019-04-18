@@ -18,7 +18,6 @@ a{
 	font-weight: bolder;
 	font-size: 1.2rem;
 	text-decoration: none;
-	margin: 4px 0px;
 }
 header a{
 	width: 50px;
@@ -99,6 +98,12 @@ fieldset{
 	padding-top: 3px;
 	padding-bottom: 3px;
 	border-radius: 20px;
+}
+
+.volver a{
+	margin-top: 15px;
+	padding-top: 10px;
+
 }
 
 .aceptar{

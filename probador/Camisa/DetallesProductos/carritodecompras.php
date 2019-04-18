@@ -104,11 +104,11 @@
 			}
 			echo '<center><h2 id="total">Total: '.$total.'</h2></center>';
 			if($total!=0){
-					echo '<center><a href="./compras/compras.php" class="aceptar">Comprar</a></center>';
+					echo '<center><a href="./compras/compras.php" class="aceptar">Comprar</a></center><br>';
 			}
 			
 		?>
-		<center><a href="../../../probador/index.php" >Volver a tienda</a></center>
+		<center><a href="../../../probador/index.php" class="volver" >Volver a tienda</a></center>
 		
 
 	</section>
