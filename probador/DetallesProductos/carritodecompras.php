@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	$dbname = "d1ru6ujq85cesu";
-	include '../../../conexion.php';
+	include 'conexion.php';
 	if(isset($_SESSION[$dbname])){
 		if(isset($_GET['id'])){
 					$arreglo=$_SESSION[$dbname];
@@ -20,7 +20,7 @@
 						$nombre="";
 						$precio=0;
 						$imagen="";
-						$consulta='select * from camisas where id='.$_GET['id'];
+						$consulta='select * from populares where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -47,7 +47,7 @@
 			$nombre="";
 			$precio=0;
 			$imagen="";
-			$consulta='select * from camisas where id='.$_GET['id'];
+			$consulta='select * from populares where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
