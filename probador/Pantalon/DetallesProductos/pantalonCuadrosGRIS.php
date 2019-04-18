@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Pantalon Verde</title>
+    <title>Pantalon Cuadros</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../Barra/style.css">
@@ -94,18 +94,18 @@
 								<img src="img/pantalonCuadrosGris2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris1.jpg" alt="">
+								<img src="img/pantalonCuadrosGris3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris3.jpg" alt="">
+								<img src="img/pantalonCuadrosGris1.jpg" alt="">
 							</div>
 							<div class="product-view">
 								<img src="img/pantalonCuadrosGris2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/pantalonCuadrosGris1.jpg" alt="">
+								<img src="img/pantalonCuadrosGris3.jpg" alt="">
 							</div>
 						</div>
 					</div>

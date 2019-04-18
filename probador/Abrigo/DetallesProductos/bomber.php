@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Abrigo Acolchado</title>
+    <title>Bomber</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../Barra/style.css">
@@ -132,7 +132,7 @@
 							</div>
 
 							<div class="product-btns">
-								<button class="primary-btn add-to-cart">Añadir al vestuario 
+								<button class="primary-btn add-to-cart"  role="link" onclick="window.location.href = 'carritodecompras.php?id=<?php  echo $det[0];?>';">Añadir al vestuario 
 									<img src = "../../Iconos/probadorBLANCO.png" 
 										class="percha"></button>
 							</div>

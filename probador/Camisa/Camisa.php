@@ -96,7 +96,7 @@
 						</nav>
 				</div>
 				<div class="product-item">
-					<img src="FotosProductos/negra.jpeg" alt="" >
+					<img src="FotosProductos/negra.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Camisa Básica</a>
 					<nav class="detallesYPrecio">
 						<a class = "boton" href="DetallesProductos/camisaNegra.php">+ Ver detalles</a>

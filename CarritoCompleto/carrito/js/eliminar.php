@@ -1,6 +1,7 @@
 <?php
 session_start();
-	$arreglo=$_SESSION['carrito'];
+$dbname = "d1ru6ujq85cesu";
+	$arreglo=$_SESSION[$dbname];
 	for($i=0;$i<count($arreglo);$i++){
 		if($arreglo[$i]['Id']!=$_POST['Id']){
 			$datosNuevos[]=array(
@@ -13,9 +14,9 @@ session_start();
 		}
 	}
 	if(isset($datosNuevos)){
-		$_SESSION['carrito']=$datosNuevos;
+		$_SESSION[$dbname]=$datosNuevos;
 	}else{
-		unset($_SESSION['carrito']);
+		unset($_SESSION[$dbname]);
 		echo '0';
 	}
 ?>
