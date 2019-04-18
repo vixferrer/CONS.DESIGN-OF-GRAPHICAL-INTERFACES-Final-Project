@@ -110,6 +110,7 @@ nav li:hover::before {
   color: rgb(27, 27, 27);
   text-decoration: none;
   text-transform: uppercase;
+  justify-content: center
 }
 
 .atuendo:hover {
