@@ -73,6 +73,7 @@
 	<script type="text/javascript"  src="../js/scripts.js"></script>
 </head>
 <body>
+	<nav>
 	<header>
 		<a href="../../probador/index.php" class="in" id="logo">
 			<img src="./imagenes/logo.png">
@@ -81,6 +82,7 @@
 			<img src="./imagenes/carrito.png">
 		</a>
 	</header>
+	</nav>
 	<section>
 		<?php
 			$total=0;
