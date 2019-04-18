@@ -88,7 +88,7 @@
 					<div class="col-md-6">
 						<div id="product-main-view">
 							<div class="product-view">
-								<img src="img/<?php echo $det[1];?>">
+								<img src="img/<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
 								<img src="img/main-product02.jpg" alt="">
