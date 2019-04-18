@@ -1,7 +1,6 @@
 <?php
 session_start();
 $dbname = "d1ru6ujq85cesu";
-include '../../../../conexion.php';
 	$arreglo=$_SESSION[$dbname];
 	for($i=0;$i<count($arreglo);$i++){
 		if($arreglo[$i]['Id']!=$_POST['Id']){
