@@ -1,6 +1,16 @@
 <?php
 session_start();
 $dbname = "d1ru6ujq85cesu";
+$nombre="";
+$precio=0;
+$imagen="";
+$consulta='select * from camisas where id='.$_GET['id'];
+			$sentencia = $pdo->prepare($consulta);
+			$sentencia->execute();
+			$det=$sentencia->fetch(PDO::FETCH_NUM);
+				$nombre=$det[1];
+				$precio=$det[3];
+				$imagen=$det[2];
 	$arreglo=$_SESSION[$dbname];
 	for($i=0;$i<count($arreglo);$i++){
 		if($arreglo[$i]['Id']!=$_POST['Id']){
