@@ -21,7 +21,7 @@ var inicio=function () {
 		var id=$(this).attr('data-id');
 		$(this).parentsUntil('.producto').remove();
 		$.post('../js/eliminar.php',{
-			Id:id
+			id:id
 		},function(a){
 			
 			if(a=='0'){
