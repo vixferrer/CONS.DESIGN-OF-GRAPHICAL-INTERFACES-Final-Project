@@ -294,7 +294,7 @@ ul, ol {
   padding: 2px 7px 0px 8px;
 }
 
-.size-option>li.active a {
+.size-option>li>a:focus {
   color: #226597;
   border-color: #226597;
 }
