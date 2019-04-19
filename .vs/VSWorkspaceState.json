@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\probador",
-    "\\probador\\Ofertas",
-    "\\probador\\Ofertas\\DetallesProductos"
+    "\\probador\\DetallesProductos",
+    "\\probador\\DetallesProductos\\Barra"
   ],
-  "SelectedNode": "\\probador\\Ofertas\\DetallesProductos\\zapatillas.php",
+  "SelectedNode": "\\probador\\DetallesProductos\\Barra\\style.css",
   "PreviewInSolutionExplorer": false
 }
