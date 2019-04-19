@@ -122,7 +122,7 @@
 							<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Talla:</span></li>
-									<li class="active"><a href="#">S</a></li>
+									<li><a href="#">S</a></li>
 									<li><a href="#">M</a></li>
 									<li><a href="#">L</a></li>
 									<li><a href="#">XL</a></li>

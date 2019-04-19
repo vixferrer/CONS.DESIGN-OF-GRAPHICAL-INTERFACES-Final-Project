@@ -122,7 +122,7 @@
 								<ul class="size-option">
 									<li><span class="text-uppercase">Talla:</span></li>
 									<li><a href="#">39</a></li>
-									<li class="active"><a href="#">40</a></li>
+									<li><a href="#">40</a></li>
 									<li><a href="#">41</a></li>
 									<li><a href="#">42</a></li>
 									<li><a href="#">43</a></li>

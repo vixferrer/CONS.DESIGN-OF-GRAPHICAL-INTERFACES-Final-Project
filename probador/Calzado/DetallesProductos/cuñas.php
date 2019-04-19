@@ -123,7 +123,7 @@
 									<li><span class="text-uppercase">Talla:</span></li>
 									<li><a href="#">36</a></li>
 									<li><a href="#">37</a></li>
-									<li class="active"><a href="#">38</a></li>
+									<li><a href="#">38</a></li>
 									<li><a href="#">39</a></li>
 									<li><a href="#">40</a></li>
 									<li><a href="#">41</a></li>
