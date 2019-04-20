@@ -17,7 +17,7 @@
     <script src="jsPopu/script.js"></script>
 
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="menu.js"></script>
+    <script src="BarraPopu/menu.js"></script>
 </head>
 <body>
 	
