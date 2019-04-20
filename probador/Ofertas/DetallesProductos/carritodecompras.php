@@ -20,7 +20,7 @@
 						$nombre="";
 						$precio=0;
 						$imagen="";
-						$consulta='select * from ofetas where id='.$_GET['id'];
+						$consulta='select * from ofertas where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
