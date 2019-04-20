@@ -87,7 +87,7 @@
                 </li>
 
                 
-                    <a class="estaSI finalizar" href=#>
+                    <a class="estaSI finalizar" href="vestuario/probador.php">
                         Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
