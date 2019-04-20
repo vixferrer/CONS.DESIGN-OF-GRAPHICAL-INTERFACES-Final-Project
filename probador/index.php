@@ -96,8 +96,9 @@
                     </a>
                 </li>
 
-                
-                    <a class="estaSI finalizar" onClick="esperar(5000);" href="vestuario/probador.php" > Finalizar Selección
+                <!-- role="link" onclick="window.location.href = 'carritodecompras.php';" -->
+                    <a class="estaSI finalizar" role ="link" onclick="esperar(5000);" 
+                    href="vestuario/probador.php" > Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
                              onmouseout="src='BarraPopu/Iconos/probador.png'"
