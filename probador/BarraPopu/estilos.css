@@ -11,8 +11,7 @@ body {
     background: #e6ecf0;
     background-size: 100%;
     background-repeat: no-repeat;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
+    
 }
 
 .menu_bar {
@@ -24,6 +23,8 @@ header {
     width: 100%;
     background: #fff;
     display: flex;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
 }
 
     header::after {
