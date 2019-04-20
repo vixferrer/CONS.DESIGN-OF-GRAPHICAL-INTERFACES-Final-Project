@@ -21,11 +21,15 @@
 			<nav>
 			 <ul>
 			   <li><img src = "../Iconos/LOGO.png" class="logo"></li>
-						<a class="estaSI finalizar" href="../index.php">Volver a categorías
+				 <li><a class="estaSI finalizar" href="../index.php">Volver a categorías
 						<img src = "../Iconos/atuendo.png" 
 						  onmouseover="src='../Iconos/atuendo2.png'"
 						  onmouseout="src='../Iconos/atuendo.png'"
-						  class="iconos"></a>
+						  class="iconos"></a></li>
+					<li><a class="estaSI finalizar" href="#">Realizar Compra<img src = "img/euroIcono.png" 
+							onmouseover="src='img/euroIcono2.png'"
+						  onmouseout="src='img/euroIcono.png'"
+							class="iconos"></a></li>
 			 </ul>
 							 
 		   </nav>
