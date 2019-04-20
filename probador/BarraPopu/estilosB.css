@@ -431,6 +431,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
                 header nav ul li {
                     display: inline-block;
                     border-right: 1.5px solid #fff;
+                    border: 1px solid rgb(128, 128, 128, 0.5)
                     margin-left: 0px
                 }
 
