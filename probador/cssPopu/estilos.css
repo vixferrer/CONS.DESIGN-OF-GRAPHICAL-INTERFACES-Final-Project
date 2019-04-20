@@ -4,14 +4,14 @@
 
 body{
 	background: #f3f9fb;
-	font-family: 'Open Sans', sans-serif;
 }
 
-.wrap{
-	max-width: 1100px;
-	width: 90%;
-	margin: auto;
-	margin-top: 30px;
+.wrap {
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .store-wrapper{
