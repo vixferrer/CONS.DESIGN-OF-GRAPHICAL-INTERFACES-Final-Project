@@ -26,7 +26,7 @@
 						  onmouseover="src='../Iconos/atuendo2.png'"
 						  onmouseout="src='../Iconos/atuendo.png'"
 						  class="iconos"></a></li>
-					<li><a class="estaSI finalizar" href="pago/pago.html">Realizar Compra<img src = "img/euroIcono.png" 
+					<li><a class="estaSI finalizar" href="pago/pago.php">Realizar Compra<img src = "img/euroIcono.png" 
 							onmouseover="src='img/euroIcono2.png'"
 						  onmouseout="src='img/euroIcono.png'"
 							class="iconos"></a></li>
