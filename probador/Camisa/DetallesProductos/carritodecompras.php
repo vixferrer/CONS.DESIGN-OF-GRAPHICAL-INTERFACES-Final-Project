@@ -104,7 +104,7 @@
 			}
 			echo '<center><h2 id="total">Total: '.$total.' €</h2></center>';
 		?>
-		<center><a href="../../../probador/index.php" class="volver aceptar" >Volver a tienda</a></center>
+		<center><a href="../../../index.php" class="volver aceptar" >Volver a tienda</a></center>
 		
 
 	</section>
