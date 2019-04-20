@@ -38,6 +38,14 @@ input[type="radio"]{
 	background-position-y: -300px;
 }
 
+.icono{
+	display: block;
+  margin: auto;
+  width: 118px;
+  height: 35px;
+  padding: 0px 40px;
+}
+
 .camara{
 	margin-top: 13px;
 	width: 70px;
