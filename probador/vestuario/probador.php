@@ -36,20 +36,22 @@
 			<nav>
 					<ul>
 							<li> <a href="../index.php"><img src="Barra/Iconos/LOGO.png" class="logo"></a></li>
-							<li class="Minibarra9">
-									<a class="estaSI Ofertas" href="../index.php">
-											Volver a categorías<img src="Barra/Iconos/atuendo.png"
-																	onmouseover="src='Barra/Iconos/atuendo2.png'"
-																	onmouseout="src='Barra/Iconos/atuendo.png'"
-																	class="iconos">
-									</a>
-							</li>
-									<a href="pago/pago.php" class="estaSI finalizar">
-											Realizar Compra<img src="Barra/Iconos/euroIcono.png"
-																	onmouseover="src='Barra/Iconos/euroIcono2.png'"
-																	onmouseout="src='Barra/Iconos/euroIcono.png'"
-																	class="iconos">
-									</a>
+							<li class="Minibarra8">
+                               <a class="estaSI Calzado" href="../index.php">
+                                    Volver a categorías<img src="Barra/Iconos/atuendo.png"
+                                    onmouseover="src='Barra/Iconos/atuendo2.png'"
+                                    onmouseout="src='Barra/Iconos/atuendo.png'"
+                                    class="iconos">
+                                </a>
+                            </li>
+                            <li class="Minibarra9">
+                                <a class="estaSI Ofertas" href="pago/pago.php">
+                                Realizar Compra<img src="Barra/Iconos/euroIcono.png"
+                                    onmouseover="src='Barra/Iconos/euroIcono2.png'"
+                                    onmouseout="src='Barra/Iconos/euroIcono.png'"
+                                    class="iconos">
+                               </a>
+                            </li>
 					</ul>
 			</nav>
 	</header>
