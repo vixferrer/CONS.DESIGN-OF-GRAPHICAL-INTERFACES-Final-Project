@@ -11,7 +11,16 @@
 
 		<link rel="stylesheet" href="Barra/style.css">
 		<link rel="stylesheet" href="css/fotos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+		<link rel="stylesheet" href="Recomendados/assets/tether/tether.min.css">
+ 	 <link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap-grid.min.css">
+ 	 <link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap-reboot.min.css">
+ 	 <link rel="stylesheet" href="Recomendados/assets/theme/css/style.css">
+ 	 <link href="Recomendados/assets/fonts/style.css" rel="stylesheet">
+  	<link rel="stylesheet" href="Recomendados/assets/mobirise/css/mbr-additional.css" type="text/css">
+  
 </head>
 
 <body>
@@ -37,7 +46,7 @@
 		</header>
 	<!-- BARRA NAV -->
 
-			<div>
+			<div class="botonesArriba">
 				<a href="#" class="titulo"><img src="img/camara.png" alt="camara"
 						onmouseover="src='img/camara2.png'"	
 						onmouseout="src='img/camara.png'"
@@ -58,8 +67,91 @@
 
 				<div class="display-image"></div>
 				<div class="display-image2"></div>
-
-
 		 </div>
+
+		 <section class="services1 cid-rockrWQ7pm" id="services1-x">
+				<!--Overlay-->
+				
+				<!--Container-->
+				<div class="container">
+						<div class="row justify-content-center">
+								<!--Titles-->
+								<div class="title pb-5 col-12">
+										<h2 class="align-left pb-3 mbr-fonts-style display-2">
+												Recomendados para ti:</h2>
+										
+								</div>
+								<!--Card-1-->
+								<div class="card col-12 col-md-6 col-lg-3">
+										<div class="card-wrapper">
+												<div class="card-img">
+														<img src="../Calzado/FotosProductos/cuñas.jpg" alt="Mobirise" title="">
+												</div>
+												<div class="card-box pb-md-5">
+														<h4 class="card-title mbr-fonts-style display-5">
+																Cuñas altas</h4>
+														
+														<!--Btn-->
+														<div class="mbr-section-btn align-left"><a href="../Calzado/DetallesProductos/cuñas.php" class="btn btn-primary-outline display-4">+Ver detalles</a></div>
+												</div>
+										</div>
+								</div>
+								<!--Card-2-->
+								<div class="card col-12 col-md-6 col-lg-3">
+										<div class="card-wrapper">
+												<div class="card-img">
+														<img src="../Abrigo/FotosProductos/cazadoraMotera.jpg" alt="Mobirise" title="">
+												</div>
+												<div class="card-box pb-md-5">
+														<h4 class="card-title mbr-fonts-style display-5">Cazadora motera</h4>
+														
+														<!--Btn-->
+														<div class="mbr-section-btn align-left"><a href="../Abrigo/DetallesProductos/cazadoraMotera.php" class="btn btn-primary-outline display-4">+Ver detalles</a></div>
+												</div>
+										</div>
+								</div>
+								<!--Card-3-->
+								<div class="card col-12 col-md-6 col-lg-3">
+										<div class="card-wrapper">
+												<div class="card-img">
+														<img src="../Jersey/FotosProductos/jerseyGordo.jpg" alt="Mobirise" title="">
+												</div>
+												<div class="card-box">
+														<h4 class="card-title mbr-fonts-style display-5">
+																Jersey Lana</h4>
+														
+														<!--Btn-->
+														<div class="mbr-section-btn align-left"><a href="../Jersey/DetallesProductos/jerseyGordo.php" class="btn btn-primary-outline display-4">+Ver detalles</a></div>
+												</div>
+										</div>
+								</div>
+								<!--Card-4-->
+								<div class="card col-12 col-md-6 col-lg-3 last-child">
+										<div class="card-wrapper">
+												<div class="card-img">
+														<img src="../FotosPopu/bermudaVerde.jpg" alt="Mobirise" title="">
+												</div>
+												<div class="card-box">
+														<h4 class="card-title mbr-fonts-style display-5">
+																Bermuda verde</h4>
+														
+														<!--Btn-->
+														<div class="mbr-section-btn align-left"><a href="../DetallesProductos/bermuda.php" class="btn btn-primary-outline display-4">
+																		+Ver detalles</a></div>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</section>
+		
+		
+			<section class="engine"><a href="https://mobirise.info/a">online website builder</a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>
+			<script src="assets/popper/popper.min.js"></script>
+			<script src="assets/tether/tether.min.js"></script>
+			<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+			<script src="assets/smoothscroll/smooth-scroll.js"></script>
+			<script src="assets/theme/js/script.js"></script>
+				
 </body>
 </html>
