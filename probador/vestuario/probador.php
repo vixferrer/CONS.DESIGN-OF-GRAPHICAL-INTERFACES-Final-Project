@@ -77,7 +77,7 @@
 						<div class="row justify-content-center">
 								<!--Titles-->
 								<div class="title pb-5 col-12">
-										<h2 class="align-left pb-3 mbr-fonts-style display-2">
+										<h2 class="align-left pb-3 mbr-fonts-style display-5">
 												Recomendados para ti:</h2>
 										
 								</div>
@@ -133,7 +133,7 @@
 												</div>
 												<div class="card-box">
 														<h4 class="card-title mbr-fonts-style display-5">
-																Pantalon verde</h4>
+																Bermuda verde</h4>
 														
 														<!--Btn-->
 														<div class="mbr-section-btn align-left"><a href="../DetallesProductos/bermuda.php" class="btn btn-primary-outline display-4">
