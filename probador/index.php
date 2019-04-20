@@ -97,7 +97,7 @@
                 </li>
 
                 
-                    <a class="estaSI finalizar" href="vestuario/probador.php" onClick="esperar(5000);"> Finalizar Selección
+                    <a class="estaSI finalizar" onClick="esperar(5000);" href="vestuario/probador.php" > Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
                              onmouseout="src='BarraPopu/Iconos/probador.png'"
