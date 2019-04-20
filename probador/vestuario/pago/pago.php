@@ -248,9 +248,7 @@
 								</tfoot>
 							</table>
 							<div class="pull-right">
-								<div class="product-btns">
-								<a href="../../index.php"><button class="primary-btn add-to-cart">Finalizar compra </button></a>
-								</div>
+								<center><a href="../../index.php" class="volver aceptar" >Finalizar Compra</a></center>
 							</div>
 						</div>
 
