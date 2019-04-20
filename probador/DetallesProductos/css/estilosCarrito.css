@@ -52,7 +52,12 @@ fieldset{
   margin-right: 40px;
   margin-left: 10px;
   width: 205px;
-  height: 37px;
+	height: 37px;
+}
+
+header a #logo{
+	position: relative;
+	right: 90%;
 }
 .producto{
 	width: 22%;

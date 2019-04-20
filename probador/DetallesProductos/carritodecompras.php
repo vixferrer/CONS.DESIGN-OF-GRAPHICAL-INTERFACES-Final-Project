@@ -74,7 +74,7 @@
 </head>
 <body>
 	<header>
-		<a class="izq" href="../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
+		<a href="../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
 		<a href="./carritodecompras.php" title="Ver vestuario">
 			<img src="./imagenes/carrito.png">
 		</a>
@@ -103,9 +103,6 @@
 				echo '<center><h2>No has añadido ningun producto</h2></center>';
 			}
 			echo '<center><h2 id="total">Total: '.$total.'</h2></center>';
-			if($total!=0){
-					echo '<center><a href="./compras/compras.php" class="aceptar">Comprar</a></center><br>';
-			}
 			
 		?>
 		<center><a href="../../probador/index.php" class="volver aceptar" >Volver a tienda</a></center>
