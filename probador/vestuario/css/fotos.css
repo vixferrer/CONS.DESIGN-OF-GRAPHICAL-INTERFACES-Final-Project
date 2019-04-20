@@ -23,7 +23,7 @@ input[type="radio"]{
 }
 
 .item{
-	margin-top: 20px;
+	margin-top: 10px;
 	vertical-align: center;
 	display: inline-block;
 	text-align: center;
@@ -32,7 +32,7 @@ input[type="radio"]{
 }
 
 .item2{
-	margin-top: 20px;
+	margin-top: 10px;
 	vertical-align: center;
 	display: inline-block;
 	text-align: center;

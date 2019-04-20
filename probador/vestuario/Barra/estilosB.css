@@ -105,12 +105,10 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
     color: #87c0cd;
 }
 
-
-
 .finalizar {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-left: 110px;
     text-align: center;
     color: rgb(27, 27, 27);
