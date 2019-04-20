@@ -21,11 +21,11 @@
 
     <script>
         function esperar(espera){
-            string="pausa_alerta("+espera+");";
+            string="Espera("+espera+")+segundos para acceder al probador";";
             setTimeout(string,espera);
             }
-            function pausa_alerta(espera){
-            alert("Ok "+espera/1000+" Segundos");
+        function pausa_alerta(espera){
+            alert("Vestuario listo!");
         }
     </script>
 </head>
@@ -97,7 +97,7 @@
                 </li>
 
                 <!-- role="link" onclick="window.location.href = 'carritodecompras.php';" -->
-                    <a class="estaSI finalizar" role ="link" onclick="esperar(5000);" 
+                    <a class="estaSI finalizar" onclick="esperar(8000);" 
                     href="vestuario/probador.php" > Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
