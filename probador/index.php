@@ -20,12 +20,18 @@
     <script src="BarraPopu/menu.js"></script>
 
     <script>
+
+        function goTo(url) {
+            window.location = url;
+            }
         function esperar(espera){
+            alert("Preparando vestuario... Espera unos segundos...");
             string="pausa_alerta("+espera+");";
             setTimeout(string,espera);
             }
         function pausa_alerta(espera){
-            alert("Ok "+espera/1000+" Segundos");
+            alert("Vestuario listo!");
+            goTo('vestuario/probador.php');
             }
     </script>
 </head>
