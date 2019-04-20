@@ -87,7 +87,7 @@
                 </li>
 
                 
-                    <a class="estaSI finalizar" <?php  echo "Preparando vestuario"; sleep(5); ?>href='vestuario/probador.php'>
+                    <a class="estaSI finalizar"href='vestuario/probador.php'  <?php  echo "Preparando vestuario"; sleep(5); ?>>
                         Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
