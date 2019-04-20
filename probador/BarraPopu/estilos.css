@@ -385,7 +385,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         }
 }
 
-    @media screen and (max-width: 825px) {/****************************************MENU**************************/
+    @media screen and (max-width: 830px) {/****************************************MENU**************************/
         body {
             padding-top: 80px;
         }
