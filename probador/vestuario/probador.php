@@ -34,8 +34,14 @@
 	<!-- BARRA NAV -->
 
 			<div>
-				<a href="#" class="titulo"><img src="img/camara.png" alt="camara" class="camara"/></a>
-				<a href="galeriaAtuendos/galeria.html"><img src="img/galeria.gif" alt="galeria" class="galeria"/></a>
+				<a href="#" class="titulo"><img src="img/camara.png" alt="camara"
+						onmouseover="src='img/camara2.png'"	
+						onmouseout="src='img/camara.png'"
+						class="camara"/></a>
+				<a href="galeriaAtuendos/galeria.html"><img src="img/galeria.gif" alt="galeria" 
+						onmouseover="src='img/galeria2.png'"	
+						onmouseout="src='img/galeria.png'"
+						class="galeria"/></a>
 			</div>
 
 		<div class="contenedor">
