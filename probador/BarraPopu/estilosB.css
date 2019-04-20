@@ -117,6 +117,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 3px;
+    cursor:pointer;
 }
 
 /**********************************************************************************RESPONSIVE************************************************************************/
