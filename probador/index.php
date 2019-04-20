@@ -20,13 +20,11 @@
     <script src="BarraPopu/menu.js"></script>
 
     <script>
-        function esperar(espera){
-            string="Espera("+espera+")+segundos para acceder al probador";";
-            setTimeout(string,espera);
+        function goTo(url) {
+            window.location = url;
             }
-        function pausa_alerta(espera){
-            alert("Vestuario listo!");
-        }
+        function esperar{
+        setTimeout("goTo('vestuario/probador.php')", 5000);}
     </script>
 </head>
 <body>
@@ -97,8 +95,7 @@
                 </li>
 
                 <!-- role="link" onclick="window.location.href = 'carritodecompras.php';" -->
-                    <a class="estaSI finalizar" role="link" onClick="esperar(8000);" 
-                    href="vestuario/probador.php" > Finalizar Selección
+                    <a class="estaSI finalizar" onclick="esperar();" > Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
                              onmouseout="src='BarraPopu/Iconos/probador.png'"
