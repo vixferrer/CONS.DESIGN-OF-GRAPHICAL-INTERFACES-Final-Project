@@ -25,11 +25,11 @@
 						<img src = "../Iconos/atuendo.png" 
 						  onmouseover="src='../Iconos/atuendo2.png'"
 						  onmouseout="src='../Iconos/atuendo.png'"
-						  class="iconos"></a></li>
+						  class="icono"></a></li>
 					<li><a class="estaSI finalizar" href="#">Realizar Compra<img src = "img/euroIcono.png" 
 							onmouseover="src='img/euroIcono2.png'"
 						  onmouseout="src='img/euroIcono.png'"
-							class="iconos"></a></li>
+							class="icono"></a></li>
 			 </ul>
 							 
 		   </nav>
