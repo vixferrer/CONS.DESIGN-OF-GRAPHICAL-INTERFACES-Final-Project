@@ -492,6 +492,17 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             margin-left: 0px;
         }
 
+        header nav ul li::before {
+            content: '';
+            display: inline-block;
+            height: 4px;
+            position: absolute;
+            background-color: #87c0cd; /*color de mi barra*/
+            bottom: 0;
+            width: 0%;
+            transition: all ease-in-out 230ms;
+        }
+
         @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
 
 
