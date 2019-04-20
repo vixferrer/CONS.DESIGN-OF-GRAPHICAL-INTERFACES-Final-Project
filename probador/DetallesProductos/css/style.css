@@ -12,7 +12,9 @@ header {
   display : flex;
   flex-direction: row;
 }
-
+.izq{
+ align-content: flex-start; 
+ }
 .contenedor {
   margin-left: 350px;
   width: 50%;
