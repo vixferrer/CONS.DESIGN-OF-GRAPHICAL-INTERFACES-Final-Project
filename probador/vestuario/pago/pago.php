@@ -233,7 +233,12 @@
 									<tr>
 											<th class="empty" colspan="3"></th>
 											<th>Hora</th>
-											<td colspan="2">15:55</td>
+											<td colspan="2">	
+												<script type="text/javascript">
+												var d = new Date();
+												document.write(+d.getHours(),':'+d.getMinutes());
+												</script>
+											</td>
 										</tr>
 									<tr>
 										<th class="empty" colspan="3"></th>
@@ -248,9 +253,7 @@
 								</tfoot>
 							</table>
 							<div class="pull-right">
-								<div class="product-btns">
-								<a href="../../index.php"><button class="primary-btn add-to-cart">Finalizar compra </button></a>
-								</div>
+								<center><a href="../..//index.php" class="volver aceptar" >Finalizar Compra</a></center>
 							</div>
 						</div>
 
