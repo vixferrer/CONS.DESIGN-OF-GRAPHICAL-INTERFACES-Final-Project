@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Pago</title>
+	<!-- Barra -->
+	<link type="text/css" rel="stylesheet" href="Barra/estilosB.css" />
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
 	<!-- Bootstrap -->
@@ -23,6 +25,18 @@
 </head>
 
 <body>
+
+	<!-- BARRA DENAVEGACIÓN -->
+	<header>
+			<div class="menu_bar">
+				<a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+			</div>
+			<nav>
+				<a href="../probador.php"><img src="Barra/Iconos/LOGO.png" class="logo"></a>
+				
+			</nav>
+		</header>
+
 	<!-- section -->
 	<div class="section">
 		<!-- container -->
@@ -41,7 +55,7 @@
 									<label class="font-weak" for="register">¿Ya eres miembro?</label>
 									<div class="caption">
 											<p>
-												<input class="input" type="password" name="password" placeholder="Correo">
+												<input class="input" type="text" name="password" placeholder="Correo">
 												<input class="input" type="password" name="password" placeholder="Contraseña">
 									</div>
 								</div>
@@ -88,10 +102,10 @@
 								<label for="payments-1">Tarjeta de débito/crédito</label>
 								<div class="caption">
 									<p>
-										<input class="input" type="password" name="password" placeholder="Nombre Titular">
-										<input class="input" type="password" name="password" placeholder="Número Tarjeta">
-										<input class="input" type="password" name="password" placeholder="Fecha Vencimiento">
-										<input class="input" type="password" name="password" placeholder="CCV">
+										<input class="input" type="text" name="password" placeholder="Nombre Titular">
+										<input class="input" type="text" name="password" placeholder="Número Tarjeta">
+										<input class="input" type="text" name="password" placeholder="Fecha Vencimiento">
+										<input class="input" type="text" name="password" placeholder="CCV">
 								</div>
 							</div>
 							<div class="input-checkbox">
@@ -99,7 +113,7 @@
 								<label for="payments-3">Paypal</label>
 								<div class="caption">
 										<p>
-											<input class="input" type="password" name="password" placeholder="Correo">
+											<input class="input" type="text" name="password" placeholder="Correo">
 											<input class="input" type="password" name="password" placeholder="Contraseña">
 								</div>
 							</div>
@@ -211,6 +225,16 @@
 								<tfoot>
 									<tr>
 										<th class="empty" colspan="3"></th>
+										<th>Fecha</th>
+										<td colspan="2">20/04/2019</td>
+									</tr>
+									<tr>
+											<th class="empty" colspan="3"></th>
+											<th>Hora</th>
+											<td colspan="2">15:55</td>
+										</tr>
+									<tr>
+										<th class="empty" colspan="3"></th>
 										<th>ENVIO</th>
 										<td colspan="2">Normal</td>
 									</tr>
@@ -222,7 +246,7 @@
 								</tfoot>
 							</table>
 							<div class="pull-right">
-								<button class="primary-btn">Finalizar compra</button>
+									<button class="primary-btn" role="link" onclick="window.location.href = '../../index.php'">Finalizar compra </button>
 							</div>
 						</div>
 
