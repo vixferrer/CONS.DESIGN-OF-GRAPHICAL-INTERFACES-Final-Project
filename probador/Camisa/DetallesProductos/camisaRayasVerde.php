@@ -113,7 +113,7 @@
 						<div class="product-body">
 							<div class="product-label">
 							</div>
-							<h2 class="product-name">C<?php echo $det[1];?></h2>
+							<h2 class="product-name"><?php echo $det[1];?></h2>
 							<h3 class="product-price"><?php echo $det[3];?></h3>
 							<p style="color:rgb(175, 3, 3);"><strong style="color:black">Disponibilidad: </strong>Sin existencias</p>
 							<div class="product-options">
