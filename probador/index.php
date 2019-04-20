@@ -89,6 +89,7 @@
                 
                     <a class="estaSI finalizar"
                     href="<?php 
+                        echo "Preparando el probador...";
                         header('Location: vestuario/probador.php');?>"
                         <?php sleep(5); ?>> Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
