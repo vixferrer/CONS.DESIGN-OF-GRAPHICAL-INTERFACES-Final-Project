@@ -116,7 +116,7 @@
 
 	<div class="wrap">
 		<div class="store-wrapper">
-				<section class="products-list">
+			<section class="products-list">
 				<div class="product-item">
 					<img src="FotosPopu/camisetaMarvel.jpg" alt="" >
 					<a class= "nombreElemento" href="#">Camiseta Marvel</a>
@@ -131,7 +131,7 @@
 					<nav class="detallesYPrecio">
 						<a class = "boton" href="DetallesProductos/bermuda.php">+ Ver detalles</a>
 						<span class="precio">14.99 €</span>
-						</nav>
+					</nav>
 				</div>
 				<div class="product-item">
 					<img src="FotosPopu/camisetaAzul.jpg" alt="" >
