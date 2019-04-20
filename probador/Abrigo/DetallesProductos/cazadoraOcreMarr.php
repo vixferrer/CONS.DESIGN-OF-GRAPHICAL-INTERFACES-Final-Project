@@ -127,7 +127,7 @@
 								</ul>
 								<ul class="color-option">
 									<li><span class="text-uppercase">Color:</span></li>
-									<li><a href="#" style="background-color:rgb(121, 68, 0);"></a></li>
+									<li class="active"><a href="#" style="background-color:rgb(121, 68, 0);"></a></li>
 									<li><a href="cazadoraOcreNeg.php" style="background-color:rgb(19, 0, 0);"></a></li>
 								</ul>
 							</div>
