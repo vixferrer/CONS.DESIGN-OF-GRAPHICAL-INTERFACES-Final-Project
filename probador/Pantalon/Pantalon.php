@@ -10,7 +10,22 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/script.js"></script>
+	<script src="js/script.js"></script>
+	
+	<script>
+        function goTo(url) {
+            window.location = url;
+                 }
+        function esperar(espera) {
+            string="pausa_alerta("+espera+");";
+            setTimeout(string,espera);
+            alert("Trayendo ropa al probador... Espere...");
+                 }
+        function pausa_alerta(espera) {
+            alert("¡¡¡¡¡Vestuario listo!!!!!");
+            goTo('../vestuario/probador.php');
+                }
+    </script>
 </head>
 <body>
 	
@@ -47,7 +62,7 @@
                       onmouseout="src='Barra/Iconos/ofertas.png'"
 					  class="iconos"></a></li>  
 			
-					  <a class="estaSI finalizar" href=#>Finalizar Selección
+					  <a class="estaSI finalizar" role="link" onclick="esperar(3500);">Finalizar Selección
 						<img src = "Barra/Iconos/probador.png" 
 						  onmouseover="src='Barra/Iconos/probador2.png'" 
 						  onmouseout="src='Barra/Iconos/probador.png'"

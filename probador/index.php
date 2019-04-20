@@ -46,10 +46,10 @@
                 <li> <a href="../index.php"><img src="BarraPopu/Iconos/LOGO.png" class="logo"></a></li>
                 <li>
                     <a class="estaSI" href="Camisa/Camisa.php">
-                        Camisas<img src="BarraPopu/Iconos/camisa.png"
+                        Camisas<div id="link"><img src="BarraPopu/Iconos/camisa.png"
                                     onmouseover="src='BarraPopu/Iconos/camisa2.png'"
                                     onmouseout="src='BarraPopu/Iconos/camisa.png'"
-                                    class="iconos">
+                                    class="iconos"></div>
                     </a>
                 </li>
                 <li>
