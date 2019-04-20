@@ -20,19 +20,18 @@
     <script src="BarraPopu/menu.js"></script>
 
     <script>
-
         function goTo(url) {
             window.location = url;
-            }
-        function esperar(espera){
+                 }
+        function esperar(espera) {
             string="pausa_alerta("+espera+");";
             setTimeout(string,espera);
             alert("Trayendo ropa al probador... Espere...");
-            }
-        function pausa_alerta(espera){
+                 }
+        function pausa_alerta(espera) {
             alert("¡¡¡¡¡Vestuario listo!!!!!");
             goTo('vestuario/probador.php');
-            }
+                }
     </script>
 </head>
 <body>
@@ -101,8 +100,6 @@
                                     class="iconos">
                     </a>
                 </li>
-
-                <!-- role="link" onclick="window.location.href = 'carritodecompras.php';" -->
                     <a class="estaSI finalizar" role="link" onclick="esperar(3500);" > Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
