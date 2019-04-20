@@ -105,6 +105,9 @@ header #logo{
 	padding-bottom: 3px;
 	border-radius: 20px;
 }
+#title{
+	cursor: pointer;
+}
 
 .volver{
 	margin-top: 15px;
