@@ -6,7 +6,7 @@
     <title>Populares</title>
     <link rel="shortcut icon" href="../assets/images/logo4.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="BarraPopu/estilos.css">
+    <link rel="stylesheet" href="BarraPopu/estilosB.css">
 	<link rel="stylesheet" href="BarraPopu/fonts/style.css">
     <link rel="stylesheet" href="cssPopu/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
