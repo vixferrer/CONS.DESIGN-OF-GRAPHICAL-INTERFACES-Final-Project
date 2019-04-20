@@ -25,9 +25,9 @@
             window.location = url;
             }
         function esperar(espera){
-            alert("Preparando probador... Espera unos segundos a la confirmación...");
             string="pausa_alerta("+espera+");";
             setTimeout(string,espera);
+            alert("Preparando probador... Espera unos segundos a la confirmación...");
             }
         function pausa_alerta(espera){
             alert("¡¡¡¡¡Vestuario listo!!!!!");
