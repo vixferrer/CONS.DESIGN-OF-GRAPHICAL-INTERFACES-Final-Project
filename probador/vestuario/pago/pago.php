@@ -248,8 +248,9 @@
 								</tfoot>
 							</table>
 							<div class="pull-right">
-									<button class="primary-btn" role="link" onclick="window.location.href = '../../index.php'">Finalizar compra </button>
-									<a href="../../index.php">Finalizar Compra</a>
+								<div class="product-btns">
+								<a href="../../index.php"><button class="primary-btn add-to-cart">Finalizar compra </button></a>
+								</div>
 							</div>
 						</div>
 
