@@ -249,6 +249,7 @@
 							</table>
 							<div class="pull-right">
 									<button class="primary-btn" role="link" onclick="window.location.href = '../../index.php'">Finalizar compra </button>
+									<a href="../../index.php">Finalizar Compra</a>
 							</div>
 						</div>
 
