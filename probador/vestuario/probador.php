@@ -77,7 +77,7 @@
 						<div class="row justify-content-center">
 								<!--Titles-->
 								<div class="title pb-5 col-12">
-										<h2 class="align-left pb-3 mbr-fonts-style display-3">
+										<h2 class="align-left pb-3 mbr-fonts-style display-2">
 												Recomendados para ti:</h2>
 										
 								</div>
