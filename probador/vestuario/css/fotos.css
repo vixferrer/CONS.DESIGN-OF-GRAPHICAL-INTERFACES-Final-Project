@@ -4,58 +4,110 @@
 }
 
 input[type="radio"]{
- 	width: 145px;
- 	height: 170px;
+ 	width: 125px;
+ 	height: 145px;
  	border: 2px solid white;
- 	display: block;
+ 	display: inline-block;
  	-webkit-appearance: none;
 	margin-top: 10px;
-	margin-left: 400px;
+	margin-left: 430px;
 	size: 100px;
-	z-index: 2;
 	cursor: pointer;
 }
 
+
 .display-image{
 	width: 265px;
-	height: 545px;
+	height: 300px;
 	position: absolute;
 	top: 75px;
-	right: 650px;
+	right: 630px;
 	background-image: url(../img/maniquies.jpg);
 	background-size: 250px;
-	z-index: 1;
 	margin-top: 60px;
-	border: 3px solid white;
 }
 
-.camaraPrimero{
-	margin-top: 10px;
-	width: 70px;
-	height: 70px;
-	margin-left: 650px;
+.display-image2{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: 430px;
+	right: 645px;
+	background-image: url(../img/maniquies.jpg);
+	background-size: 250px;
+	background-position-y: -300px;
 }
 
 .camara{
-	margin-top: 10px;
+	margin-top: 13px;
+	width: 70px;
+	height: 70px;
+	margin-left: 660px;
+	display: inline-block;
+}
+
+.galeria{
+	margin-top: 13px;
 	width: 70px;
 	height: 70px;
 	margin-left: 50px;
+	display: inline-block;
 }
 
+/*PRENDAS ARRIBA*/
 #uno{
 	background-image: url(../../Abrigo/FotosProductos/abrigoCanguro.jpg);
 	background-size: cover;
 }
-#dos{
+#tres{
 	background-image: url(../../Jersey/FotosProductos/jerseyRayas.jpg);
 	background-size: cover;
 }
-#tres{
+#cinco{
 	background-image: url(../../DetallesProductos/img/camisetaBasicaAzul1.jpg);
 	background-size: cover;
 }
 
-#uno:checked~ .display-image{background-image: url(../img/uno.jpg);}
-#dos:checked~ .display-image{background-image: url(../img/cinco.jpg);}
-#tres:checked~ .display-image{background-image: url(../img/seis.jpg);}
+#uno:checked~ .display-image{background-image: url(../img/pruebaArriba1.jpg);}
+#tres:checked~ .display-image{background-image: url(../img/pruebaArriba3.jpg);}
+#cinco:checked~ .display-image{
+	background-image: url(../img/pruebaArriba2.jpg);
+	background-size: 246px;
+	background-position-x: 2px;
+}
+
+/*PRENDAS ABAJO*/
+#dos{
+	background-image: url(../../DetallesProductos/img/pantalonGranate1.jpg);
+	background-size: cover;
+}
+
+#cuatro{
+	background-image: url(../../DetallesProductos/img/faldaVaquera1.jpg);
+	background-size: cover;
+}
+#seis{
+	background-image: url(../../DetallesProductos/img/faldaPunk1.jpg);
+	background-size: cover;
+}
+
+
+#dos:checked~ .display-image2{
+	background-image: url(../img/pruebaAbajo3.jpg);
+	background-size: 215px;
+	background-position-y: 0px;
+	background-position-x: 20px;
+}
+#cuatro:checked~ .display-image2{
+	background-image: url(../img/pruebaAbajo1.jpg);
+	background-size: 215px;
+	background-position-y: 0px;
+	background-position-x: 20px;
+}
+#seis:checked~ .display-image2{
+	background-image: url(../img/pruebaAbajo2.jpg);
+	background-size: 215px;
+	background-position-y: 0px;
+	background-position-x: 20px;
+}
+
