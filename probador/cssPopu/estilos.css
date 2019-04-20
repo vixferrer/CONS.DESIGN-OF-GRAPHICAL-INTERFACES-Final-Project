@@ -32,6 +32,7 @@ body{
 	margin-left: 90px;
 	flex-direction: row;
 	flex-wrap: wrap;
+
 }
 
 .products-list .product-item{
@@ -52,14 +53,14 @@ body{
 	width: 100%;
 }
 
-.nombreElemento{
-	display: block;
-	width: 100%;
-	padding: 8px 0;
-	background: #87c0cd;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
+.nombreElemento {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: #87c0cd;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
 }
 
 .icono{
@@ -75,16 +76,19 @@ body{
 	margin-bottom: 15px;
 }
 
-.boton{
-	text-decoration: none;
+.boton {
+    text-decoration: none;
+    text-transform: uppercase;
     padding: 10px;
     font-weight: bold;
-		font-size: 11px;
-		font-family: inherit;
+    font-size: 11px;
+    font-family: inherit;
     color: #000000;
     background: #fff;
     border-radius: 35px;
     border: 3.5px solid #87c0cd;
+    margin-right: 10px;
+    margin-left: 10px;
 }
   
 .precio{
