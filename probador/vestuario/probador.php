@@ -21,6 +21,9 @@
  	 <link rel="stylesheet" href="Recomendados/assets/theme/css/style.css">
  	 <link href="Recomendados/assets/fonts/style.css" rel="stylesheet">
   	<link rel="stylesheet" href="Recomendados/assets/mobirise/css/mbr-additional.css" type="text/css">
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Barra/menu.js"></script>
   
 </head>
 
