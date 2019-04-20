@@ -55,8 +55,8 @@ fieldset{
 	height: 37px;
 }
 
-header a #logo{
-	position: relative;
+header #logo{
+	position: inherit;;
 	right: 90%;
 }
 .producto{

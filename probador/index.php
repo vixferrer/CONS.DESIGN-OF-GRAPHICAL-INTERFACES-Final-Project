@@ -6,7 +6,7 @@
     <title>Populares</title>
     <link rel="shortcut icon" href="../assets/images/logo4.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="BarraPopu/estilos.css">
+    <link rel="stylesheet" href="BarraPopu/estilosB.css">
 	<link rel="stylesheet" href="BarraPopu/fonts/style.css">
     <link rel="stylesheet" href="cssPopu/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -78,16 +78,16 @@
                     </a>
                 </li>
                 <li class="Minibarra9">
-                    <a class="Ofertas"<a class="estaSI" href="Ofertas/Ofertas.php">
+                    <a class="estaSI Ofertas" href="Ofertas/Ofertas.php">
                         Ofertas<img src="BarraPopu/Iconos/ofertas.png"
                                     onmouseover="src='BarraPopu/Iconos/ofertas2.png'"
                                     onmouseout="src='BarraPopu/Iconos/ofertas.png'"
                                     class="iconos">
-                    </a></a>
+                    </a>
                 </li>
 
                 
-                    <a class="estaSI finalizar" href=#>
+                    <a class="estaSI finalizar" href="vestuario/probador.php">
                         Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
