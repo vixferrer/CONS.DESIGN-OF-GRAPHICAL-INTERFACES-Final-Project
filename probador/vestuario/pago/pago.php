@@ -236,7 +236,7 @@
 											<td colspan="2">	
 												<script type="text/javascript">
 												var d = new Date();
-												document.write(+d.getHours(),':'+d.getMinutes(),':'+d.getSeconds());
+												document.write(+d.getHours(),':'+d.getMinutes());
 												</script>
 											</td>
 										</tr>
