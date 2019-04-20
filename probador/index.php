@@ -18,6 +18,16 @@
 
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="BarraPopu/menu.js"></script>
+
+    <script>
+        function esperar(espera){
+            string="pausa_alerta("+espera+");";
+            setTimeout(string,espera);
+            }
+            function pausa_alerta(espera){
+            alert("Ok "+espera/1000+" Segundos");
+        }
+    </script>
 </head>
 <body>
 	
@@ -87,10 +97,7 @@
                 </li>
 
                 
-                    <a class="estaSI finalizar"
-                    href="<?php header('Location: vestuario/probador.php');?>"
-                        <?php echo "Preparando el probador...";
-                            sleep(5); ?>> Finalizar Selección
+                    <a class="estaSI finalizar" href="vestuario/probador.php" onClick="esperar(5000);"> Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
                              onmouseout="src='BarraPopu/Iconos/probador.png'"
