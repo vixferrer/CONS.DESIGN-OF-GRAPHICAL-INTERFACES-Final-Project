@@ -440,7 +440,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
                         display: block;
                     }
 
-        /*PARA QUE EN EL MENU SE CENTRE:*/
+        /*PARA QUE EN EL MENU SE CENTRE:*********/
         .finalizar {
             display: inline-block;
             text-decoration: none;
@@ -488,7 +488,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             text-transform: uppercase;
             font-size: 13px;
         }
-
+        /********************************PARA EL HOVER*/
         .Faldas {
             margin-right: 0px;
             margin-left: 0px;
@@ -533,6 +533,25 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             width: 100%;
             background-color: #87c0cd
         }
+        /******************************PARA QUE EL ICONO SE ILUMINE A LA VEZ********/
+
+        .iconos {
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+            width: 419px;
+            height: 42px;
+            padding-left: 195px;
+            padding-right: 192px;
+            padding-top: 4px;
+            padding-bottom: 4px
+        }
+
+        .estaSI {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
 
         @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
 
