@@ -535,7 +535,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         }
         /******************************PARA QUE EL ICONO SE ILUMINE A LA VEZ********/
 
-        .iconos {
+        /**.iconos {
             display: block;
             margin-left: 0;
             margin-right: 0;
@@ -550,7 +550,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         .estaSI {
             margin-left: 0;
             margin-right: 0;
-        }
+        }*/
 
 
         @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
