@@ -11,21 +11,55 @@ input[type="radio"]{
  	display: inline-block;
  	-webkit-appearance: none;
 	margin-top: 10px;
-	margin-left: 430px;
+	margin-left: 420px;
 	size: 100px;
 	cursor: pointer;
 }
 
 .botonesArriba{
 	background-color: #f3f9fb;
+	vertical-align: center;
+	text-align: center
 }
 
+.item{
+	margin-top: 20px;
+	vertical-align: center;
+	display: inline-block;
+	text-align: center;
+	width: 80px;
+	margin-right: 20px;
+}
+
+.item2{
+	margin-top: 20px;
+	vertical-align: center;
+	display: inline-block;
+	text-align: center;
+	width: 80px;
+	margin-left: 20px;
+}
+
+.camara{
+	width: 70px;
+	height: 70px;
+}
+
+.galeria{
+	width: 70px;
+	height: 70px;
+}
+
+.titulo{
+	display: block;
+	color: black;
+}
 
 .display-image{
 	width: 265px;
 	height: 300px;
 	position: absolute;
-	top: 90px;
+	top: 115px;
 	right: 630px;
 	background-image: url(../img/maniquies.jpg);
 	background-size: 250px;
@@ -36,27 +70,11 @@ input[type="radio"]{
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	top: 445px;
+	top: 470px;
 	right: 645px;
 	background-image: url(../img/maniquies.jpg);
 	background-size: 250px;
 	background-position-y: -300px;
-}
-
-.camara{
-	margin-top: 20px;
-	width: 70px;
-	height: 70px;
-	margin-left: 660px;
-	display: inline-block;
-}
-
-.galeria{
-	margin-top: 20px;
-	width: 70px;
-	height: 70px;
-	margin-left: 50px;
-	display: inline-block;
 }
 
 /*PRENDAS ARRIBA*/
@@ -115,4 +133,3 @@ input[type="radio"]{
 	background-position-y: 0px;
 	background-position-x: 20px;
 }
-

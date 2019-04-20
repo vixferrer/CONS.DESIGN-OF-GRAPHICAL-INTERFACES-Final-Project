@@ -36,7 +36,7 @@
 </head>
 <body>
 	
-	<!-- BARRA DENAVEGACIÓN -->
+	<!-- BARRA DE NAVEGACIÓN -->
 	<header>
         <div class="menu_bar">
             <a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>

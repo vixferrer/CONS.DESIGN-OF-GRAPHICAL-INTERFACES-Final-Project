@@ -9,7 +9,8 @@
     <title>Vestuario</title>
     <link rel="shortcut icon" href="../assets/images/logo4.png" type="image/x-icon">
 
-		<link rel="stylesheet" href="Barra/style.css">
+		<link rel="stylesheet" href="Barra/estilosB.css">
+		<link rel="stylesheet" href="Barra/fonts/style.css">
 		<link rel="stylesheet" href="css/fotos.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
@@ -24,38 +25,49 @@
 </head>
 
 <body>
-	<!-- BARRA NAV -->
+	<!-- BARRA DE NAVEGACIÓN -->
 	<header>
-	<div class="container">
+			<div class="menu_bar">
+					<a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+			</div>
 			<nav>
-			 <ul>
-			   <li><img src = "../Iconos/LOGO.png" class="logo"></li>
-				 <li><a class="estaSI finalizar" href="../index.php">Volver a categorías
-						<img src = "../Iconos/atuendo.png" 
-						  onmouseover="src='../Iconos/atuendo2.png'"
-						  onmouseout="src='../Iconos/atuendo.png'"
-						  class="iconos"></a></li>
-					<li><a class="estaSI finalizar" href="pago/pago.php">Realizar Compra<img src = "img/euroIcono.png" 
-							onmouseover="src='img/euroIcono2.png'"
-						  onmouseout="src='img/euroIcono.png'"
-							class="iconos"></a></li>
-			 </ul>
-							 
-		   </nav>
-		 </div>
-		</header>
-	<!-- BARRA NAV -->
+					<ul>
+							<li> <a href="../index.php"><img src="Barra/Iconos/LOGO.png" class="logo"></a></li>
+							<li class="Minibarra9">
+									<a class="estaSI Ofertas" href="../index.php">
+											Volver a categorías<img src="Barra/Iconos/atuendo.png"
+																	onmouseover="src='Barra/Iconos/atuendo2.png'"
+																	onmouseout="src='Barra/Iconos/atuendo.png'"
+																	class="iconos">
+									</a>
+							</li>
+									<a href="pago/pago.php" class="estaSI finalizar">
+											Realizar Compra<img src="Barra/Iconos/euroIcono.png"
+																	onmouseover="src='Barra/Iconos/euroIcono2.png'"
+																	onmouseout="src='Barra/Iconos/euroIcono.png'"
+																	class="iconos">
+									</a>
+					</ul>
+			</nav>
+	</header>
 
+	<!-- RESTO DE PAGINA -->
 			<div class="botonesArriba">
-				<a href="#" class="titulo"><img src="img/camara.png" alt="camara"
+				<div class="item">
+						<a href="#" class="titulo"><img src="img/camara.png" alt="camara"
 						onmouseover="src='img/camara2.png'"	
 						onmouseout="src='img/camara.png'"
-						class="camara"/></a>
-				<a href="galeriaAtuendos/galeria.html"><img src="img/galeria.gif" alt="galeria" 
+						class="camara"/>Sacar Foto</a>
+					</div>
+
+				<div class="item2">
+						<a href="galeriaAtuendos/galeria.html" class="titulo"><img src="img/galeria.gif" alt="galeria" 
 						onmouseover="src='img/galeria2.gif'"	
 						onmouseout="src='img/galeria.gif'"
-						class="galeria"/></a>
+						class="galeria"/>Ver galería</a>
+					</div>
 			</div>
+
 
 		<div class="contenedor">
 				<input type="radio" name="prendasArriba" id="uno">
@@ -85,7 +97,7 @@
 								<div class="card col-12 col-md-6 col-lg-3">
 										<div class="card-wrapper">
 												<div class="card-img">
-														<img src="../Calzado/FotosProductos/cuñas.jpg" alt="Mobirise" title="">
+														<img src="../Calzado/FotosProductos/cuñas.jpg" alt="Cuñas" title="">
 												</div>
 												<div class="card-box pb-md-5">
 														<h4 class="card-title mbr-fonts-style display-5">
@@ -100,7 +112,7 @@
 								<div class="card col-12 col-md-6 col-lg-3">
 										<div class="card-wrapper">
 												<div class="card-img">
-														<img src="../Abrigo/FotosProductos/cazadoraMotera.jpg" alt="Mobirise" title="">
+														<img src="../Abrigo/FotosProductos/cazadoraMotera.jpg" alt="Cazadora Motera" title="">
 												</div>
 												<div class="card-box pb-md-5">
 														<h4 class="card-title mbr-fonts-style display-5">Cazadora motera</h4>
@@ -114,7 +126,7 @@
 								<div class="card col-12 col-md-6 col-lg-3">
 										<div class="card-wrapper">
 												<div class="card-img">
-														<img src="../Jersey/FotosProductos/jerseyGordo.jpg" alt="Mobirise" title="">
+														<img src="../Jersey/FotosProductos/jerseyGordo.jpg" alt="Jersey Gordo" title="">
 												</div>
 												<div class="card-box">
 														<h4 class="card-title mbr-fonts-style display-5">
@@ -129,7 +141,7 @@
 								<div class="card col-12 col-md-6 col-lg-3 last-child">
 										<div class="card-wrapper">
 												<div class="card-img">
-														<img src="../FotosPopu/bermudaVerde.jpg" alt="Mobirise" title="">
+														<img src="../FotosPopu/bermudaVerde.jpg" alt="Bermuda Verde" title="">
 												</div>
 												<div class="card-box">
 														<h4 class="card-title mbr-fonts-style display-5">
