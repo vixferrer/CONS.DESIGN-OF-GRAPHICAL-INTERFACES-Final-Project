@@ -27,7 +27,7 @@
         function esperar(espera){
             string="pausa_alerta("+espera+");";
             setTimeout(string,espera);
-            alert("Preparando probador... Espera unos segundos a la confirmación...");
+            alert("Trayendo ropa al probador... Espere...");
             }
         function pausa_alerta(espera){
             alert("¡¡¡¡¡Vestuario listo!!!!!");
