@@ -30,7 +30,7 @@
             <ul>
                 <li> <a href="../index.php"><img src="BarraPopu/Iconos/LOGO.png" class="logo"></a></li>
                 <li>
-                    <a class="estaSI" href="../Camisa/Camisa.php">
+                    <a class="estaSI" href="Camisa/Camisa.php">
                         Camisas<img src="BarraPopu/Iconos/camisa.png"
                                     onmouseover="src='BarraPopu/Iconos/camisa2.png'"
                                     onmouseout="src='BarraPopu/Iconos/camisa.png'"
@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="estaSI" href="../Pantalon/Pantalon.php">
+                    <a class="estaSI" href="Pantalon/Pantalon.php">
                         Pantalones <img src="BarraPopu/Iconos/pantalon.png"
                                         onmouseover="src='BarraPopu/Iconos/pantalon2.png'"
                                         onmouseout="src='BarraPopu/Iconos/pantalon.png'"
@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="estaSI " href="../Abrigo/Abrigo.php">
+                    <a class="estaSI " href="Abrigo/Abrigo.php">
                         Abrigos<img src="BarraPopu/Iconos/abrigo.png"
                                     onmouseover="src='BarraPopu/Iconos/abrigo2.png'"
                                     onmouseout="src='BarraPopu/Iconos/abrigo.png'"
@@ -54,7 +54,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="estaSI" href="../Jersey/Jersey.php">
+                    <a class="estaSI" href="Jersey/Jersey.php">
                         Jerseys<img src="BarraPopu/Iconos/jersey.png"
                                     onmouseover="src='BarraPopu/Iconos/jersey2.png'"
                                     onmouseout="src='BarraPopu/Iconos/jersey.png'"
@@ -62,7 +62,7 @@
                     </a>
                 </li>
                 <li class="Minibarra7">
-                    <a class="estaSI Faldas" href="../Falda/Falda.php">
+                    <a class="estaSI Faldas" href="Falda/Falda.php">
                         Faldas<img src="BarraPopu/Iconos/falda.png"
                                    onmouseover="src='BarraPopu/Iconos/falda2.png'"
                                    onmouseout="src='BarraPopu/Iconos/falda.png'"
@@ -70,7 +70,7 @@
                     </a>
                 </li>
                 <li class="Minibarra8">
-                    <a class="estaSI Calzado" href="../Calzado/Calzado.php">
+                    <a class="estaSI Calzado" href="Calzado/Calzado.php">
                         Calzado<img src="BarraPopu/Iconos/calzado.png"
                                     onmouseover="src='BarraPopu/Iconos/calzado2.png'"
                                     onmouseout="src='BarraPopu/Iconos/calzado.png'"
@@ -78,7 +78,7 @@
                     </a>
                 </li>
                 <li class="Minibarra9">
-                    <a class="Ofertas"<a class="estaSI" href="../Ofertas/Ofertas.php">
+                    <a class="Ofertas"<a class="estaSI" href="Ofertas/Ofertas.php">
                         Ofertas<img src="BarraPopu/Iconos/ofertas.png"
                                     onmouseover="src='BarraPopu/Iconos/ofertas2.png'"
                                     onmouseout="src='BarraPopu/Iconos/ofertas.png'"
