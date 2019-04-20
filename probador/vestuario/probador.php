@@ -39,8 +39,8 @@
 						onmouseout="src='img/camara.png'"
 						class="camara"/></a>
 				<a href="galeriaAtuendos/galeria.html"><img src="img/galeria.gif" alt="galeria" 
-						onmouseover="src='img/galeria2.png'"	
-						onmouseout="src='img/galeria.png'"
+						onmouseover="src='img/galeria2.gif'"	
+						onmouseout="src='img/galeria.gif'"
 						class="galeria"/></a>
 			</div>
 
