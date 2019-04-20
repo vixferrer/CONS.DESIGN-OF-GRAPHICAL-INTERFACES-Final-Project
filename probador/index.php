@@ -25,12 +25,12 @@
             window.location = url;
             }
         function esperar(espera){
-            alert("Preparando vestuario... Espera unos segundos...");
             string="pausa_alerta("+espera+");";
             setTimeout(string,espera);
+            alert("Trayendo ropa al probador... Espere...");
             }
         function pausa_alerta(espera){
-            alert("Vestuario listo!");
+            alert("¡¡¡¡¡Vestuario listo!!!!!");
             goTo('vestuario/probador.php');
             }
     </script>
@@ -103,7 +103,7 @@
                 </li>
 
                 <!-- role="link" onclick="window.location.href = 'carritodecompras.php';" -->
-                    <a class="estaSI finalizar" role="link" onclick="esperar(5000);" > Finalizar Selección
+                    <a class="estaSI finalizar" role="link" onclick="esperar(3500);" > Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
                              onmouseout="src='BarraPopu/Iconos/probador.png'"
