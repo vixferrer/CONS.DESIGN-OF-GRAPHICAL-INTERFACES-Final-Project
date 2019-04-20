@@ -25,7 +25,6 @@ header a{
 	left: 90%;
 	display: inline-block;
 	vertical-align: top;
-	position: fixed;
 	z-index: 2;
 
 }
@@ -55,7 +54,7 @@ fieldset{
 	height: 37px;
 }
 
-header a #logo{
+header #logo{
 	position: relative;
 	right: 90%;
 }
