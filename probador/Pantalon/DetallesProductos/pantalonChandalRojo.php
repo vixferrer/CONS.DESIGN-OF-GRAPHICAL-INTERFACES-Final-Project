@@ -59,7 +59,7 @@
 					onmouseout="src='../Barra/Iconos/ofertas.png'"
 					class="iconos"></a></li>  
 		 
-				   <a class="estaSI finalizar" href=#>Finalizar Selección
+				   <a class="estaSI finalizar"  role="link" onclick="esperar(3500);">Finalizar Selección
 					 <img src = "../Barra/Iconos/probador.png" 
 					   onmouseover="src='../Barra/Iconos/probador2.png'" 
 					   onmouseout="src='../Barra/Iconos/probador.png'"
