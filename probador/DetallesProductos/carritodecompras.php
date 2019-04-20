@@ -93,7 +93,7 @@
 				<div class="producto">
 						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
-						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?></span><br>
+						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?> €</span><br>
 				</div>
 			<?php
 				$total=($datos[$i]['Cantidad']*$datos[$i]['Precio'])+$total;
@@ -102,7 +102,7 @@
 			}else{
 				echo '<center><h2>No has añadido ningun producto</h2></center>';
 			}
-			echo '<center><h2 id="total">Total: '.$total.'</h2></center>';
+			echo '<center><h2 id="total">Total: '.$total.' €</h2></center>';
 			
 		?>
 		<center><a href="../../probador/index.php" class="volver aceptar" >Volver a tienda</a></center>
