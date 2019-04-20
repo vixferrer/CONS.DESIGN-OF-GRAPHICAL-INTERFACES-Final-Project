@@ -455,8 +455,8 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             display: inline-block;
             text-decoration: none;
             vertical-align: middle;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 0px;
+            margin-left: 0px;
             text-align: center;
             color: rgb(27, 27, 27);
             text-transform: uppercase;
@@ -467,8 +467,8 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             display: inline-block;
             text-decoration: none;
             vertical-align: middle;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 0px;
+            margin-left: 0px;
             text-align: center;
             color: rgb(27, 27, 27);
             text-transform: uppercase;
@@ -479,8 +479,8 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             display: inline-block;
             text-decoration: none;
             vertical-align: middle;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 0px;
+            margin-left: 0px;
             text-align: center;
             color: rgb(27, 27, 27);
             text-transform: uppercase;
@@ -492,15 +492,31 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             margin-left: 0px;
         }
 
-        header nav ul li::before {
-            content: '';
-            display: inline-block;
-            height: 4px;
-            position: absolute;
-            background-color: #87c0cd; /*color de mi barra*/
-            bottom: 0;
+        header nav ul li a.Faldas:hover::before {
             width: 0%;
-            transition: all ease-in-out 230ms;
+        }
+
+        header nav ul li a.Calzado:hover::before {
+            width: 0%;
+        }
+
+        header nav ul li a.Ofertas:hover::before {
+            width: 0%;
+        }
+
+        header nav ul li.Minibarra9::before {
+            width: 0%;
+            background-color: #87c0cd
+        }
+
+        header nav ul li.Minibarra8::before {
+            width: 0%;
+            background-color: #87c0cd
+        }
+
+        header nav ul li:hover::before { /*Tamaño de barra del hover*/
+            width: 100%;
+            background-color: #87c0cd
         }
 
         @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
