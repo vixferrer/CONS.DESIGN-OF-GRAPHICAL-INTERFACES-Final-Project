@@ -78,12 +78,12 @@
                     </a>
                 </li>
                 <li class="Minibarra9">
-                    <a class="Ofertas"<a class="estaSI" href="Ofertas/Ofertas.php">
+                    <a class="estaSI Ofertas" href="Ofertas/Ofertas.php">
                         Ofertas<img src="BarraPopu/Iconos/ofertas.png"
                                     onmouseover="src='BarraPopu/Iconos/ofertas2.png'"
                                     onmouseout="src='BarraPopu/Iconos/ofertas.png'"
                                     class="iconos">
-                    </a></a>
+                    </a>
                 </li>
 
                 
