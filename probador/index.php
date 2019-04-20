@@ -23,8 +23,8 @@
         function goTo(url) {
             window.location = url;
             }
-        function esperar{
-        setTimeout("goTo('vestuario/probador.php')", 5000);}
+        alert ("Preparando...");
+        setTimeout("goTo('vestuario/probador.php')", 5000);
     </script>
 </head>
 <body>
@@ -95,7 +95,7 @@
                 </li>
 
                 <!-- role="link" onclick="window.location.href = 'carritodecompras.php';" -->
-                    <a class="estaSI finalizar" onclick="esperar();" > Finalizar Selección
+                    <a class="estaSI finalizar" role="link" onclick="esperar();" > Finalizar Selección
                         <img src="BarraPopu/Iconos/probador.png"
                              onmouseover="src='BarraPopu/Iconos/probador2.png'"
                              onmouseout="src='BarraPopu/Iconos/probador.png'"
