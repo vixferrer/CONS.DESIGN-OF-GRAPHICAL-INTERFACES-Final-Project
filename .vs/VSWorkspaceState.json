@@ -3,8 +3,10 @@
     "",
     "\\probador",
     "\\probador\\BarraPopu",
-    "\\probador\\DetallesProductos\\Barra"
+    "\\probador\\cssPopu",
+    "\\probador\\vestuario",
+    "\\probador\\vestuario\\Barra"
   ],
-  "SelectedNode": "\\probador\\BarraPopu\\estilos.css",
+  "SelectedNode": "\\probador\\vestuario\\Barra\\estilosB.css",
   "PreviewInSolutionExplorer": false
 }
