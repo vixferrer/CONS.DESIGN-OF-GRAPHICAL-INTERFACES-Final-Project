@@ -105,9 +105,9 @@
 			for($i=0;$i<count($datos);$i++)
 			{?>
 				<div class="producto">
-						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
-						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
-						<span class="precio"><?php echo $datos[$i]['Precio'];?> €</span><br>
+						<img src="./img/<?php echo $datos[$i]['Imagen'];?>">
+						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span>
+						<span class="precio"><?php echo $datos[$i]['Precio'];?> €</span>
 						<button class="eliminar" type="button">Eliminar</button>
 				</div>
 			<?php
