@@ -2,6 +2,10 @@ $(document).ready(main);
 
 var contador = 1;
 
+$('.menu_bar').each(function () {
+    this.onclick = function () { }
+});
+
 function main() {
     $('.menu_bar').click(function () {
         if (contador == 1) {
