@@ -450,9 +450,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 480px) {
-  [class*='col-xs'] {
-    width: 100%;
-  }
   .contenedor{
     width: 50%;
     margin-left: 100px;
