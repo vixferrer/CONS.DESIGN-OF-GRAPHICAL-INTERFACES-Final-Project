@@ -20,7 +20,7 @@
 						$nombre="";
 						$precio=0;
 						$imagen="";
-						$consulta='select * from faldas where id='.$_GET['id'];
+						$consulta='select * from abrigos where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -47,7 +47,7 @@
 			$nombre="";
 			$precio=0;
 			$imagen="";
-			$consulta='select * from faldas where id='.$_GET['id'];
+			$consulta='select * from abrigos where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -70,54 +70,42 @@
 	<title>Vestuario</title>
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript"  src="../js/scripts.js"></script>
-
-	<script>
-        function goTo(url) {
-            window.location = url;
-                 }
-        function esperar(espera) {
-            string="pausa_alerta("+espera+");";
-            setTimeout(string,espera);
-            alert("Trayendo ropa al probador... Espere...");
-                 }
-        function pausa_alerta(espera) {
-            alert("¡¡¡¡¡Vestuario listo!!!!!");
-            goTo('../../vestuario/probador.php');
-                }
-    </script>
+	<script src="store.js" async></script>
+	<!-- <script type="text/javascript"  src="js/scripts.js"></script> -->
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+	<!-- <script src="https://code.jquery.com/jquery-latest.js"></script> -->
 </head>
 <body>
 	<header>
 		<a href="../../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
-		<a  role="link" onclick="esperar(3500);" title="Ver vestuario">
+		<a href="./carritodecompras.php" title="Ver vestuario">
 			<img src="./imagenes/carrito.png">
 		</a>
 	</header>
-	<section>
+	<section class="cart-items">
 		<?php
 			$total=0;
 			if(isset($_SESSION[$dbname])){
 			$datos=$_SESSION[$dbname];
 			
 			$total=0;
-			for($i=0;$i<count($datos);$i++){
-				
-	?>
+			for($i=0;$i<count($datos);$i++)
+			{?>
 				<div class="producto">
 						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
-						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?> €</span><br>
+						<span class="precio"><?php echo $datos[$i]['Precio'];?> €</span><br>
+						<button class="eliminar" type="button">Eliminar</button>
 				</div>
 			<?php
-				$total=($datos[$i]['Cantidad']*$datos[$i]['Precio'])+$total;
+				$total=($datos[$i]['Precio'])+$total;
 			}
 				
 			}else{
 				echo '<center><h2>No has añadido ningun producto</h2></center>';
 			}
-			echo '<center><h2 id="total">Total: '.$total.' €</h2></center>';
+			echo '<center><h2 id="total">Total:'.$total.'</h2></center>';
+			
 		?>
 		<center><a href="../../../probador/index.php" class="volver aceptar" >Volver a tienda</a></center>
 		
