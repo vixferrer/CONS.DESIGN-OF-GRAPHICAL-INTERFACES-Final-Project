@@ -93,6 +93,7 @@ ul, ol {
   padding-bottom: 30px;
 }
 
+
 /*----------------------------*\
 	Mobile nav
 \*----------------------------*/
@@ -425,22 +426,35 @@ ul, ol {
   .product-reviews {
     margin-bottom: 30px;
   }
+  .contenedor{
+    width: 60.3%;
+    margin-left: 100px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-  .banner h1 {
-    font-size: 36px;
+  #home .home-wrap {
+    margin-left: 0px;
   }
-  .store-filter .pull-right, .store-filter .pull-left {
-    float: none !important;
+  #aside {
+    margin-bottom: 60px;
   }
-  .store-filter .pull-right {
-    margin-top: 15px;
+  .product-reviews {
+    margin-bottom: 30px;
   }
+  .contenedor{
+    width: 60.3%;
+    margin-left: 100px;
+  }
+  
 }
 
 @media only screen and (max-width: 480px) {
   [class*='col-xs'] {
     width: 100%;
+  }
+  .contenedor{
+    width: 50%;
+    margin-left: 50px;
   }
 }
