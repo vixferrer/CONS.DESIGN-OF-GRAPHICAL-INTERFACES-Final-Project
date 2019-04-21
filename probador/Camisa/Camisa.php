@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="../../assets/images/logo4.png" type="image/x-icon">
 
 	<link rel="stylesheet" href="Barra/estilosB.css">
-	<link rel="stylesheet" href="Barra/style.css">
     <link rel="stylesheet" href="Barra/fonts/style.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
