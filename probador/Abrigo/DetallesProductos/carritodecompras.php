@@ -94,7 +94,6 @@
 				<div class="producto">
 						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
-						<span>Precio:</span>
 						<span class="precio"><?php echo $datos[$i]['Precio'];?> €</span><br>
 						<button class="eliminar" type="button">Eliminar</button>
 				</div>
