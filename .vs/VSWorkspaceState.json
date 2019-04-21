@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\probador",
-    "\\probador\\BarraPopu",
-    "\\probador\\cssPopu",
-    "\\probador\\vestuario",
+    "\\probador\\Camisa",
+    "\\probador\\Camisa\\Barra",
     "\\probador\\vestuario\\Barra"
   ],
-  "SelectedNode": "\\probador\\vestuario\\Barra\\estilosB.css",
+  "SelectedNode": "\\probador\\Camisa\\Barra\\menu.js",
   "PreviewInSolutionExplorer": false
 }
