@@ -20,18 +20,16 @@ function removeCartItem(event) {
 
 function updateCartTotal() {
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]
-    console.log(cartItemContainer)
     var cartRows = cartItemContainer.getElementsByClassName('producto')
-    console.log(cartRows)
     var total = 0
     for (var i = 0; i < cartRows.length; i++){
         var cartRow = cartRows[i]
         var priceElement = cartRow.getElementsByClassName('precio')[0]
-        console.log(priceElement)
         var price = parseFloat(priceElement.innerText.replace('€', ''))
+        console.log(price)
         total = total + price
     }
     total = Math.round(total * 100) / 100
     console.log(total)
-    document.getElementsByClassName('total')[0].innerText = total + '€'
+    document.getElementsByID('total')[0].innerText = total + '€'
 }
