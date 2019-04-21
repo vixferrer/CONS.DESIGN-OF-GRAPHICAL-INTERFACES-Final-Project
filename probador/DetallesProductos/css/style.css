@@ -98,7 +98,7 @@ ul, ol {
 	Mobile nav
 \*----------------------------*/
 
-#header .nav-toggle {
+/*#header .nav-toggle {
   display: none;
 }
 
@@ -196,7 +196,7 @@ ul, ol {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 99;
   }
-}
+}/*
 
 /*=========================================================
 	06 -> PRODUCT
