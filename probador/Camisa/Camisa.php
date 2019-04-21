@@ -16,9 +16,6 @@
 
 	<script src="js/jquery-3.2.1.js"></script>
 	<script src="js/script.js"></script>
-	
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="Barra/menu.js"></script>
 
 	<script>
         function goTo(url) {
@@ -166,6 +163,15 @@
 			</section>
 		</div>
 	</div>
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
 
-</body>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Barra/menu.js"></script>
+   </body>
 </html>
