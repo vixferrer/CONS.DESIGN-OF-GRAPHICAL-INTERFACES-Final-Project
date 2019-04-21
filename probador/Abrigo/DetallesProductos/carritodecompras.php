@@ -70,6 +70,7 @@
 	<title>Vestuario</title>
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
+	<script src="store.js" async></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript"  src="../js/scripts.js"></script>
 </head>
@@ -94,6 +95,7 @@
 						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
 						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?> €</span><br>
+						<button class="eliminar" type="button">Eliminar</button>
 				</div>
 			<?php
 				$total=($datos[$i]['Cantidad']*$datos[$i]['Precio'])+$total;
