@@ -98,7 +98,7 @@ ul, ol {
 	Mobile nav
 \*----------------------------*/
 
-#header .nav-toggle {
+/*#header .nav-toggle {
   display: none;
 }
 
@@ -113,7 +113,6 @@ ul, ol {
     margin-top: 10px;
   }
   #responsive-nav {
-    position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
@@ -197,7 +196,7 @@ ul, ol {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 99;
   }
-}
+}/*
 
 /*=========================================================
 	06 -> PRODUCT
@@ -422,6 +421,7 @@ ul, ol {
     width: 60.3%;
     margin-left: 100px;
   }
+  
 }
 
 @media screen and (max-width: 767px) {
