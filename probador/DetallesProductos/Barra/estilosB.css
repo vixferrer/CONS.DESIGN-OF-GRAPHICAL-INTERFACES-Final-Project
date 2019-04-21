@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+ï»¿@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 * {
     padding: 0;
     margin: 0;
@@ -85,7 +85,7 @@ header nav ul li::before {
                     background: #fff;
                 }
 
-header nav ul li:hover::before {/*Tamaño de barra del hover*/
+header nav ul li:hover::before {/*TamaÃ±o de barra del hover*/
     width: 100%;
 }
 
@@ -122,67 +122,130 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
 
 /**********************************************************************************RESPONSIVE************************************************************************/
 
-@media screen and (max-width: 1545px) {/**************************1545px*************************/
+@media screen and (max-width: 1562px) { /**************************1562px*************************/
 
     .finalizar {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
         margin-right: 10px;
-        margin-left: 10px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
+        margin-left: 109px;
     }
-
-
 }
 
-@media screen and (max-width: 1408px) {/**************************1408px****************************/
+
+@media screen and (max-width: 1545px) { /**************************1545px*************************/
 
     .finalizar {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1442px) { /**************************1442px****************************/
+
+    .finalizar {
+        margin-right: 0px;
+        margin-left: 3px;
+    }
+}
+
+@media screen and (max-width: 1425px) { /**************************1425px****************************/
+
+    header nav ul li a {
+        margin-right: 9px;
+        margin-left: 9px;
+    }
+}
+
+@media screen and (max-width: 1409px) { /**************************1409px****************************/
+
+    header nav ul li a {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 1393px) { /**************************1393px****************************/
+
+    header nav ul li a {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width: 1377px) { /**************************1377px****************************/
+
+    header nav ul li a {
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+}
+
+@media screen and (max-width: 1361px) { /**************************1361px****************************/
+
+    header nav ul li a {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1345px) { /**************************1345px****************************/
+
+    header nav ul li a {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+}
+
+@media screen and (max-width: 1329px) { /**************************1329px****************************/
+
+    header nav ul li a {
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+}
+
+@media screen and (max-width: 1313px) { /**************************1313px****************************/
+
+    header nav ul li a {
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 1297px) { /**************************1297px****************************/
+
+    header nav ul li a {
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+}
+
+@media screen and (max-width: 1281px) { /**************************1281px****************************/
+
+    header nav ul li a {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1265px) { /**************************1265px****************************/
+
+    .finalizar {
         margin-right: 10px;
         margin-left: 614.3583px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
-    }
-
 }
 
-@media screen and (max-width: 1242px) {/**********************1242px************************/
+
+@media screen and (max-width: 1082px) { /**********************1082px************************/
 
     .finalizar {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
         margin-right: 10px;
         margin-left: 10px;
         text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
     }
 
     .Ofertas {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
         margin-right: 0px;
         margin-left: 468.7655px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
     }
 
     header nav ul li.Minibarra9::before {
@@ -211,13 +274,66 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         color: #87c0cd;
     }
 
-    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
-        width: 19.30%;
-    }
+        header nav ul li a.Ofertas:hover::before { /*TamaÃ±o de barra del hover*/
+            width: 19.30%;
+        }
 }
 
-@media screen and (max-width: 1109px) {/************************1109px*************************/
+@media screen and (max-width: 1024px) { /****************************************MENU**************************/
+    body {
+        padding-top: 80px;
+    }
 
+    .menu_bar {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: #fff;
+    }
+
+        .menu_bar .bt-menu {
+            display: block;
+            padding: 20px;
+            color: #87c0cd;
+            overflow: hidden;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .menu_bar span {
+            float: right;
+            font-size: 40px;
+        }
+
+    header nav {
+        width: 50%;
+        height: calc(100% - 80px);
+        position: fixed;
+        right: 100%;
+        margin: 0;
+        overflow: scroll;
+        border-top: 1.5px solid #87c0cd;
+    }
+
+        header nav ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+            header nav ul li {
+                display: inline-block;
+                border-right: 1.5px solid #fff;
+                border-bottom: 1px solid rgb(128, 128, 128, 0.25);
+                margin-left: 0px
+            }
+
+                header nav ul li a {
+                    display: block;
+                }
+
+    /*PARA QUE EN EL MENU SE CENTRE:*********/
     .finalizar {
         display: inline-block;
         text-decoration: none;
@@ -228,10 +344,9 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         color: rgb(27, 27, 27);
         text-transform: uppercase;
         font-size: 13px;
-        padding-top: 3px;
     }
 
-    .Ofertas {
+    .Minibarra9 {
         display: inline-block;
         text-decoration: none;
         vertical-align: middle;
@@ -241,301 +356,79 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         color: rgb(27, 27, 27);
         text-transform: uppercase;
         font-size: 13px;
-        padding-top: 3px;
     }
 
-    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
-        width: 100%;
-    }
-
-    .Calzado {
+    .Minibarra8 {
         display: inline-block;
         text-decoration: none;
         vertical-align: middle;
         margin-right: 0px;
-        margin-left: 346.2655px;
+        margin-left: 0px;
         text-align: center;
         color: rgb(27, 27, 27);
         text-transform: uppercase;
         font-size: 13px;
-        padding-top: 3px;
+    }
+
+    .Minibarra7 {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    /********************************PARA EL HOVER*/
+    .Faldas {
+        margin-right: 0px;
+        margin-left: 0px;
+        display: block;
+    }
+
+    .Calzado {
+        margin-right: 0px;
+        margin-left: 0px;
+        display: block;
+    }
+
+    .Ofertas {
+        margin-right: 0px;
+        margin-left: 0px;
+        display: block;
+    }
+
+    header nav ul li a.Faldas:hover::before {
+        width: 0%;
+    }
+
+    header nav ul li a.Calzado:hover::before {
+        width: 0%;
+    }
+
+    header nav ul li a.Ofertas:hover::before {
+        width: 0%;
+    }
+
+    header nav ul li.Minibarra9::before {
+        width: 0%;
+        background-color: #87c0cd
     }
 
     header nav ul li.Minibarra8::before {
-        content: '';
-        display: flex;
-        height: 4px;
-        position: absolute;
-        background-color: #fff;
-        bottom: 0;
         width: 0%;
-        transition: all ease-in-out 230ms;
+        background-color: #87c0cd
     }
 
-    header nav ul li a.Calzado::before {
-        content: '';
-        display: flex;
-        height: 4px;
-        position: absolute;
-        background-color: #87c0cd;
-        bottom: 0;
-        width: 0%;
-        transition: all ease-in-out 230ms;
-    }
-
-    header nav ul li a.Calzado:hover { /*Color de texto tras pasar el raton*/
-        color: #87c0cd;
-    }
-
-     header nav ul li a.Calzado:hover::before { /*Tamaño de barra del hover*/
-            width: 24.30%;
-     }
-
-}
-
-@media screen and (max-width: 975px){/*************************975px*******************************************/
-
-    .finalizar {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-        margin-right: 10px;
-        margin-left: 10px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
-    }
-
-    .Ofertas {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-        margin-right: 0px;
-        margin-left: 0px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
-    }
-
-    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
+    header nav ul li:hover::before { /*Tamaï¿½o de barra del hover*/
         width: 100%;
+        background-color: #87c0cd
     }
+    /******************************PARA QUE EL ICONO SE ILUMINE A LA VEZ********/
 
-    .Calzado {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-        margin-right: 0px;
-        margin-left: 0px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
-    }
-
-    header nav ul li a.Calzado:hover::before { /*Tamaño de barra del hover*/
-        width: 100%;
-    }
-
-    .Faldas {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-        margin-right: 0px;
-        margin-left: 305.2655px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        padding-top: 3px;
-    }
-
-    header nav ul li.Minibarra7::before {
-        content: '';
-        display: flex;
-        height: 4px;
-        position: absolute;
-        background-color: #fff;
-        bottom: 0;
-        width: 0%;
-        transition: all ease-in-out 230ms;
-    }
-
-    header nav ul li a.Faldas::before {
-        content: '';
-        display: flex;
-        height: 4px;
-        position: absolute;
-        background-color: #87c0cd;
-        bottom: 0;
-        width: 0%;
-        transition: all ease-in-out 230ms;
-    }
-
-    header nav ul li a.Faldas:hover { /*Color de texto tras pasar el raton*/
-        color: #87c0cd;
-    }
-
-        header nav ul li a.Faldas:hover::before { /*Tamaño de barra del hover*/
-            width: 24.30%;
-        }
-}
-
-    @media screen and (max-width: 850px) {/****************************************MENU**************************/
-        body {
-            padding-top: 80px;
-        }
-
-        .menu_bar {
-            display: block;
-            width: 100%;
-            position: absolute;
-            top: 0;
-            background: #fff;
-        }
-
-            .menu_bar .bt-menu {
-                display: block;
-                padding: 20px;
-                color: #87c0cd;
-                overflow: hidden;
-                font-size: 25px;
-                font-weight: bold;
-                text-decoration: none;
-            }
-
-            .menu_bar span {
-                float: right;
-                font-size: 40px;
-            }
-
-        header nav {
-            width: 50%;
-            height: calc(100% - 80px);
-            position: absolute;
-            right: 100%;
-            margin: 0;
-            overflow: scroll;
-            border-top: 1.5px solid #87c0cd;
-        }
-
-            header nav ul {
-                display: flex;
-                flex-direction: column;
-            }
-
-                header nav ul li {
-                    display: inline-block;
-                    border-right: 1.5px solid #fff;
-                    border-bottom: 1px solid rgb(128, 128, 128, 0.25);
-                    margin-left: 0px
-                }
-
-                    header nav ul li a {
-                        display: block;
-                    }
-
-        /*PARA QUE EN EL MENU SE CENTRE:*********/
-        .finalizar {
-            display: inline-block;
-            text-decoration: none;
-            vertical-align: middle;
-            margin-right: 10px;
-            margin-left: 10px;
-            text-align: center;
-            color: rgb(27, 27, 27);
-            text-transform: uppercase;
-            font-size: 13px;
-        }
-
-        .Minibarra9 {
-            display: inline-block;
-            text-decoration: none;
-            vertical-align: middle;
-            margin-right: 0px;
-            margin-left: 0px;
-            text-align: center;
-            color: rgb(27, 27, 27);
-            text-transform: uppercase;
-            font-size: 13px;
-        }
-
-        .Minibarra8 {
-            display: inline-block;
-            text-decoration: none;
-            vertical-align: middle;
-            margin-right: 0px;
-            margin-left: 0px;
-            text-align: center;
-            color: rgb(27, 27, 27);
-            text-transform: uppercase;
-            font-size: 13px;
-        }
-
-        .Minibarra7 {
-            display: inline-block;
-            text-decoration: none;
-            vertical-align: middle;
-            margin-right: 0px;
-            margin-left: 0px;
-            text-align: center;
-            color: rgb(27, 27, 27);
-            text-transform: uppercase;
-            font-size: 13px;
-        }
-        /********************************PARA EL HOVER*/
-        .Faldas {
-            margin-right: 0px;
-            margin-left: 0px;
-            display: block;
-        }
-
-        .Calzado {
-            margin-right: 0px;
-            margin-left: 0px;
-            display: block;
-        }
-
-        .Ofertas {
-            margin-right: 0px;
-            margin-left: 0px;
-            display: block;
-        }
-
-        header nav ul li a.Faldas:hover::before {
-            width: 0%;
-        }
-
-        header nav ul li a.Calzado:hover::before {
-            width: 0%;
-        }
-
-        header nav ul li a.Ofertas:hover::before {
-            width: 0%;
-        }
-
-        header nav ul li.Minibarra9::before {
-            width: 0%;
-            background-color: #87c0cd
-        }
-
-        header nav ul li.Minibarra8::before {
-            width: 0%;
-            background-color: #87c0cd
-        }
-
-        header nav ul li:hover::before { /*Tamaño de barra del hover*/
-            width: 100%;
-            background-color: #87c0cd
-        }
-        /******************************PARA QUE EL ICONO SE ILUMINE A LA VEZ********/
-
-        /**.iconos {
+    /**.iconos {
             display: block;
             margin-left: 0;
             margin-right: 0;
@@ -553,51 +446,51 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         }*/
 
 
-        @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
+    @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
 
 
-            .logo {
-                margin-top: 7px;
-                margin-right: 10px;
-                margin-left: 10px;
-                width: 200px;
-                height: 47px;
-            }
-        }
-
-        @media screen and (max-width: 482px) { /*MENU PARA MOVILES*/
-
-
-            .logo {
-                margin-top: 7px;
-                margin-right: 10px;
-                margin-left: 10px;
-                width: 150px;
-                height: 47px;
-            }
-        }
-
-        @media screen and (max-width: 382px) { /*MENU PARA MOVILES*/
-
-
-            .logo {
-                margin-top: 7px;
-                margin-right: 10px;
-                margin-left: 10px;
-                width: 120px;
-                height: 47px;
-            }
-        }
-
-        @media screen and (max-width: 322px) { /*MENU PARA MOVILES*/
-
-
-            .logo {
-                margin-top: 7px;
-                margin-right: 10px;
-                margin-left: 10px;
-                width: 115px;
-                height: 47px;
-            }
+        .logo {
+            margin-top: 7px;
+            margin-right: 10px;
+            margin-left: 10px;
+            width: 200px;
+            height: 47px;
         }
     }
+
+    @media screen and (max-width: 482px) { /*MENU PARA MOVILES*/
+
+
+        .logo {
+            margin-top: 7px;
+            margin-right: 10px;
+            margin-left: 10px;
+            width: 150px;
+            height: 47px;
+        }
+    }
+
+    @media screen and (max-width: 382px) { /*MENU PARA MOVILES*/
+
+
+        .logo {
+            margin-top: 7px;
+            margin-right: 10px;
+            margin-left: 10px;
+            width: 120px;
+            height: 47px;
+        }
+    }
+
+    @media screen and (max-width: 322px) { /*MENU PARA MOVILES*/
+
+
+        .logo {
+            margin-top: 7px;
+            margin-right: 10px;
+            margin-left: 10px;
+            width: 115px;
+            height: 47px;
+        }
+    }
+}
