@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" href="Barra/estilosB.css">
     <link rel="stylesheet" href="Barra/fonts/style.css">
-
     <link rel="stylesheet" href="css/estilos.css">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
