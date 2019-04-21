@@ -416,7 +416,7 @@ ul, ol {
 	12 -> RESPONSIVE
 ===========================================================*/
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   #home .home-wrap {
     margin-left: 0px;
   }
@@ -432,7 +432,7 @@ ul, ol {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   #home .home-wrap {
     margin-left: 0px;
   }
@@ -449,7 +449,7 @@ ul, ol {
   
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .contenedor{
     width: 50%;
     margin-left: 100px;
