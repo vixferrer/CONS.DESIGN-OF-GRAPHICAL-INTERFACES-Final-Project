@@ -281,64 +281,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     }
 }
 
-@media screen and (max-width: 958px) { /*************************958px*******************************************/
-
-
-
-
-
-    header nav ul li a.Ofertas:hover::before { /*Tama�o de barra del hover*/
-        width: 100%;
-    }
-
-
-
-    header nav ul li a.Calzado:hover::before { /*Tama�o de barra del hover*/
-        width: 100%;
-    }
-
-
-
-    header nav ul li.Minibarra7::before {
-        content: '';
-        display: flex;
-        height: 4px;
-        position: absolute;
-        background-color: #fff;
-        bottom: 0;
-        width: 0%;
-        transition: all ease-in-out 230ms;
-    }
-
-    header nav ul li a.Faldas::before {
-        content: '';
-        display: flex;
-        height: 4px;
-        position: absolute;
-        background-color: #87c0cd;
-        bottom: 0;
-        width: 0%;
-        transition: all ease-in-out 230ms;
-    }
-
-    header nav ul li a.Faldas:hover { /*Color de texto tras pasar el raton*/
-        color: #87c0cd;
-    }
-
-        header nav ul li a.Faldas:hover::before { /*Tama�o de barra del hover*/
-            width: 24.30%;
-        }
-
-    .Minibarra9 {
-        left: 31.5%;
-    }
-
-    .Minibarra8 {
-        left: 31.5%;
-    }
-}
-
-@media screen and (max-width: 850px) { /****************************************MENU**************************/
+@media screen and (max-width: 1024px) { /****************************************MENU**************************/
 
     .Minibarra9 {
         left: 0%;
@@ -424,6 +367,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
         color: rgb(27, 27, 27);
         text-transform: uppercase;
         font-size: 13px;
+        border-left: 1.5px solid #fff;
     }
 
     .Minibarra8 {
