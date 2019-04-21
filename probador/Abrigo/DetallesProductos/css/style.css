@@ -93,11 +93,12 @@ ul, ol {
   padding-bottom: 30px;
 }
 
+
 /*----------------------------*\
 	Mobile nav
 \*----------------------------*/
 
-#header .nav-toggle {
+/*#header .nav-toggle {
   display: none;
 }
 
@@ -112,7 +113,6 @@ ul, ol {
     margin-top: 10px;
   }
   #responsive-nav {
-    position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
@@ -196,7 +196,7 @@ ul, ol {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 99;
   }
-}
+}/*
 
 /*=========================================================
 	06 -> PRODUCT
@@ -367,7 +367,7 @@ ul, ol {
 
 .product-tab .tab-nav li.active a:after {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   bottom: -1.5px;
   height: 3px;
@@ -415,32 +415,27 @@ ul, ol {
 	12 -> RESPONSIVE
 ===========================================================*/
 
-@media only screen and (max-width: 991px) {
-  #home .home-wrap {
-    margin-left: 0px;
+@media screen and (max-width: 991px) {
+
+  .contenedor{
+    width: 40%;
+    margin-left: 200px;
   }
-  #aside {
-    margin-bottom: 60px;
-  }
-  .product-reviews {
-    margin-bottom: 30px;
-  }
+  
 }
 
-@media only screen and (max-width: 767px) {
-  .banner h1 {
-    font-size: 36px;
+@media screen and (max-width: 767px) {
+
+  .contenedor{
+    width: 50%;
+    margin-left: 100px;
   }
-  .store-filter .pull-right, .store-filter .pull-left {
-    float: none !important;
-  }
-  .store-filter .pull-right {
-    margin-top: 15px;
-  }
+  
 }
 
-@media only screen and (max-width: 480px) {
-  [class*='col-xs'] {
-    width: 100%;
+@media screen and (max-width: 480px) {
+  .contenedor{
+    width: 50%;
+    margin-left: 100px;
   }
 }

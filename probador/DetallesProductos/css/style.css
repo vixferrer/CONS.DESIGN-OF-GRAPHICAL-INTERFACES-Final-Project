@@ -418,8 +418,8 @@ ul, ol {
 @media screen and (max-width: 991px) {
 
   .contenedor{
-    width: 60.3%;
-    margin-left: 100px;
+    width: 40%;
+    margin-left: 200px;
   }
   
 }
@@ -427,7 +427,7 @@ ul, ol {
 @media screen and (max-width: 767px) {
 
   .contenedor{
-    width: 60.3%;
+    width: 50%;
     margin-left: 100px;
   }
   

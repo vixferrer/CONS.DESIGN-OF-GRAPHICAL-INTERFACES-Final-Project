@@ -19,9 +19,9 @@ function removeCartItem(event) {
 }
 
 function updateCartTotal() {
-    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
+    var cartItemContainer = document.getElementsByClassName('cart-items')
     console.log(cartItemContainer)
-    var cartRows = cartItemContainer.getElementsByClassName('producto')
+    var cartRows = cartItemContainer.getElementsByClassName('producto')[0]
     console.log(cartRows)
     var total = 0
     for (var i = 0; i < cartRows.length; i++){
