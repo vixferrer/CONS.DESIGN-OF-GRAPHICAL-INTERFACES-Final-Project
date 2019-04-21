@@ -140,7 +140,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
 
 }
 
-@media screen and (max-width: 1391px) {/**************************1391px****************************/
+@media screen and (max-width: 1408px) {/**************************1408px****************************/
 
     .finalizar {
         display: inline-block;
@@ -157,7 +157,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
 
 }
 
-@media screen and (max-width: 1225px) {/**********************1225px************************/
+@media screen and (max-width: 1242px) {/**********************1242px************************/
 
     .finalizar {
         display: inline-block;
@@ -216,7 +216,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
     }
 }
 
-@media screen and (max-width: 1092px) {/************************1092px*************************/
+@media screen and (max-width: 1109px) {/************************1109px*************************/
 
     .finalizar {
         display: inline-block;
@@ -293,7 +293,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
 
 }
 
-@media screen and (max-width: 958px){/*************************958px*******************************************/
+@media screen and (max-width: 975px){/*************************975px*******************************************/
 
     .finalizar {
         display: inline-block;
