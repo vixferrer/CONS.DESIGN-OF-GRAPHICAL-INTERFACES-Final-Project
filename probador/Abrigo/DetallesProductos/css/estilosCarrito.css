@@ -108,6 +108,12 @@ header #logo{
 	border-radius: 20px;
 }
 
+.total-price{
+	color: #333;
+	font-size: 1.1em;
+	text-align: end;
+}
+
 
 .volver{
 	margin-top: 15px;
