@@ -82,16 +82,15 @@
 			<img src="./imagenes/carrito.png">
 		</a>
 	</header>
-	<section cart-items>
+	<section class="cart-items">
 		<?php
 			$total=0;
 			if(isset($_SESSION[$dbname])){
 			$datos=$_SESSION[$dbname];
 			
 			$total=0;
-			for($i=0;$i<count($datos);$i++){
-				
-	?>
+			for($i=0;$i<count($datos);$i++)
+			{?>
 				<div class="producto">
 						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
