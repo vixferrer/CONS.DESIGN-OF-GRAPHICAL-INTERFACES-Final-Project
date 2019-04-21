@@ -32,8 +32,6 @@
                 }
     </script>
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="Barra/menu.js"></script>
 </head>
 
 <body>
@@ -167,6 +165,7 @@
 		</div>
 	</div>
 
-
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Barra/menu.js"></script>
 </body>
 </html>
