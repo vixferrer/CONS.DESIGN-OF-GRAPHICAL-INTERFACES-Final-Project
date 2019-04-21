@@ -81,7 +81,7 @@
 			<img src="./imagenes/carrito.png">
 		</a>
 	</header>
-	<section>
+	<section cart-items>
 		<?php
 			$total=0;
 			if(isset($_SESSION[$dbname])){
