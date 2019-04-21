@@ -29,6 +29,6 @@ function updateCartTotal() {
         total = total + price
     }
     total = Math.round(total * 100) / 100
-    console.log(total)
-    document.getElementsByClassName('total-price')[0].innerText = total + '€'
+    console.log(document.getElementByClassId('total'))
+    document.getElementByClassId('total').innerText = total + '€'
 }
