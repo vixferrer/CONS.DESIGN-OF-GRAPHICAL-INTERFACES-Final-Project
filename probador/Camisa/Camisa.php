@@ -11,16 +11,7 @@
     <link rel="stylesheet" href="Barra/estilosB.css">
     <link rel="stylesheet" href="Barra/fonts/style.css">
     <link rel="stylesheet" href="css/estilos.css">
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-
-    <!-- Bootstrap -->
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- Slick -->
-    <link type="text/css" rel="stylesheet" href="css/slick.css" />
-    <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
-    <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
 
     <script src="js/jquery-3.2.1.js"></script>
 	<script src="js/script.js"></script>
