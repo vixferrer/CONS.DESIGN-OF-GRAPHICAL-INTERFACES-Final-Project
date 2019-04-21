@@ -19,7 +19,7 @@ function removeCartItem(event) {
 }
 
 function updateCartTotal() {
-    var cartItemContainer = document.getElementsByClassName('cart-items')
+    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
     console.log(cartItemContainer)
     var cartRows = cartItemContainer.getElementsByClassName('producto')
     console.log(cartRows)
@@ -31,5 +31,6 @@ function updateCartTotal() {
         total = total + price
     }
     total = Math.round(total * 100) / 100
+    console.log(total)
     document.getElementsByClassName('total')[0].innerText = total + '€'
 }

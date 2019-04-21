@@ -81,9 +81,9 @@ header nav ul li::before {
     width: 0%;
     transition: all ease-in-out 230ms;
 }
-                header nav ul li:hover {/*Hover total su color*/
+                /* header nav ul li:hover {/*Hover total su color
                     background: #fff;
-                }
+                } */
 
 header nav ul li:hover::before {/*Tamaño de barra del hover*/
     width: 100%;
