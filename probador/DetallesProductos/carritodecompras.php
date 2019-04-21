@@ -71,11 +71,26 @@
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript"  src="../js/scripts.js"></script>
+
+	<script>
+        function goTo(url) {
+            window.location = url;
+                 }
+        function esperar(espera) {
+            string="pausa_alerta("+espera+");";
+            setTimeout(string,espera);
+            alert("Trayendo ropa al probador... Espere...");
+                 }
+        function pausa_alerta(espera) {
+            alert("¡¡¡¡¡Vestuario listo!!!!!");
+            goTo('../vestuario/probador.php');
+                }
+    </script>
 </head>
 <body>
 	<header>
 		<a href="../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
-		<a href="./carritodecompras.php" title="Ver vestuario">
+		<a role="link" onclick="esperar(3500);" title="Ver vestuario">
 			<img src="./imagenes/carrito.png">
 		</a>
 	</header>
