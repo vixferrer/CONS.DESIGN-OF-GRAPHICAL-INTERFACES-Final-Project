@@ -71,7 +71,7 @@
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script src="store.js" async></script>
-	<script type="text/javascript"  src="../js/scripts.js"></script>
+	<script type="text/javascript"  src="js/scripts.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
