@@ -70,7 +70,15 @@ header nav {
             border-right: 1.5px solid rgb(31, 31, 31);
         }
 
+        .marcada{
+            background-color: #87c0cd;
+          }
+          
+          nav .marcada a{
+            color: rgb(255, 255, 255);
+          } 
 
+          
 header nav ul li::before {
     content: '';
     display: inline-block;
