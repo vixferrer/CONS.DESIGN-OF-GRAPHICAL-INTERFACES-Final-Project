@@ -14,12 +14,9 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
-    <script src="js/jquery-3.2.1.js"></script>
+	<script src="js/jquery-3.2.1.js"></script>
 	<script src="js/script.js"></script>
-
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="Barra/menu.js"></script>
-
+ 
 	<script>
         function goTo(url) {
             window.location = url;
@@ -34,7 +31,9 @@
             goTo('../vestuario/probador.php');
                 }
     </script>
-  
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Barra/menu.js"></script>
 </head>
 
 <body>
