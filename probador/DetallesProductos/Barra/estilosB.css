@@ -24,6 +24,7 @@ header {
     width: 100%;
     background: #fff;
     display: flex;
+    z-index
 }
 
     header::after {
