@@ -71,9 +71,9 @@
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script src="store.js" async></script>
-	<script type="text/javascript"  src="js/scripts.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<!-- <script type="text/javascript"  src="js/scripts.js"></script> -->
+	<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script> -->
+	<!-- <script src="https://code.jquery.com/jquery-latest.js"></script> -->
 </head>
 <body>
 	<header>
@@ -95,11 +95,12 @@
 				<div class="producto">
 						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
 						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
-						<span class="precio">Precio: <?php echo $datos[$i]['Precio'];?> €</span><br>
+						<span class="precio">Precio:</span>
+						<span class="precio"><?php echo $datos[$i]['Precio'];?> €</span><br>
 						<button class="eliminar" type="button">Eliminar</button>
 				</div>
 			<?php
-				$total=($datos[$i]['Cantidad']*$datos[$i]['Precio'])+$total;
+				$total=($datos[$i]['Precio'])+$total;
 			}
 				
 			}else{
