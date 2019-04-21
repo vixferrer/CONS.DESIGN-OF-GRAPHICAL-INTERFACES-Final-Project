@@ -3,7 +3,7 @@ html{
 	margin: 0px;
 }
 body{
-	background-color: #e6ecf0;
+	background-color: #f3f9fb;
 	padding: 0px;
 	margin: 0px;
 }
@@ -43,7 +43,7 @@ section{
 	min-height: 500px;
 	padding: 2%;
 	margin:0 auto;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-top: 50px;
 }
 fieldset{
