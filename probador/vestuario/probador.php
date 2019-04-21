@@ -35,7 +35,7 @@
 			</div>
 			<nav>
 					<ul>
-							<li> <a href="../index.php"><img src="Barra/Iconos/LOGO.png" class="logo"></a></li>
+							<li class="Barrita"> <a href="../index.php"><img src="Barra/Iconos/LOGO.png" class="logo"></a></li>
 							<li class="Minibarra8">
                                <a class="estaSI Calzado" href="../index.php">
                                     Volver a categorías<img src="Barra/Iconos/atuendo.png"
