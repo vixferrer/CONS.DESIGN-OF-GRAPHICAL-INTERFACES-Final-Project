@@ -27,6 +27,7 @@ function updateCartTotal() {
     for (var i = 0; i < cartRows.length; i++){
         var cartRow = cartRows[i]
         var priceElement = cartRow.getElementsByClassName('precio')[0]
+        console.log(priceElement)
         var price = parseFloat(priceElement.innerText.replace('€', ''))
         total = total + price
     }
