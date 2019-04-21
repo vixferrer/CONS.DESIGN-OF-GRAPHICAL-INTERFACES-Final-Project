@@ -135,10 +135,8 @@
 										<th class="text-right"></th>
 									</tr>
 								</thead>
-								<tbody>
-									<div class="cart-items">
-									<tr>
-										<div class="cart-row">
+								<tbody class="cart-items">
+									<tr class="cart-row">
 										<td class="thumb"><img src="../../Abrigo/FotosProductos/abrigoCanguro.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Cazadora Canguro</a>
@@ -147,14 +145,11 @@
 												<li><span>Color: Rojo</span></li>
 											</ul>
 										</td>
-										<td class="price text-center"><strong>22.99€</strong></td>
+										<td class="price text-center"><span class="cart-price">22.99€</span></td>
 										<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
 										<td class="text-right"><button class="main-btn icon-btn">X</button></td>
-
-										</div>
 									</tr>
-									<tr>
-									<div class="cart-row">
+									<tr class="cart-row">
 										<td class="thumb"><img src="../../Jersey/FotosProductos/jerseyRayas.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Jersey Rayas</a>
@@ -163,13 +158,11 @@
 												<li><span>Color: Gris</span></li>
 											</ul>
 										</td>
-										<td class="price text-center"><strong>9.99€</strong></td>
+										<td class="price text-center"><span class="cart-price">9.99€</span></td>
 										<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
 										<td class="text-right"><button class="main-btn icon-btn">X</button></td>
-									</div>
 									</tr>
-									<tr>
-										<div class="cart-row">
+									<tr class="cart-row">
 										<td class="thumb"><img src="../../DetallesProductos/img/camisetaBasicaAzul1.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Top Azul</a>
@@ -178,12 +171,11 @@
 												<li><span>Color: Azul</span></li>
 											</ul>
 										</td>
-										<td class="price text-center"><strong>9.99€</strong></td>
+										<td class="price text-center"><span class="cart-price">9.99€</span></td>
 										<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
 										<td class="text-right"><button class="main-btn icon-btn">X</button></td>
-									</div>
 									</tr>
-									<tr>
+									<tr class="cart-row">
 											<td class="thumb"><img src="../../Pantalon/FotosProductos/pantalonCuadrosjpg.jpg" alt=""></td>
 											<td class="details">
 												<a href="#">Pantalón Cuadros</a>
@@ -192,13 +184,11 @@
 													<li><span>Color: Rojo</span></li>
 												</ul>
 											</td>
-											<td class="price text-center"><strong>19.99€</strong></td>
+											<td class="price text-center"><span class="cart-price">19.99€</span></td>
 											<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
 											<td class="text-right"><button class="main-btn icon-btn">X</button></td>
-										</div>
 										</tr>
-										<tr>
-											<div class="cart-row">
+										<tr class="cart-row">
 												<td class="thumb"><img src="../../Falda/FotosProductos/faldaVaquera.jpg" alt=""></td>
 												<td class="details">
 													<a href="#">Falda Vaquera</a>
@@ -207,13 +197,11 @@
 														<li><span>Color: Denim</span></li>
 													</ul>
 												</td>
-												<td class="price text-center"><strong>8.99€</strong></td>
+												<td class="price text-center"><span class="cart-price">8.99€</span></td>
 												<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
 												<td class="text-right"><button class="main-btn icon-btn">X</button></td>
-											</div>
 											</tr>
-											<tr>
-													<div class="cart-row">
+											<tr class="cart-row">
 													<td class="thumb"><img src="../../Falda/FotosProductos/faldaPunky.jpg" alt=""></td>
 													<td class="details">
 														<a href="#">Falda Punk</a>
@@ -222,12 +210,10 @@
 															<li><span>Color: Rojo-Negro</span></li>
 														</ul>
 													</td>
-													<td class="price text-center"><strong>14.99€</strong></td>
+													<td class="price text-center"><span class="cart-price">14.99€</span></td>
 													<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
 													<td class="text-right"><button class="main-btn icon-btn">X</button></td>
-												</div>
 												</tr>
-								</div>
 								</tbody>
 								<tfoot>
 									<tr>
