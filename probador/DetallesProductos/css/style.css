@@ -422,10 +422,7 @@ ul, ol {
     width: 60.3%;
     margin-left: 100px;
   }
-
-  .section{
-    padding-top: 0px;
-  }
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -435,18 +432,11 @@ ul, ol {
     margin-left: 100px;
   }
   
-  .section{
-    padding-top: 0px;
-  }
 }
 
 @media screen and (max-width: 480px) {
   .contenedor{
     width: 50%;
     margin-left: 100px;
-  }
-
-  .section{
-    padding-top: 0px;
   }
 }
