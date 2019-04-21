@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Camiseta Marvel</title>
+    <title>Camiseta Azul</title>
     <link rel="shortcut icon" href="../../assets/images/logo4.png" type="image/x-icon">
 
     <link rel="stylesheet" href="Barra/estilosB.css">
@@ -206,7 +206,7 @@
     <script src="js/main.js"></script>
     
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <script src="Barra/menu.js"></script>
+    <script src="Barra/menu.js"></script>
 
 </body>
 </html>
