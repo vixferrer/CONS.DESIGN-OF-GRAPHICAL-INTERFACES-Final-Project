@@ -367,7 +367,7 @@ ul, ol {
 
 .product-tab .tab-nav li.active a:after {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   bottom: -1.5px;
   height: 3px;
