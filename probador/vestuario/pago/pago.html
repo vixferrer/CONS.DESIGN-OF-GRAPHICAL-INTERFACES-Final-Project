@@ -16,12 +16,12 @@
 	<!-- Slick -->
 	<link type="text/css" rel="stylesheet" href="css/slick.css" />
 	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
-	<!-- nouislider -->
-	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
 	<!-- Font Awesome Icon -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<script src="store.js" async></script>
 </head>
 
 <body>
@@ -132,12 +132,13 @@
 										<th></th>
 										<th class="text-center">Precio</th>
 										<th class="text-center">Cantidad</th>
-										<th class="text-center">Total</th>
 										<th class="text-right"></th>
 									</tr>
 								</thead>
 								<tbody>
+									<div class="cart-items">
 									<tr>
+										<div class="cart-row">
 										<td class="thumb"><img src="../../Abrigo/FotosProductos/abrigoCanguro.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Cazadora Canguro</a>
@@ -147,11 +148,13 @@
 											</ul>
 										</td>
 										<td class="price text-center"><strong>22.99€</strong></td>
-										<td class="qty text-center"><input class="input" type="number" value="1"></td>
-										<td class="total text-center"><strong class="primary-color">22.99€</strong></td>
-										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+										<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
+										<td class="text-right"><button class="main-btn icon-btn">X</button></td>
+
+										</div>
 									</tr>
 									<tr>
+									<div class="cart-row">
 										<td class="thumb"><img src="../../Jersey/FotosProductos/jerseyRayas.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Jersey Rayas</a>
@@ -161,11 +164,12 @@
 											</ul>
 										</td>
 										<td class="price text-center"><strong>9.99€</strong></td>
-										<td class="qty text-center"><input class="input" type="number" value="1"></td>
-										<td class="total text-center"><strong class="primary-color">9.99€</strong></td>
-										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+										<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
+										<td class="text-right"><button class="main-btn icon-btn">X</button></td>
+									</div>
 									</tr>
 									<tr>
+										<div class="cart-row">
 										<td class="thumb"><img src="../../DetallesProductos/img/camisetaBasicaAzul1.jpg" alt=""></td>
 										<td class="details">
 											<a href="#">Top Azul</a>
@@ -175,9 +179,9 @@
 											</ul>
 										</td>
 										<td class="price text-center"><strong>9.99€</strong></td>
-										<td class="qty text-center"><input class="input" type="number" value="1"></td>
-										<td class="total text-center"><strong class="primary-color">9.99€</strong></td>
-										<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+										<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
+										<td class="text-right"><button class="main-btn icon-btn">X</button></td>
+									</div>
 									</tr>
 									<tr>
 											<td class="thumb"><img src="../../Pantalon/FotosProductos/pantalonCuadrosjpg.jpg" alt=""></td>
@@ -189,11 +193,12 @@
 												</ul>
 											</td>
 											<td class="price text-center"><strong>19.99€</strong></td>
-											<td class="qty text-center"><input class="input" type="number" value="1"></td>
-											<td class="total text-center"><strong class="primary-color">19.99€</strong></td>
-											<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+											<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
+											<td class="text-right"><button class="main-btn icon-btn">X</button></td>
+										</div>
 										</tr>
 										<tr>
+											<div class="cart-row">
 												<td class="thumb"><img src="../../Falda/FotosProductos/faldaVaquera.jpg" alt=""></td>
 												<td class="details">
 													<a href="#">Falda Vaquera</a>
@@ -203,11 +208,12 @@
 													</ul>
 												</td>
 												<td class="price text-center"><strong>8.99€</strong></td>
-												<td class="qty text-center"><input class="input" type="number" value="1"></td>
-												<td class="total text-center"><strong class="primary-color">8.99€</strong></td>
-												<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+												<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
+												<td class="text-right"><button class="main-btn icon-btn">X</button></td>
+											</div>
 											</tr>
 											<tr>
+													<div class="cart-row">
 													<td class="thumb"><img src="../../Falda/FotosProductos/faldaPunky.jpg" alt=""></td>
 													<td class="details">
 														<a href="#">Falda Punk</a>
@@ -217,10 +223,11 @@
 														</ul>
 													</td>
 													<td class="price text-center"><strong>14.99€</strong></td>
-													<td class="qty text-center"><input class="input" type="number" value="1"></td>
-													<td class="total text-center"><strong class="primary-color">14.99€</strong></td>
-													<td class="text-right"><button class="main-btn icon-btn"><i class="fa fa-close"></i></button></td>
+													<td class="qty text-center"><input class="inputQty" type="number" value="1"></td>
+													<td class="text-right"><button class="main-btn icon-btn">X</button></td>
+												</div>
 												</tr>
+								</div>
 								</tbody>
 								<tfoot>
 									<tr>

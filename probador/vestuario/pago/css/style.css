@@ -193,6 +193,18 @@ hr {
   transition: 0.3s all;
 }
 
+.inputQty{
+  width: 50px;
+  height: 40px;
+  padding: 0px 5px;
+  border: none;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+  box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
 .input:focus {
   -webkit-box-shadow: 0px 0px 0px 1px #87c0cd inset, 0px 0px 0px 0px #87c0cd;
   box-shadow: 0px 0px 0px 1px #87c0cd inset, 0px 0px 0px 0px #87c0cd;
