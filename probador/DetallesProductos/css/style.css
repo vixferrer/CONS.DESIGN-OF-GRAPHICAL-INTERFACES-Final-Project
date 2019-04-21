@@ -417,15 +417,7 @@ ul, ol {
 ===========================================================*/
 
 @media screen and (max-width: 991px) {
-  #home .home-wrap {
-    margin-left: 0px;
-  }
-  #aside {
-    margin-bottom: 60px;
-  }
-  .product-reviews {
-    margin-bottom: 30px;
-  }
+
   .contenedor{
     width: 60.3%;
     margin-left: 100px;
@@ -433,15 +425,7 @@ ul, ol {
 }
 
 @media screen and (max-width: 767px) {
-  #home .home-wrap {
-    margin-left: 0px;
-  }
-  #aside {
-    margin-bottom: 60px;
-  }
-  .product-reviews {
-    margin-bottom: 30px;
-  }
+
   .contenedor{
     width: 60.3%;
     margin-left: 100px;
