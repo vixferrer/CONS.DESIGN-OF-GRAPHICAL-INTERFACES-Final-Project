@@ -71,13 +71,29 @@
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script src="store.js" async></script>
+
 </head>
 <body>
-	<header>
+<header>
 		<a href="../../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
-		<a href="./carritodecompras.php" title="Ver vestuario">
+		<a role="link" onclick="esperar(3500);" title="Ver vestuario">
 			<img src="./imagenes/carrito.png">
 		</a>
+
+		<script>
+        function goTo(url) {
+            window.location = url;
+                 }
+        function esperar(espera) {
+            string="pausa_alerta("+espera+");";
+            setTimeout(string,espera);
+            alert("Trayendo ropa al probador... Espere...");
+                 }
+        function pausa_alerta(espera) {
+            alert("¡¡¡¡¡Vestuario listo!!!!!");
+            goTo('../../vestuario/probador.php');
+                }
+    </script>
 	</header>
 	<section class="cart-items">
 		<?php
