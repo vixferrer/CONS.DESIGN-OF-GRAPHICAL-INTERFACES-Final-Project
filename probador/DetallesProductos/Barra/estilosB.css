@@ -287,7 +287,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
     .menu_bar {
         display: block;
         width: 100%;
-        position: fixed;
+        position: absolute;
         top: 0;
         background: #fff;
     }
@@ -310,7 +310,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
     header nav {
         width: 50%;
         height: calc(100% - 80px);
-        position: fixed;
+        position: absolute;
         right: 100%;
         margin: 0;
         overflow: scroll;
