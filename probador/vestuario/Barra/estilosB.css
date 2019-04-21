@@ -132,10 +132,12 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 
 .Minibarra9 {
     left: 60.8%;
+    border-right: 1.5px solid #fff;
 }
 
 .Minibarra8 {
     left: 60.9%;
+    border-right: 1.5px solid #000000;
 }
 
 /**********************************************************************************RESPONSIVE************************************************************************/
