@@ -45,8 +45,8 @@
         <nav>
             <ul>
                 <li> <a href="../index.php"><img src="Barra/Iconos/LOGO.png" class="logo"></a></li>
-                <li>
-                    <a class="marcada" href="Camisa.php">
+                <li  class="marcada">
+                    <a href="Camisa.php">
                         Camisas<div id="link"><img src="Barra/Iconos/camisa.png"
                                     class="iconos"></div>
                     </a>
