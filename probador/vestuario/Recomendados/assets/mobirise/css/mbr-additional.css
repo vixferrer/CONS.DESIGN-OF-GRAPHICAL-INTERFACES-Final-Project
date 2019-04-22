@@ -611,10 +611,6 @@ a:hover {
   -webkit-transform: rotate(135deg);
 }
 /* Others*/
-
-.combinacion:hover{
-  background-image: url(../../images/jerseygordo1-700x894.jpg);
-}
 .note-check a[data-value=Rubik] {
   font-style: normal;
 }
@@ -1351,9 +1347,24 @@ pre {
 .navbar-toggleable-xl .navbar-toggler {
   display: none;
 }
+
 .card-img {
   width: auto;
+  position: relative;
 }
+
+.imageBox .hoverImg {
+  position: absolute;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+
+
+
+
 .menu .navbar.collapsed:not(.beta-menu) {
   flex-direction: column;
   -webkit-flex-direction: column;
