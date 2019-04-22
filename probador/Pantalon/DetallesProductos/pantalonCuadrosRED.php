@@ -71,7 +71,7 @@
                 </li>
                 <li>
                     <a class="estaSI" href="../../Abrigo/Abrigo.php">
-												Abrigos<img src="../Barra/Iconos/abrigoBLANCO.png"
+												Abrigos<img src="../Barra/Iconos/abrigo.png"
 																		onmouseover="src='../Barra/Iconos/abrigo2.png'" 
                      								onmouseout="src='../Barra/Iconos/abrigo.png'"
                                     class="iconos">
