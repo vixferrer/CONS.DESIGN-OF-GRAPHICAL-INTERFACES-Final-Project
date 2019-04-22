@@ -71,12 +71,15 @@
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script src="store.js" async></script>
+
 </head>
 <body>
 <header>
 		<a href="../../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
 		<a role="link" onclick="esperar(3500);" title="Ver vestuario">
-			<img src="./imagenes/carrito.png">
+			<img src="../Barra/Iconos/probador.png"
+			onmouseover="src='../Barra/Iconos/probador2.png'" 
+			onmouseout="src='../Barra/Iconos/probador.png'" >
 		</a>
 
 		<script>
@@ -104,9 +107,9 @@
 			for($i=0;$i<count($datos);$i++)
 			{?>
 				<div class="producto">
-						<img src="./img/<?php echo $datos[$i]['Imagen'];?>"><br>
-						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span><br>
-						<span class="precio"><?php echo $datos[$i]['Precio'];?> €</span><br>
+						<img src="./img/<?php echo $datos[$i]['Imagen'];?>">
+						<span class="nombreElemento"><?php echo $datos[$i]['Nombre'];?></span>
+						<span class="precio"><?php echo $datos[$i]['Precio'];?> €</span>
 						<button class="eliminar" type="button">Eliminar</button>
 				</div>
 			<?php
@@ -116,10 +119,10 @@
 			}else{
 				echo '<center><h2>No has añadido ningun producto</h2></center>';
 			}
-			echo '<center><h2 id="total">Total:'.$total.'</h2></center>';
+			echo '<center><h2 id="total">Total: '.$total.'€</h2></center>';
 			
 		?>
-		<center><a href="../../../probador/index.php" class="volver aceptar" >Volver a tienda</a></center>
+		<center><a href="../Calzado.php" class="volver aceptar" >Volver a tienda</a></center>
 		
 
 	</section>

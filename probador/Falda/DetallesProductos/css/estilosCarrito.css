@@ -3,7 +3,7 @@ html{
 	margin: 0px;
 }
 body{
-	background-color: #e6ecf0;
+	background-color: #f3f9fb;
 	padding: 0px;
 	margin: 0px;
 }
@@ -32,7 +32,6 @@ header a{
 }
 header a img{
 	margin-top: 5px;
-	margin-left:20px;
 	margin-bottom:10px;
 	width: 100%;
 	cursor: pointer;
@@ -43,12 +42,12 @@ section{
 	min-height: 500px;
 	padding: 2%;
 	margin:0 auto;
-	margin-left: 10%;
 	margin-top: 50px;
 }
 fieldset{
 	border:none;
 }
+
 #logo{
 	margin-top: 7px;
   margin-right: 40px;
@@ -58,32 +57,30 @@ fieldset{
 }
 
 header #logo{
-	position: inherit;
+	position: inherit;;
 	right: 90%;
 }
 .producto{
-	width: 22%;
-	margin-left: 4.5%;
-	margin-bottom: 25px;
+	width: 20%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 20px;
 	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
 	font-weight: bolder;
-	font-size: 1.2rem;
  	display:inline-flex;
 	flex-direction: column;
 	align-items: center;
 	align-self: flex-start;
-
 	transition: all .4s;
 }
 
 .producto img{
 	width: 100%;
-
 }
 
-
 .precio{
-	margin: 2px;
+	margin: 4px;
+	font-size: 1.4rem;
 }
 
 .nombreElemento{
@@ -101,13 +98,20 @@ header #logo{
 	font-family: 'Open Sans', sans-serif;
 	color:white;
 	margin: 4px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding: 3px 15px;
 	border-radius: 20px;
 }
 
+.eliminar:hover{
+	background-color: #4a4a4a;
+	cursor: pointer;
+}
+
+.total-price{
+	color: #333;
+	font-size: 1.1em;
+	text-align: end;
+}
 
 .volver{
 	margin-top: 15px;
