@@ -35,7 +35,7 @@
                 <div class="col-md-12 align-center">
                     <h1 class="mbr-section-title pb-3 mbr-white mbr-bold mbr-fonts-style display-1">Vítago.</h1>
                     <p class="mbr-text pb-3 mbr-white mbr-fonts-style display-5">Visualiza, prueba &amp; go!</p>
-                    <div class="mbr-section-btn align-center py-2"><a class="btn btn-md btn-primary display-4" href="dependientes/login/index.html">Hazte Socio</a></div>
+                    <div class="mbr-section-btn align-center py-2"><a class="btn btn-md btn-primary display-4" href="ofertasSocio/login/registro.html">Hazte Socio</a></div>
 
                     <div class="icons-media-container mbr-white">
                         <div class="card col-12 col-md-6 col-lg-3">
@@ -49,7 +49,7 @@
 
                         <div class="card col-12 col-md-6 col-lg-3">
                             <div class="icon-block">
-                                <a href="dependientes/login/index.html">
+                                <a href="dependientes/login/login.html">
                                     <span class="mbr-iconfont mbri-key" style="color: rgb(135, 192, 205); fill: rgb(135, 192, 205);"></span>
                                 </a>
                             </div>
@@ -58,7 +58,7 @@
 
                         <div class="card col-12 col-md-6 col-lg-3">
                             <div class="icon-block">
-                                <a href="dependientes/login/index.html">
+                                <a href="ofertasSocio/login/login.html">
                                     <span class="mbr-iconfont mbri-user" style="font-size: 97px; color: rgb(135, 192, 205); fill: rgb(135, 192, 205);"></span>
                                 </a>
                             </div>
