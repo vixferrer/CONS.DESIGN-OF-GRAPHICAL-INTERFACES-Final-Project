@@ -16,7 +16,7 @@
     <script src="jsPopu/jquery-3.2.1.js"></script>
     <script src="jsPopu/script.js"></script>
 
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="BarraPopu/menu.js"></script>
 
     <script>
