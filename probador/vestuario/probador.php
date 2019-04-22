@@ -75,16 +75,16 @@
 
 
 		<div class="contenedor">
-				<input type="radio" name="prendasArriba" id="uno">
-				<input type="radiO" name="prendasAbajo" id="dos">
-				<input type="radio" name="prendasArriba" id="tres">
-				<input type="radiO" name="prendasAbajo" id="cuatro">
-				<input type="radio" name="prendasArriba" id="cinco">
-				<input type="radiO" name="prendasAbajo" id="seis">
+					<input type="radio" name="prendasArriba" id="uno">
+					<input type="radiO" name="prendasAbajo" id="dos">
+					<input type="radio" name="prendasArriba" id="tres">
+					<input type="radiO" name="prendasAbajo" id="cuatro">
+					<input type="radio" name="prendasArriba" id="cinco">
+					<input type="radiO" name="prendasAbajo" id="seis">
+					<div class="display-image"></div>
+					<div class="display-image2"></div>
 
-				<div class="display-image"></div>
-				<div class="display-image2"></div>
-		 </div>
+		</div>
 
 		 <section class="services1 cid-rockrWQ7pm" id="services1-x">
 				<!--Overlay-->

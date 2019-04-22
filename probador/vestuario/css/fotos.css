@@ -77,6 +77,8 @@ input[type="radio"]{
 	background-position-y: -300px;
 }
 
+
+
 /*PRENDAS ARRIBA*/
 #uno{
 	background-image: url(../../Abrigo/FotosProductos/abrigoCanguro.jpg);
@@ -169,10 +171,68 @@ input[type="radio"]{
 	}
 
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1072px){
 
 	input[type="radio"]{
 		margin-left: 50px;
+	}
+	.display-image{
+
+		width: 265px;
+		height: 300px;
+		position: absolute;
+		top: 300px;
+		right: 385px;
+		background-image: url(../img/maniquies.jpg);
+		background-size: 250px;
+		margin-top: 60px;
+		
+	
+	}
+
+	.display-image2{
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		top: 420px;
+		right: 100px;
+		background-image: url(../img/maniquies.jpg);
+		background-size: 250px;
+		background-position-y: -300px;
+
+	}
+}
+
+@media screen and (max-width: 893px){
+
+	input[type="radio"]{
+		margin-left: 50px;
+	}
+	
+		.display-image{
+
+		width: 265px;
+		height: 300px;
+		position: absolute;
+		top: 300px;
+		right: 385px;
+		background-image: url(../img/maniquies.jpg);
+		background-size: 250px;
+		margin-top: 60px;
+		
+	
+	}
+
+	.display-image2{
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		top: 420px;
+		right: 100px;
+		background-image: url(../img/maniquies.jpg);
+		background-size: 250px;
+		background-position-y: -300px;
+
 	}
 
 }
