@@ -83,6 +83,10 @@ header #logo{
 	font-size: 1.4rem;
 }
 
+#total{
+	margin-bottom: 20px;
+}
+
 .nombreElemento{
 	width: 100%;
 	padding: 8px 2px;
