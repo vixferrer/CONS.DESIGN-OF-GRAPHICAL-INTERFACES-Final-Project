@@ -78,20 +78,6 @@
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="Barra/menu.js"></script>
 
-	<script>
-        function goTo(url) {
-            window.location = url;
-                 }
-        function esperar(espera) {
-            string="pausa_alerta("+espera+");";
-            setTimeout(string,espera);
-            alert("Trayendo ropa al probador... Espere...");
-                 }
-        function pausa_alerta(espera) {
-            alert("¡¡¡¡¡Vestuario listo!!!!!");
-            goTo('../vestuario/probador.php');
-                }
-    </script>
 </head>
 <body>
 	<header>
