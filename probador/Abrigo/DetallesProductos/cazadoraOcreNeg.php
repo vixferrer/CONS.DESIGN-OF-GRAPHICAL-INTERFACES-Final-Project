@@ -72,10 +72,8 @@
                     </a>
                 </li>
                 <li class="marcada">
-                    <a href="../Abrigo/Abrigo.php">
-                        Abrigos<img src="../Barra/Iconos/abrigo.png"
-                                    onmouseover="src='../Barra/Iconos/abrigo2.png'"
-                                    onmouseout="src='../Barra/Iconos/abrigo.png'"
+                    <a href="../Abrigo.php">
+                        Abrigos<img src="../Barra/Iconos/abrigoBLANCO.png"
                                     class="iconos">
                     </a>
                 </li>
