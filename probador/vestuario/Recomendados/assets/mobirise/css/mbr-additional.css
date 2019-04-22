@@ -1353,12 +1353,12 @@ pre {
   position: relative;
 }
 
-.imageBox .hoverImg {
+.card-img .hoverImg {
   position: absolute;
   display: none;
 }
 
-.imageBox:hover .hoverImg {
+.card-img:hover .hoverImg {
   display: block;
 }
 
