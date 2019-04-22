@@ -4,8 +4,9 @@
     "\\probador",
     "\\probador\\Camisa",
     "\\probador\\Camisa\\Barra",
-    "\\probador\\vestuario\\Barra"
+    "\\probador\\Camisa\\DetallesProductos",
+    "\\probador\\DetallesProductos"
   ],
-  "SelectedNode": "\\probador\\Camisa\\Barra\\menu.js",
+  "SelectedNode": "\\probador\\Camisa\\Camisa.php",
   "PreviewInSolutionExplorer": false
 }
