@@ -106,13 +106,12 @@
 														<img src="../Calzado/FotosProductos/cuñas.jpg" alt="Cuñas">
 													</div>
 													<div class="hoverImg">
-														<img src="../Abrigo/FotosProductos/cazadoraMotera.jpg" alt="Cuñas probadas">
+														<img src="img/cuñasprobadas.jpg" alt="Cuñas probadas">
 													</div>
 												</div>
 												<div class="card-box pb-md-5">
 														<h4 class="card-title mbr-fonts-style display-5">
 																Cuñas altas</h4>
-														
 														<!--Btn-->
 														<div class="mbr-section-btn align-left"><a href="../Calzado/DetallesProductos/cuñas.php" class="btn btn-primary-outline display-4">+Ver detalles</a></div>
 												</div>
@@ -122,7 +121,12 @@
 								<div class="card col-12 col-md-6 col-lg-3">
 										<div class="card-wrapper">
 												<div class="card-img">
+													<div class="imageInn">
 														<img src="../Abrigo/FotosProductos/cazadoraMotera.jpg" alt="Cazadora Motera" title="">
+													</div>
+													<div class="hoverImg">
+														<img src="img/cazadoraPROBADA.jpg" alt="Cazadora probada">
+													</div>
 												</div>
 												<div class="card-box pb-md-5">
 														<h4 class="card-title mbr-fonts-style display-5">Cazadora motera</h4>
@@ -136,7 +140,12 @@
 								<div class="card col-12 col-md-6 col-lg-3">
 										<div class="card-wrapper">
 												<div class="card-img">
+													<div class="imageInn">
 														<img src="../Jersey/FotosProductos/jerseyGordo.jpg" alt="Jersey Gordo" title="">
+													</div>
+													<div class="hoverImg">
+														<img src="img/jerseygordoPROBADO.jpg" alt="Jerseyprobado">
+													</div>
 												</div>
 												<div class="card-box">
 														<h4 class="card-title mbr-fonts-style display-5">
@@ -151,7 +160,12 @@
 								<div class="card col-12 col-md-6 col-lg-3 last-child">
 										<div class="card-wrapper">
 												<div class="card-img">
+													<div class="imageInn">
 														<img src="../FotosPopu/bermudaVerde.jpg" alt="Bermuda Verde" title="">
+													</div>
+													<div class="hoverImg">
+														<img src="img/bermudaPROBADA.jpg" alt="Bermuda probada">
+													</div>
 												</div>
 												<div class="card-box">
 														<h4 class="card-title mbr-fonts-style display-5">
