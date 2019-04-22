@@ -90,7 +90,7 @@
                 
                 <li class="Minibarra9">
                     <a role="link" onclick="esperar(3500);" title="Ver vestuario" class="estaSI Ofertas">
-                                    <img src="Barra/Iconos/probador.png"
+                                    Ir a vestuario<img src="Barra/Iconos/probador.png"
                                     onmouseover="src='Barra/Iconos/probador2.png'"
                                     onmouseout="src='Barra/Iconos/probador.png'"
                                     class="iconos">
