@@ -1,9 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 
-
-
-
 body {
   font-style: normal;
   line-height: 1.5;
@@ -1350,9 +1347,26 @@ pre {
 .navbar-toggleable-xl .navbar-toggler {
   display: none;
 }
+
 .card-img {
   width: auto;
+  position: relative;
 }
+
+.card-img .hoverImg {
+  left: 0;
+  top: 0;
+  position: absolute;
+  display: none;
+}
+
+.card-img:hover .hoverImg {
+  display: block;
+}
+
+
+
+
 .menu .navbar.collapsed:not(.beta-menu) {
   flex-direction: column;
   -webkit-flex-direction: column;

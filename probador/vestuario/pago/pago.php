@@ -218,6 +218,11 @@
 								<tfoot>
 									<tr>
 										<th class="empty" colspan="3"></th>
+										<th>Tienda:</th>
+										<td colspan="2">Vitago</td>
+									</tr>
+									<tr>
+										<th class="empty" colspan="3"></th>
 										<th>Fecha</th>
 										<td colspan="2">
 											<p><script> document.write(new Date().toLocaleDateString());</script></p>
