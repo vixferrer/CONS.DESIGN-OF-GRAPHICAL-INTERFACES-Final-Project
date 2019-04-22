@@ -76,8 +76,8 @@
 <body>
 <header>
 		<a href="../../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
-		<a role="link" onclick="esperar(3500);" title="Ver vestuario" class="probarRopa">
-			Probar ropa<img src="../Barra/Iconos/probador.png"
+		<a role="link" onclick="esperar(3500);" title="Ver vestuario">
+			<img src="../Barra/Iconos/probador.png"
 			onmouseover="src='../Barra/Iconos/probador2.png'" 
 			onmouseout="src='../Barra/Iconos/probador.png'" >
 		</a>
