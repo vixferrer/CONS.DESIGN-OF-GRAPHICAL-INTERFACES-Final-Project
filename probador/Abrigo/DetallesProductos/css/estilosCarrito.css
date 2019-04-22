@@ -37,7 +37,8 @@ header a img{
 	cursor: pointer;
 }
 
-a .probarRopa{
+.probarRopa{
+	margin-right: 30px;
 	color: black;
 	font-size: 0.8rem;
 }
