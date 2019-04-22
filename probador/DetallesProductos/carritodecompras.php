@@ -76,7 +76,7 @@
 	<header>
 		<a href="../index.php" id="logo"> <img src="./imagenes/logo.png"></a>
 		<a role="link" onclick="esperar(3500);" title="Ver vestuario">
-		<img src="../Barra/Iconos/probador.png"
+		<img src="Barra/Iconos/probador.png"
 			onmouseover="src='Barra/Iconos/probador2.png'" 
 			onmouseout="src='Barra/Iconos/probador.png'" >
 		</a>
