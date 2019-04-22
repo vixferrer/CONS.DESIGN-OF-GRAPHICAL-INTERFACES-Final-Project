@@ -103,7 +103,7 @@
                     </a>
                 </li>
                 <li class="Minibarra9 marcada">
-                    <a class="Ofertas" href="../Ofertas/Ofertas.php">
+                    <a class="Ofertas" href="../Ofertas.php">
                         Ofertas<img src="../Barra/Iconos/ofertasBLANCO.png"
                                     class="iconos">
                     </a>
