@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Camisa Cuadros Amarilla</title>
+    <title>Camisa Cuadros Roja</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
 	<link rel="stylesheet" href="../Barra/estilosB.css">
