@@ -214,8 +214,8 @@ input[type="radio"]{
 		width: 265px;
 		height: 300px;
 		position: absolute;
-		top: 300px;
-		right: 385px;
+		top: 450px;
+		right: 400px;
 		background-image: url(../img/maniquies.jpg);
 		background-size: 250px;
 		margin-top: 60px;
@@ -227,7 +227,7 @@ input[type="radio"]{
 		width: 250px;
 		height: 250px;
 		position: absolute;
-		top: 420px;
+		top: 550px;
 		right: 100px;
 		background-image: url(../img/maniquies.jpg);
 		background-size: 250px;
