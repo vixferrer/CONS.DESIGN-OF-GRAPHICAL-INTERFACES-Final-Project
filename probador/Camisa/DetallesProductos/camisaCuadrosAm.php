@@ -65,7 +65,7 @@
                 <li>
                     <a class="estaSI" href="../../Pantalon/Pantalon.php">
                         Pantalones <img src="../ab-b-lBarra/Iconos/pantalon.png"
-                                        onmouseover="src='../ab-b-rBarra/Iconos/pantalon2.png'"
+                                        onmouseover="src='../Barra/Iconos/pantalon2.png'"
                                         onmouseout="src='../Barra/Iconos/pantalon.png'"
                                         class="iconos">
                     </a>
