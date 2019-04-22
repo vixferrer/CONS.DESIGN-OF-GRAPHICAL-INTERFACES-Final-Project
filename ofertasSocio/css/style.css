@@ -235,13 +235,13 @@ button.w3view-cart:focus{
 	background-size:cover;
 	min-height:480px;
 }
-.banner-agile h2{
+.bienvenido{
 	font-size:35px;
 	text-align:left;
 	margin-top:18%;
 	color: black;
 }
-.banner-agile h3{
+.vitago{
 	font-size:50px;
 	text-align:left;
 	margin:15px 0;
@@ -251,7 +251,7 @@ button.w3view-cart:focus{
 .banner-agile h3 span{
 	color:black;
 }
-.banner-agile p{
+.xd{
 	width:49%;
 	font-size:14px;
 	line-height:28px;
