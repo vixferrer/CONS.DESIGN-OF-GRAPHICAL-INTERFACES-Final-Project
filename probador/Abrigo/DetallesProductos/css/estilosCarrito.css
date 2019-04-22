@@ -37,6 +37,15 @@ header a img{
 	cursor: pointer;
 }
 
+a .probarRopa{
+	color: black;
+	font-size: 0.8rem;
+}
+
+.probarRopa:hover{
+	color: #87c0cd;
+}
+
 section{
 	width: 80%;
 	min-height: 500px;
