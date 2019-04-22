@@ -78,7 +78,7 @@
                     </a>
                 </li>
                 <li class="Minibarra7">
-                    <a href="../Falda/Falda.php">
+                    <a class="estaSI" href="../Falda/Falda.php">
 						Faldas<img src="Barra/Iconos/falda.png"
 									onmouseover="src='Barra/Iconos/falda2.png'"
                                     onmouseout="src='Barra/Iconos/falda.png'"
