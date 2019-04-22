@@ -69,7 +69,7 @@
 	<meta charset="utf-8"/>
 	<title>Vestuario</title>
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="/css/estilosCarrito.css">
+	<link rel="stylesheet" type="text/css" href="css/estilosCarrito.css">
 	<script src="store.js" async></script>
 
 	 <link rel="stylesheet" href="Barra/estilosB.css">
