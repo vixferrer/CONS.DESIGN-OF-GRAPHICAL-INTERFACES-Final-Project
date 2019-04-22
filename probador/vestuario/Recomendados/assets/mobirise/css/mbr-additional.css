@@ -1354,6 +1354,8 @@ pre {
 }
 
 .card-img .hoverImg {
+  left: 0;
+  top: 0;
   position: absolute;
   display: none;
 }
