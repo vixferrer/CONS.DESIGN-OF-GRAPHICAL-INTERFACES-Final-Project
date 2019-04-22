@@ -98,11 +98,13 @@ header #logo{
 	font-family: 'Open Sans', sans-serif;
 	color:white;
 	margin: 4px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding: 3px 15px;
 	border-radius: 20px;
+}
+
+.eliminar:hover{
+	background-color: #4a4a4a;
+	cursor: pointer;
 }
 
 .total-price{
@@ -110,7 +112,6 @@ header #logo{
 	font-size: 1.1em;
 	text-align: end;
 }
-
 
 .volver{
 	margin-top: 15px;
