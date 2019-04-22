@@ -102,7 +102,7 @@
 								<div class="card col-12 col-md-6 col-lg-3">
 										<div class="card-wrapper">
 												<div class="card-img">
-														<img src="../Calzado/FotosProductos/cuñas.jpg" alt="Cuñas" title="">
+														<img src="../Calzado/FotosProductos/cuñas.jpg" alt="Cuñas" class="combinacion">
 												</div>
 												<div class="card-box pb-md-5">
 														<h4 class="card-title mbr-fonts-style display-5">
