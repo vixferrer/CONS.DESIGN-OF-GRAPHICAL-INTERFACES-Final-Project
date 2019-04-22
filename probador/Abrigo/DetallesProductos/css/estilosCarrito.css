@@ -32,7 +32,6 @@ header a{
 }
 header a img{
 	margin-top: 5px;
-	margin-left:20px;
 	margin-bottom:10px;
 	width: 100%;
 	cursor: pointer;
@@ -80,7 +79,7 @@ header #logo{
 
 .precio{
 	margin: 4px;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 
 .nombreElemento{
