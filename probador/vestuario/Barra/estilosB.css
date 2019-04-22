@@ -298,7 +298,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     .menu_bar {
         display: block;
         width: 100%;
-        position: fixed;
+        position: absolute;
         top: 0;
         background: #fff;
     }
