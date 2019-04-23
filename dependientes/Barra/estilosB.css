@@ -9,43 +9,31 @@
 }
 
 body {
-    background-color: : #f3f9fb;
+    background-color: #f3f9fb;
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
+
 .almacen{
+    justify-content: center;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-}
-.estados{
+    background-color: #f3f9fb;
+    width: 70%;
     display: flex;
     left: 50%;
-   
 }
 
-.estado1{
-    margin-left: 170px;
-
+.estado{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.estado2{
-    margin-left: 115px;
-
-}
-.estado3{
-    margin-left: 120px;
-
-}
-.estado4{
-    margin-left: 120px;
-
-}
 .Calzado {
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
-   
 }
 
 .Ofertas {
@@ -186,11 +174,11 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     }
 
     .Minibarra9 {
-        left: 55.8%;
+        left: 85.8%;
     }
 
     .Minibarra8 {
-        left: 55.9%;
+        left: 85.9%;
     }
 }
 
@@ -312,6 +300,9 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 
 @media screen and (max-width: 1092px) { /************************1092px*************************/
 
+    .almacen{
+        margin-left: 5%;
+    }
 
 
     header nav ul li a.Ofertas:hover::before { /*Tama�o de barra del hover*/
@@ -360,6 +351,10 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 }
 
 @media screen and (max-width: 1024px) { /****************************************MENU**************************/
+
+    .almacen{
+        display: none;
+    }
 
     .Minibarra9 {
         left: 0%;

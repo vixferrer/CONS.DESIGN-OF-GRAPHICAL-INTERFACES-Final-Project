@@ -153,12 +153,133 @@ html{
   border: 120%;
 }
 
-
-@media screen and (max-width: 500px){
-   
+@media screen and (max-width: 1025px){
   .fondo{
-    width: 200%;
+    width: 120%;
   }
 
+  .fondo form span{
+    margin-left: 19px;
+  }
+
+  .login{
+    width: 100%;
+  }
+
+  html{
+    height: 150%;
+  }
+
+  .contenedor{
+    height: 200px;
+    width: 64%;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+
+  .he{
+    margin-left: 50px;
+  }
+
+  .correo{
+    margin-left: 50px;
+  }
+
+  .cuadrado{
+    margin-left: 20%;
+  }
+
+}
+
+@media screen and (max-width: 769px){
+  html{
+    height: 120%;
+  }
   
+  .contenedor{
+    height: 200px;
+    width: 64%;
+    margin-left: 15%;
+  }
+
+  .fondo{
+    width: 120%;
+  }
+
+  .fondo form span{
+    margin-left: 50px;
+  }
+
+  .inp{
+  width: 63%;
+  }
+
+  .correo{
+    margin-left: 50px;
+  }
+  
+  .login{
+    width: 100%;
+  }
+
+  .he{
+    margin-left: 50px;
+  }
+
+  .boton{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 23%;
+  }
+
+  .cuadrado{
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 415px){
+  html{
+    height: 120%;
+  }
+  
+  .contenedor{
+    height: 200px;
+    width: 64%;
+    margin-left: 15%;
+  }
+
+  .fondo{
+    width: 130%;
+    margin-left: 10%;
+  }
+
+  .fondo form span{
+    margin-left: 5px;
+  }
+
+  .inp{
+    width: 75%;
+  }
+
+  .correo{
+    margin-left: 1%;
+  }
+  
+  .login{
+    width: 100%;
+  }
+
+  .he{
+    margin-left: 10px;
+  }
+
+  .boton{
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+  }
+
+  .cuadrado{
+    margin-left: 5%;
+  }
 }

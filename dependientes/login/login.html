@@ -2,7 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Login</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acceso socios</title>
     <link rel="shortcut icon" href="../../assets/images/logo4.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="fonts.css">
@@ -10,16 +12,15 @@
 </head>
   <body>
     <div class="contenedor">
-
       <div class="login">
         <article class="fondo">
           <img src="img/men.jpg" alt="User">
           <h3>Inicio de Sesión</h3>
-          <form class="" action="../dependiente.html" method="post">
-            <span class="icon-user"></span><input class="inp" type="text" name="user" placeholder="Id dependiente"><br>
+          <form class="" action="index.html" method="post">
+            <span class="icon-user"></span><input class="inp" type="text" name="user" placeholder="Id"><br>
             <span class="icon-key"></span><input class="inp" type="password" name="pass" placeholder="Contraseña"><br>
-            <a href="" class="he">He olvidado mi id o contraseña</a>
-            <input class="boton" type="submit" name="inicio" value="Iniciar Sesión">
+            <a href="" class="he">He olvidado mi contraseña</a>
+            <input class="boton" type="button" name="inicio" value="Iniciar Sesión" onclick="location.href='../dependiente.html';">
           </form>
         </article>
       </div>

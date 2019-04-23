@@ -1373,6 +1373,7 @@ html,
 body {
   height: auto;
   min-height: 100vh;
+  background-color: #f3f9fb;
 }
 .dropup .dropdown-toggle::after {
   display: none;
