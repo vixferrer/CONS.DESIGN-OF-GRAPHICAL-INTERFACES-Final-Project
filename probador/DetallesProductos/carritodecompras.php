@@ -72,7 +72,7 @@
 	<link rel="stylesheet" type="text/css" href="css/estilosCarrito.css">
 	<script src="store.js" async></script>
 
-	 <link rel="stylesheet" href="Barra/estilosB.css">
+	 <link rel="stylesheet" href="Barra/estilosBC.css">
 	<link rel="stylesheet" href="Barra/fonts/style.css">
 
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -98,7 +98,22 @@
                 </li>             
             </ul>
 
-        </nav>
+		</nav>
+		
+		<script>
+        function goTo(url) {
+            window.location = url;
+                 }
+        function esperar(espera) {
+            string="pausa_alerta("+espera+");";
+            setTimeout(string,espera);
+            alert("Trayendo ropa al probador... Espere...");
+                 }
+        function pausa_alerta(espera) {
+            alert("¡¡¡¡¡Vestuario listo!!!!!");
+            goTo('../vestuario/probador.php');
+                }
+    </script>
 
 		
 	</header>
