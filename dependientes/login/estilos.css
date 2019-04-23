@@ -152,3 +152,15 @@ html{
 .boton:hover{
   border: 120%;
 }
+
+@media screen and (max-width: 500px){
+  
+  .fondo form{
+    width: 120%;
+  }
+  
+  .login{
+    width: 100%;
+  }
+  
+}
