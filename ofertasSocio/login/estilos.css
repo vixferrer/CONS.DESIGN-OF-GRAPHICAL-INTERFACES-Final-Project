@@ -162,6 +162,42 @@ html{
   .login{
     width: 100%;
   }
+}
+
+@media screen and (max-width: 420px){
+  html{
+    height: 120%;
+  }
   
-   
+  .contenedor{
+    height: 200px;
+    width: 64%;
+    margin-left: 15%;
+  }
+
+  .fondo{
+    width: 120%;
+  }
+
+  .fondo form span{
+    margin-left: 50px;
+  }
+
+  .inp{
+  width: 63%;
+  }
+  
+  .login{
+    width: 100%;
+  }
+
+  .he{
+    margin-left: 50px;
+  }
+
+  .boton{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 23%;
+  }
 }
