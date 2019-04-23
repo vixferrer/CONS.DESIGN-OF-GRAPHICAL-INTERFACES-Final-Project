@@ -154,6 +154,8 @@ input[type="radio"]{
 		background-image: url(../img/maniquies.jpg);
 		background-size: 250px;
 		margin-top: 60px;
+		
+	
 	}
 
 	.display-image2{
@@ -169,14 +171,13 @@ input[type="radio"]{
 	}
 
 }
-
 @media screen and (max-width: 1072px){
 
 	input[type="radio"]{
 		margin-left: 50px;
 	}
-
 	.display-image{
+
 		width: 265px;
 		height: 300px;
 		position: absolute;
@@ -185,6 +186,8 @@ input[type="radio"]{
 		background-image: url(../img/maniquies.jpg);
 		background-size: 250px;
 		margin-top: 60px;
+		
+	
 	}
 
 	.display-image2{
