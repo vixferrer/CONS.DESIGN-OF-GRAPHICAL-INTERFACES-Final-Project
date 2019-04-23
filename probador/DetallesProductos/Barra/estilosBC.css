@@ -1,0 +1,569 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6ecf0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+.menu_bar {
+    display: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    display: flex;
+}
+
+    header::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+.logo {
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 250px;
+    height: 47px;
+}
+
+.iconos {
+    display: block;
+    margin: auto;
+    width: 112px;
+    height: 42px;
+    padding: 4px 40px;
+}
+
+header nav {
+    background: #fff;
+    z-index: 1000;
+}
+
+    header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        header nav ul li {
+            display: inline-block;
+            position: relative;
+            vertical-align: center;
+            padding-top: 5px;
+            padding-bottom: 2px;
+            border-right: 1.5px solid rgb(31, 31, 31);
+        }
+
+
+            header nav ul li::before {
+                content: '';
+                display: inline-block;
+                height: 4px;
+                position: absolute;
+                background-color: #87c0cd; /*color de mi barra*/
+                bottom: 0;
+                width: 0%;
+                transition: all ease-in-out 230ms;
+            }
+
+            header nav ul li:hover { /*Hover total su color*/
+                background: #fff;
+            }
+
+                header nav ul li:hover::before { /*Tamaño de barra del hover*/
+                    width: 100%;
+                }
+
+            header nav ul li a {
+                display: inline-block;
+                text-decoration: none;
+                vertical-align: middle;
+                margin-right: 10px;
+                margin-left: 10px;
+                text-align: center;
+                color: rgb(27, 27, 27);
+                text-transform: uppercase;
+                font-size: 13px;
+            }
+
+nav .estaSI:hover { /*Color de texto tras pasar el raton*/
+    color: #87c0cd;
+}
+
+
+
+.Minibarra9 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0px;
+    margin-left: 1205px;
+    text-align: center;
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 3px;
+    cursor: pointer;
+    border-right: white;
+}
+
+/**********************************************************************************RESPONSIVE************************************************************************/
+
+@media screen and (max-width: 1645px) { /**************************1645px*************************/
+
+    .Minibarra9 {
+        margin-left: 1185px;
+    }
+}
+
+
+@media screen and (max-width: 1625px) { /**************************1625px*************************/
+
+    .Minibarra9 {
+        margin-left: 1165px;
+    }
+}
+
+@media screen and (max-width: 1605px) { /**************************1605px****************************/
+
+    .Minibarra9 {
+        margin-left: 1145px;
+    }
+}
+
+@media screen and (max-width: 1585px) { /**************************1585px****************************/
+
+    .Minibarra9 {
+        margin-left: 1125px;
+    }
+}
+
+@media screen and (max-width: 1565px) { /**************************1565px****************************/
+
+    .Minibarra9 {
+        margin-left: 1105px;
+    }
+}
+
+@media screen and (max-width: 1545px) { /**************************1545px****************************/
+
+    .Minibarra9 {
+        margin-left: 1085;
+    }
+}
+
+@media screen and (max-width: 1525px) { /**************************1525px****************************/
+
+    .Minibarra9 {
+        margin-left: 1065px;
+    }
+}
+
+@media screen and (max-width: 1505px) { /**************************1505px****************************/
+
+    .Minibarra9 {
+        margin-left: 1045px;
+    }
+}
+
+@media screen and (max-width: 1485px) { /**************************1485px****************************/
+
+    .Minibarra9 {
+        margin-left: 1025px;
+    }
+}
+
+@media screen and (max-width: 1465px) { /**************************1465px****************************/
+
+    .Minibarra9 {
+        margin-left: 1005px;
+    }
+}
+
+@media screen and (max-width: 1445px) { /**************************1445px****************************/
+
+    .Minibarra9 {
+        margin-left: 985px;
+    }
+}
+
+@media screen and (max-width: 1425px) { /**************************1425px****************************/
+
+    .Minibarra9 {
+        margin-left: 965px;
+    }
+}
+
+@media screen and (max-width: 1405px) { /**************************1405px****************************/
+
+    .Minibarra9 {
+        margin-left: 945px;
+    }
+}
+
+@media screen and (max-width: 1385px) { /**************************1385px****************************/
+
+    .Minibarra9 {
+        margin-left: 925px;
+    }
+
+
+    @media screen and (max-width: 1365px) { /**********************1365px************************/
+
+        .Minibarra9 {
+            margin-left: 905px;
+        }
+    }
+
+    @media screen and (max-width: 1345px) { /**********************1345px************************/
+
+        .Minibarra9 {
+            margin-left: 885px;
+        }
+    }
+
+    @media screen and (max-width: 1325px) { /**********************1325px************************/
+
+        .Minibarra9 {
+            margin-left: 865px;
+        }
+    }
+
+    @media screen and (max-width: 1305px) { /**********************1305px************************/
+
+        .Minibarra9 {
+            margin-left: 845px;
+        }
+    }
+
+    @media screen and (max-width: 1285px) { /**********************1285px************************/
+
+        .Minibarra9 {
+            margin-left: 825px;
+        }
+    }
+
+    @media screen and (max-width: 1265px) { /**********************1265px************************/
+
+        .Minibarra9 {
+            margin-left: 805px;
+        }
+    }
+
+    @media screen and (max-width: 1245px) { /**********************1245px************************/
+
+        .Minibarra9 {
+            margin-left: 785px;
+        }
+    }
+
+    @media screen and (max-width: 1225px) { /**********************1225px************************/
+
+        .Minibarra9 {
+            margin-left: 765px;
+        }
+    }
+
+    @media screen and (max-width: 1205px) { /**********************1205px************************/
+
+        .Minibarra9 {
+            margin-left: 745px;
+        }
+    }
+
+    @media screen and (max-width: 1185px) { /**********************1185px************************/
+
+        .Minibarra9 {
+            margin-left: 725px;
+        }
+    }
+
+    @media screen and (max-width: 1165px) { /**********************1165px************************/
+
+        .Minibarra9 {
+            margin-left: 705px;
+        }
+    }
+
+    @media screen and (max-width: 1145px) { /**********************1145px************************/
+
+        .Minibarra9 {
+            margin-left: 685px;
+        }
+    }
+
+    @media screen and (max-width: 1125px) { /**********************1125px************************/
+
+        .Minibarra9 {
+            margin-left: 665px;
+        }
+    }
+
+    @media screen and (max-width: 1105px) { /**********************1105px************************/
+
+        .Minibarra9 {
+            margin-left: 645px;
+        }
+    }
+
+    @media screen and (max-width: 1085px) { /**********************1085px************************/
+
+        .Minibarra9 {
+            margin-left: 625px;
+        }
+    }
+
+    @media screen and (max-width: 1065px) { /**********************1065px************************/
+
+        .Minibarra9 {
+            margin-left: 605px;
+        }
+    }
+
+    @media screen and (max-width: 1045px) { /**********************1045px************************/
+
+        .Minibarra9 {
+            margin-left: 585px;
+        }
+    }
+
+    @media screen and (max-width: 1025px) { /**********************1025px************************/
+
+        .Minibarra9 {
+            margin-left: 564px;
+        }
+    }
+
+
+    @media screen and (max-width: 1024px) { /****************************************MENU**************************/
+        body {
+            padding-top: 80px;
+        }
+
+        .menu_bar {
+            display: block;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            background: #fff;
+        }
+
+            .menu_bar .bt-menu {
+                display: block;
+                padding: 20px;
+                color: #87c0cd;
+                overflow: hidden;
+                font-size: 25px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            .menu_bar span {
+                float: right;
+                font-size: 40px;
+            }
+
+        header nav {
+            width: 50%;
+            height: calc(100% - 80px);
+            position: absolute;
+            right: 100%;
+            margin: 0;
+            overflow: scroll;
+            border-top: 1.5px solid #87c0cd;
+        }
+
+            header nav ul {
+                display: flex;
+                flex-direction: column;
+            }
+
+                header nav ul li {
+                    display: inline-block;
+                    border-right: 1.5px solid #fff;
+                    border-bottom: 1px solid rgb(128, 128, 128, 0.25);
+                    margin-left: 0px
+                }
+
+                    header nav ul li a {
+                        display: block;
+                    }
+
+        /*PARA QUE EN EL MENU SE CENTRE:*********/
+        .finalizar {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .Minibarra9 {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 0px;
+            margin-left: 0px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .Minibarra8 {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 0px;
+            margin-left: 0px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .Minibarra7 {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 0px;
+            margin-left: 0px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+        /********************************PARA EL HOVER*/
+        .Faldas {
+            margin-right: 0px;
+            margin-left: 0px;
+            display: block;
+        }
+
+        .Calzado {
+            margin-right: 0px;
+            margin-left: 0px;
+            display: block;
+        }
+
+        .Ofertas {
+            margin-right: 0px;
+            margin-left: 0px;
+            display: block;
+        }
+
+        header nav ul li a.Faldas:hover::before {
+            width: 0%;
+        }
+
+        header nav ul li a.Calzado:hover::before {
+            width: 0%;
+        }
+
+        header nav ul li a.Ofertas:hover::before {
+            width: 0%;
+        }
+
+        header nav ul li.Minibarra9::before {
+            width: 0%;
+            background-color: #87c0cd
+        }
+
+        header nav ul li.Minibarra8::before {
+            width: 0%;
+            background-color: #87c0cd
+        }
+
+        header nav ul li:hover::before { /*Tama?o de barra del hover*/
+            width: 100%;
+            background-color: #87c0cd
+        }
+        /******************************PARA QUE EL ICONO SE ILUMINE A LA VEZ********/
+
+        /**.iconos {
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+            width: 419px;
+            height: 42px;
+            padding-left: 195px;
+            padding-right: 192px;
+            padding-top: 4px;
+            padding-bottom: 4px
+        }
+
+        .estaSI {
+            margin-left: 0;
+            margin-right: 0;
+        }*/
+
+
+        @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 200px;
+                height: 47px;
+            }
+        }
+
+        @media screen and (max-width: 482px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 150px;
+                height: 47px;
+            }
+        }
+
+        @media screen and (max-width: 382px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 120px;
+                height: 47px;
+            }
+        }
+
+        @media screen and (max-width: 322px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 115px;
+                height: 47px;
+            }
+        }
+    }
+}
