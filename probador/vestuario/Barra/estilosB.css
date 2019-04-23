@@ -381,11 +381,11 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
     }
 
         header nav ul li a.Faldas:hover::before { /*Tamaño de barra del hover*/
-            width: 24.30%;
+             width: 24.30%;
         }
 }
 
-    @media screen and (max-width: 850px) {/****************************************MENU**************************/
+    @media screen and (max-width: 1024px) {/****************************************MENU**************************/
         body {
             padding-top: 80px;
         }
@@ -415,8 +415,8 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
 
         header nav {
             width: 50%;
-            height: calc(100% - 80px);
-            position: fixed;
+            height: calc(20% - 80px);
+            position: absolute;
             right: 100%;
             margin: 0;
             overflow: scroll;
@@ -455,8 +455,8 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             display: inline-block;
             text-decoration: none;
             vertical-align: middle;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 0px;
+            margin-left: 0px;
             text-align: center;
             color: rgb(27, 27, 27);
             text-transform: uppercase;
@@ -467,8 +467,8 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             display: inline-block;
             text-decoration: none;
             vertical-align: middle;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 0px;
+            margin-left: 0px;
             text-align: center;
             color: rgb(27, 27, 27);
             text-transform: uppercase;
@@ -487,9 +487,44 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
             font-size: 13px;
         }
 
-        .Faldas {
+    
+        .Calzado {
             margin-right: 0px;
             margin-left: 0px;
+            display: block;
+        }
+    
+        .Ofertas {
+            margin-right: 0px;
+            margin-left: 0px;
+            display: block;
+        }
+    
+        header nav ul li a.Faldas:hover::before {
+            width: 0%;
+        }
+    
+        header nav ul li a.Calzado:hover::before {
+            width: 0%;
+        }
+    
+        header nav ul li a.Ofertas:hover::before {
+            width: 0%;
+        }
+    
+        header nav ul li.Minibarra9::before {
+            width: 0%;
+            background-color: #87c0cd
+        }
+    
+        header nav ul li.Minibarra8::before {
+            width: 0%;
+            background-color: #87c0cd
+        }
+    
+        header nav ul li:hover::before { /*Tama�o de barra del hover*/
+            width: 100%;
+            background-color: #87c0cd
         }
 
         @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
