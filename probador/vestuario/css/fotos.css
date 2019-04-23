@@ -172,7 +172,7 @@ input[type="radio"]{
 
 @media screen and (max-width: 1600px){
 	input[type="radio"]{
-		margin-left: 48px;
+		margin-left: 80px;
 		margin-right: 40px;
 	}
 
@@ -269,6 +269,7 @@ input[type="radio"]{
 @media screen and (max-width: 1200px){
 	input[type="radio"]{
 		margin-left: 305px;
+		margin-right: 0px;
 	}
 
 	.display-image{
@@ -301,6 +302,7 @@ input[type="radio"]{
 @media screen and (max-width: 1150px){
 	input[type="radio"]{
 		margin-left: 305px;
+		margin-right: 0px;
 	}
 
 	.display-image{
@@ -333,6 +335,7 @@ input[type="radio"]{
 @media screen and (max-width: 1100px){
 	input[type="radio"]{
 		margin-left: 283px;
+		margin-right: 0px;
 	}
 
 	.display-image{
@@ -368,14 +371,15 @@ input[type="radio"]{
 
 	input[type="radio"]{
 		margin-left: 38px;
+		margin-right: 0px;
 	}
 	.display-image{
 
 		width: 265px;
 		height: 300px;
 		position: absolute;
-		top: 440px;
-    	left: 45%;
+		top: 286px;
+    	left: 48%;
 		margin-top: -50px;
     	margin-left: -100px;
 		background-image: url(../img/maniquies.jpg);
@@ -387,8 +391,8 @@ input[type="radio"]{
 		width: 250px;
 		height: 250px;
 		position: absolute;
-		top: 850px;
-		left: 45%;
+		top: 694px;
+		left: 48%;
 		margin-top: -50px;
     	margin-left: -100px;
 		background-image: url(../img/maniquies.jpg);
@@ -401,6 +405,7 @@ input[type="radio"]{
 
 	input[type="radio"]{
 		margin-left: 52px;
+		margin-right: 0px;
 	}
 	
 	.display-image{
@@ -435,6 +440,7 @@ input[type="radio"]{
 
 	input[type="radio"]{
 		margin-left: 54px;
+		margin-right: 0px;
 	}
 	
 	.display-image{
@@ -469,6 +475,7 @@ input[type="radio"]{
 
 	input[type="radio"]{
 		margin-left: 30px;
+		margin-right: 0px;
 	}
 
 	.display-image{
@@ -507,6 +514,7 @@ input[type="radio"]{
 
 	input[type="radio"]{
 		margin-left: 50px;
+		margin-right: 0px;
 	}
 
 	.display-image{
@@ -568,6 +576,7 @@ input[type="radio"]{
 
 	input[type="radio"]{
 		margin-left: 36px;
+		margin-right: 0px;
 		height: 20%;
 		width: 20%;
 	}
@@ -601,6 +610,7 @@ input[type="radio"]{
 
 	input[type="radio"]{
 		margin-left: 34px;
+		margin-right: 0px;
 		height: 20%;
 		width: 20%;
 	}
@@ -608,19 +618,20 @@ input[type="radio"]{
 		left: 45%;
 		margin-top: -50px;
     	margin-left: -100px;
-		top: 606px;
+		top: 484px;
 	}
 	.display-image2{
 		left: 45%;
 		margin-top: -50px;
     	margin-left: -100px;
-    	top: 904px;
+    	top: 782px;
 	}
 }
 
 @media screen and (max-width: 350px){
 	input[type="radio"]{
 		margin-left: 30px;
+		margin-right: 0px;
 	}
 	.display-image{
 		left: 45%;
