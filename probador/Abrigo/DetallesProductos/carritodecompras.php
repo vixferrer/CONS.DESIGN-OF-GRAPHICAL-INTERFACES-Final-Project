@@ -72,15 +72,33 @@
 	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
 	<script src="store.js" async></script>
 
+	<link rel="stylesheet" href="../Barra/estilosBC.css">
+	<link rel="stylesheet" href="../Barra/fonts/style.css">
+
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="../Barra/menu.js"></script>
+
 </head>
 <body>
 <header>
-		<a href="../../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
-		<a role="link" onclick="esperar(3500);" title="Ver vestuario">
-			<img src="../Barra/Iconos/probador.png"
-			onmouseover="src='../Barra/Iconos/probador2.png'" 
-			onmouseout="src='../Barra/Iconos/probador.png'" >
-		</a>
+<div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="../../index.php"><img src="../Barra/Iconos/LOGO.png" class="logo"></a></li>
+                
+                <li class="Minibarra9">
+                    <a role="link" onclick="esperar(3500);" title="Ver vestuario" class="estaSI Ofertas">
+                                    Ir a vestuario<img src="../Barra/Iconos/probador.png"
+                                    onmouseover="src='../Barra/Iconos/probador2.png'"
+                                    onmouseout="src='../Barra/Iconos/probador.png'"
+                                    class="iconos">
+                    </a>
+                </li>             
+            </ul>
+
+		</nav>
 
 		<script>
         function goTo(url) {
