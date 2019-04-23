@@ -14,12 +14,12 @@
 		<link rel="stylesheet" href="css/fotos.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
-	<link rel="stylesheet" href="Recomendados/assets/tether/tether.min.css">
- 	<link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="Recomendados/assets/tether/tether.min.css">
+ 	 <link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap.min.css">
   	<link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap-grid.min.css">
- 	<link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap-reboot.min.css">
- 	<link rel="stylesheet" href="Recomendados/assets/theme/css/style.css">
- 	<link href="Recomendados/assets/fonts/style.css" rel="stylesheet">
+ 	 <link rel="stylesheet" href="Recomendados/assets/bootstrap/css/bootstrap-reboot.min.css">
+ 	 <link rel="stylesheet" href="Recomendados/assets/theme/css/style.css">
+ 	 <link href="Recomendados/assets/fonts/style.css" rel="stylesheet">
   	<link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
 
 	<script src="https://code.jquery.com/jquery-latest.js"></script>
