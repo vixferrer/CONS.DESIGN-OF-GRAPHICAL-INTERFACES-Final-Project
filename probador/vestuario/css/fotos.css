@@ -310,8 +310,29 @@ input[type="radio"]{
 }
 
 @media screen and (max-width: 374px){
-		.contenedor{
+	.contenedor{
 		width: 100%;
+	}
+
+	#uno{background-position-x: 77px;}
+	#dos{background-position-x: 77px;}
+	#tres{background-position-x: 77px;}
+	#cuatro{background-position-x: 77px;}
+	#cinco{background-position-x: 77px;}
+	#seis{background-position-x: 77px;}
+	#siete{background-position-x: 77px;}
+
+	#cinco:checked~ .display-image{
+		background-image: url(../img/pruebaArriba2.jpg);
+		background-size: 246px;
+		background-position-x: -2px;
+	}
+
+	#cuatro:checked~ .display-image2 {
+		background-image: url(../img/pruebaAbajo1.jpg);
+		background-size: 220px;
+		background-position-y: 0px;
+		background-position-x: 18px;
 	}
 
 	input[type="radio"]{
@@ -320,16 +341,23 @@ input[type="radio"]{
 		width: 20%;
 	}
 	.display-image{
-		right: 130px;
+		right: 30px;
 		top: 380px;
 	}
 	.display-image2{
-		right: 0px;
-		top: 600px;
-		width: 178px;
-		height: 200px;
-		
+		right: 50px;
+		top: 740px;
+		width: 250px;
+		height: 250px;
 	}
+
+	section,
+	.container,
+	.container-fluid {
+  	margin-top: 255px;
+  	position: relative;
+  	word-wrap: break-word;
+  	}
 	
 }
 
