@@ -148,14 +148,14 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 @media screen and (max-width: 1565px) { /**************************1565px****************************/
 
     .Minibarra9 {
-        margin-left: 1105px;
+        margin-left: 1080px;
     }
 }
 
 @media screen and (max-width: 1545px) { /**************************1545px****************************/
 
     .Minibarra9 {
-        margin-left: 1085;
+        margin-left: 1020;
     }
 }
 
@@ -246,100 +246,101 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     @media screen and (max-width: 1285px) { /**********************1285px************************/
 
         .Minibarra9 {
-            margin-left: 825px;
+            margin-left: 810px;
         }
     }
 
     @media screen and (max-width: 1265px) { /**********************1265px************************/
 
         .Minibarra9 {
-            margin-left: 805px;
+            margin-left: 790px;
         }
     }
 
     @media screen and (max-width: 1245px) { /**********************1245px************************/
 
         .Minibarra9 {
-            margin-left: 785px;
+            margin-left: 765px;
         }
     }
 
     @media screen and (max-width: 1225px) { /**********************1225px************************/
 
         .Minibarra9 {
-            margin-left: 765px;
+            margin-left: 735px;
         }
     }
 
     @media screen and (max-width: 1205px) { /**********************1205px************************/
 
         .Minibarra9 {
-            margin-left: 745px;
+            margin-left: 705px;
         }
     }
 
     @media screen and (max-width: 1185px) { /**********************1185px************************/
 
         .Minibarra9 {
-            margin-left: 725px;
+            margin-left: 680px;
         }
     }
 
     @media screen and (max-width: 1165px) { /**********************1165px************************/
 
         .Minibarra9 {
-            margin-left: 705px;
+            margin-left: 640px;
         }
     }
 
     @media screen and (max-width: 1145px) { /**********************1145px************************/
 
         .Minibarra9 {
-            margin-left: 685px;
+            margin-left: 625px;
         }
     }
 
     @media screen and (max-width: 1125px) { /**********************1125px************************/
 
         .Minibarra9 {
-            margin-left: 665px;
+            margin-left: 605px;
         }
     }
 
     @media screen and (max-width: 1105px) { /**********************1105px************************/
 
         .Minibarra9 {
-            margin-left: 645px;
+            margin-left: 580px;
         }
     }
 
     @media screen and (max-width: 1085px) { /**********************1085px************************/
 
         .Minibarra9 {
-            margin-left: 625px;
+            margin-left: 560px;
         }
     }
 
     @media screen and (max-width: 1065px) { /**********************1065px************************/
 
         .Minibarra9 {
-            margin-left: 605px;
+            margin-left: 540px;
         }
     }
 
     @media screen and (max-width: 1045px) { /**********************1045px************************/
 
         .Minibarra9 {
-            margin-left: 585px;
+            margin-left: 520px;
         }
     }
 
     @media screen and (max-width: 1025px) { /**********************1025px************************/
 
         .Minibarra9 {
-            margin-left: 564px;
+            margin-left: 500px;
         }
     }
+
 
 
     @media screen and (max-width: 1024px) { /****************************************MENU**************************/
