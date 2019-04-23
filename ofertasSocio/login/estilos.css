@@ -162,6 +162,16 @@ html{
   .login{
     width: 100%;
   }
+}
+
+@media screen and (min-width: 359px){
   
+  .contenedor{
+    height: 200px;
+  }
+  
+  .login{
+    width: 100%;
+  }
    
 }
