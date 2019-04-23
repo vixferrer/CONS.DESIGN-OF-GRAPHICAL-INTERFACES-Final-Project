@@ -325,7 +325,6 @@ input[type="radio"]{
 	#cinco:checked~ .display-image{
 		background-image: url(../img/pruebaArriba2.jpg);
 		background-size: 246px;
-		background-position-x: -2px;
 	}
 
 	#cuatro:checked~ .display-image2 {
@@ -341,7 +340,7 @@ input[type="radio"]{
 		width: 20%;
 	}
 	.display-image{
-		right: 30px;
+		right: 35px;
 		top: 380px;
 	}
 	.display-image2{
