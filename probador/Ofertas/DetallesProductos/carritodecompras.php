@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	$dbname = "d1ru6ujq85cesu";
-	include '../../../conexion.php';
+	include 'conexion.php';
 	if(isset($_SESSION[$dbname])){
 		if(isset($_GET['id'])){
 					$arreglo=$_SESSION[$dbname];
@@ -20,7 +20,7 @@
 						$nombre="";
 						$precio=0;
 						$imagen="";
-						$consulta='select * from ofertas where id='.$_GET['id'];
+						$consulta='select * from populares where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -47,7 +47,7 @@
 			$nombre="";
 			$precio=0;
 			$imagen="";
-			$consulta='select * from ofertas where id='.$_GET['id'];
+			$consulta='select * from populares where id='.$_GET['id'];
 						$sentencia = $pdo->prepare($consulta);
 						$sentencia->execute();
 						$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -69,19 +69,36 @@
 	<meta charset="utf-8"/>
 	<title>Vestuario</title>
 	<link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="./css/estilosCarrito.css">
+	<link rel="stylesheet" type="text/css" href="css/estilosCarrito.css">
 	<script src="store.js" async></script>
+
+	 <link rel="stylesheet" href="../Barra/estilosBC.css">
+	<link rel="stylesheet" href="../Barra/fonts/style.css">
+
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="../Barra/menu.js"></script>
 
 </head>
 <body>
-<header>
-		<a href="../../../probador/index.php" id="logo"> <img src="./imagenes/logo.png"></a>
-		<a role="link" onclick="esperar(3500);" title="Ver vestuario">
-			<img src="../Barra/Iconos/probador.png"
-			onmouseover="src='../Barra/Iconos/probador2.png'" 
-			onmouseout="src='../Barra/Iconos/probador.png'" >
-		</a>
+	<header>
+	<div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="../index.php"><img src="../Barra/Iconos/LOGO.png" class="logo"></a></li>
+                
+                <li class="Minibarra9">
+                    <a role="link" onclick="esperar(3500);" title="Ver vestuario" class="estaSI Ofertas">
+                                    Ir a vestuario<img src="../Barra/Iconos/probador.png"
+                                    onmouseover="src='../Barra/Iconos/probador2.png'"
+                                    onmouseout="src='../Barra/Iconos/probador.png'"
+                                    class="iconos">
+                    </a>
+                </li>             
+            </ul>
 
+        </nav>
 		<script>
         function goTo(url) {
             window.location = url;
@@ -96,6 +113,8 @@
             goTo('../../vestuario/probador.php');
                 }
     </script>
+
+		
 	</header>
 	<section class="cart-items">
 		<?php
@@ -123,7 +142,6 @@
 			
 		?>
 		<center><a href="../Ofertas.php" class="volver aceptar" >Volver a tienda</a></center>
-		
 
 	</section>
 </body>
