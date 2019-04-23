@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\probador",
-    "\\probador\\Abrigo",
-    "\\probador\\Abrigo\\DetallesProductos",
+    "\\probador\\Camisa",
+    "\\probador\\Camisa\\Barra",
     "\\probador\\Camisa\\DetallesProductos",
-    "\\probador\\vestuario\\Barra"
+    "\\probador\\DetallesProductos"
   ],
-  "SelectedNode": "\\probador\\Abrigo\\DetallesProductos\\carritodecompras.php",
+  "SelectedNode": "\\probador\\Camisa\\Camisa.php",
   "PreviewInSolutionExplorer": false
 }
