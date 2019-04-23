@@ -28,7 +28,7 @@ figure {
   margin-bottom: 0; }
 
 body {
-  color: #232323; }
+  background-color: : #f3f9fb; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
@@ -58,6 +58,7 @@ body {
 
 section {
   background-position: 50% 50%;
+  background-color: : #f3f9fb;
   background-repeat: no-repeat;
   background-size: cover; }
   section .mbr-background-video,
@@ -76,16 +77,16 @@ section {
 
 /*! Base colors */
 .mbr-white {
-  color: #ffffff; }
+ background-color: : #f3f9fb; }
 
 .mbr-black {
-  color: #000000; }
+  background-color: : #f3f9fb; }
 
 .mbr-bg-white {
-  background-color: #ffffff; }
+  background-color: : #f3f9fb; }
 
 .mbr-bg-black {
-  background-color: #000000; }
+  background-color: : #f3f9fb; }
 
 /*! Text-aligns */
 .align-left {
