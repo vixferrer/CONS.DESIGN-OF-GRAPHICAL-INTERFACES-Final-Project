@@ -68,11 +68,10 @@ header nav {
             vertical-align: center;
             padding-top: 5px;
             padding-bottom: 2px;
-            border-right: 1.5px solid rgb(31, 31, 31);
         }
 
 
-        
+
 
             header nav ul li:hover { /*Hover total su color*/
                 background: #fff;
@@ -100,249 +99,249 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 
 
 
-.Minibarra9 {
+.Minibarra8 {
     display: inline-block;
     vertical-align: middle;
     margin-right: 0px;
-    margin-left: 1205px;
+    margin-left: 1050px;
     text-align: center;
     color: rgb(27, 27, 27);
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 3px;
     cursor: pointer;
-    border-right: white;
+    border-right: 1.5px solid black;
 }
 
 /**********************************************************************************RESPONSIVE************************************************************************/
 
 @media screen and (max-width: 1645px) { /**************************1645px*************************/
 
-    .Minibarra9 {
-        margin-left: 1185px;
+    .Minibarra8 {
+        margin-left: 1020px;
     }
 }
 
 
 @media screen and (max-width: 1625px) { /**************************1625px*************************/
 
-    .Minibarra9 {
-        margin-left: 1165px;
+    .Minibarra8 {
+        margin-left: 1000px;
     }
 }
 
 @media screen and (max-width: 1605px) { /**************************1605px****************************/
 
-    .Minibarra9 {
-        margin-left: 1145px;
+    .Minibarra8 {
+        margin-left: 980px;
     }
 }
 
 @media screen and (max-width: 1585px) { /**************************1585px****************************/
 
-    .Minibarra9 {
-        margin-left: 1125px;
+    .Minibarra8 {
+        margin-left: 960px;
     }
 }
 
 @media screen and (max-width: 1565px) { /**************************1565px****************************/
 
-    .Minibarra9 {
-        margin-left: 1105px;
+    .Minibarra8 {
+        margin-left: 940px;
     }
 }
 
 @media screen and (max-width: 1545px) { /**************************1545px****************************/
 
-    .Minibarra9 {
-        margin-left: 1085;
+    .Minibarra8 {
+        margin-left: 920px;
     }
 }
 
 @media screen and (max-width: 1525px) { /**************************1525px****************************/
 
-    .Minibarra9 {
-        margin-left: 1065px;
+    .Minibarra8 {
+        margin-left: 900px;
     }
 }
 
 @media screen and (max-width: 1505px) { /**************************1505px****************************/
 
-    .Minibarra9 {
-        margin-left: 1045px;
+    .Minibarra8 {
+        margin-left: 880px;
     }
 }
 
 @media screen and (max-width: 1485px) { /**************************1485px****************************/
 
-    .Minibarra9 {
-        margin-left: 1025px;
+    .Minibarra8 {
+        margin-left: 860px;
     }
 }
 
 @media screen and (max-width: 1465px) { /**************************1465px****************************/
 
-    .Minibarra9 {
-        margin-left: 1005px;
+    .Minibarra8 {
+        margin-left: 840px;
     }
 }
 
 @media screen and (max-width: 1445px) { /**************************1445px****************************/
 
-    .Minibarra9 {
-        margin-left: 985px;
+    .Minibarra8 {
+        margin-left: 820px;
     }
 }
 
 @media screen and (max-width: 1425px) { /**************************1425px****************************/
 
-    .Minibarra9 {
-        margin-left: 965px;
+    .Minibarra8 {
+        margin-left: 800px;
     }
 }
 
 @media screen and (max-width: 1405px) { /**************************1405px****************************/
 
-    .Minibarra9 {
-        margin-left: 945px;
+    .Minibarra8 {
+        margin-left: 780px;
     }
 }
 
 @media screen and (max-width: 1385px) { /**************************1385px****************************/
 
-    .Minibarra9 {
-        margin-left: 925px;
+    .Minibarra8 {
+        margin-left: 760px;
     }
 
 
     @media screen and (max-width: 1365px) { /**********************1365px************************/
 
-        .Minibarra9 {
-            margin-left: 905px;
+        .Minibarra8 {
+            margin-left: 740px;
         }
     }
 
     @media screen and (max-width: 1345px) { /**********************1345px************************/
 
-        .Minibarra9 {
-            margin-left: 885px;
+        .Minibarra8 {
+            margin-left: 720px;
         }
     }
 
     @media screen and (max-width: 1325px) { /**********************1325px************************/
 
-        .Minibarra9 {
-            margin-left: 865px;
+        .Minibarra8 {
+            margin-left: 700px;
         }
     }
 
     @media screen and (max-width: 1305px) { /**********************1305px************************/
 
-        .Minibarra9 {
-            margin-left: 845px;
+        .Minibarra8 {
+            margin-left: 675px;
         }
     }
 
     @media screen and (max-width: 1285px) { /**********************1285px************************/
 
-        .Minibarra9 {
-            margin-left: 825px;
+        .Minibarra8 {
+            margin-left: 650px;
         }
     }
 
     @media screen and (max-width: 1265px) { /**********************1265px************************/
 
-        .Minibarra9 {
-            margin-left: 805px;
+        .Minibarra8 {
+            margin-left: 630px;
         }
     }
 
     @media screen and (max-width: 1245px) { /**********************1245px************************/
 
-        .Minibarra9 {
-            margin-left: 785px;
+        .Minibarra8 {
+            margin-left: 613px;
         }
     }
 
     @media screen and (max-width: 1225px) { /**********************1225px************************/
 
-        .Minibarra9 {
-            margin-left: 765px;
+        .Minibarra8 {
+            margin-left: 597px;
         }
     }
 
     @media screen and (max-width: 1205px) { /**********************1205px************************/
 
-        .Minibarra9 {
-            margin-left: 745px;
+        .Minibarra8 {
+            margin-left: 585px;
         }
     }
 
     @media screen and (max-width: 1185px) { /**********************1185px************************/
 
-        .Minibarra9 {
-            margin-left: 725px;
+        .Minibarra8 {
+            margin-left: 570px;
         }
     }
 
     @media screen and (max-width: 1165px) { /**********************1165px************************/
 
-        .Minibarra9 {
-            margin-left: 705px;
+        .Minibarra8 {
+            margin-left: 550px;
         }
     }
 
     @media screen and (max-width: 1145px) { /**********************1145px************************/
 
-        .Minibarra9 {
-            margin-left: 685px;
+        .Minibarra8 {
+            margin-left: 525px;
         }
     }
 
     @media screen and (max-width: 1125px) { /**********************1125px************************/
 
-        .Minibarra9 {
-            margin-left: 665px;
+        .Minibarra8 {
+            margin-left: 500px;
         }
     }
 
     @media screen and (max-width: 1105px) { /**********************1105px************************/
 
-        .Minibarra9 {
-            margin-left: 645px;
+        .Minibarra8 {
+            margin-left: 485px;
         }
     }
 
     @media screen and (max-width: 1085px) { /**********************1085px************************/
 
-        .Minibarra9 {
-            margin-left: 625px;
+        .Minibarra8 {
+            margin-left: 450px;
         }
     }
 
     @media screen and (max-width: 1065px) { /**********************1065px************************/
 
-        .Minibarra9 {
-            margin-left: 605px;
+        .Minibarra8 {
+            margin-left: 435px;
         }
     }
 
     @media screen and (max-width: 1045px) { /**********************1045px************************/
 
-        .Minibarra9 {
-            margin-left: 585px;
+        .Minibarra8 {
+            margin-left: 420px;
         }
     }
 
     @media screen and (max-width: 1025px) { /**********************1025px************************/
 
-        .Minibarra9 {
-            margin-left: 564px;
+        .Minibarra8 {
+            margin-left: 400px;
         }
     }
 
-
     @media screen and (max-width: 1024px) { /****************************************MENU**************************/
+
         body {
             padding-top: 80px;
         }
@@ -397,17 +396,6 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
                     }
 
         /*PARA QUE EN EL MENU SE CENTRE:*********/
-        .finalizar {
-            display: inline-block;
-            text-decoration: none;
-            vertical-align: middle;
-            margin-right: 10px;
-            margin-left: 10px;
-            text-align: center;
-            color: rgb(27, 27, 27);
-            text-transform: uppercase;
-            font-size: 13px;
-        }
 
         .Minibarra9 {
             display: inline-block;
@@ -433,17 +421,6 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
             font-size: 13px;
         }
 
-        .Minibarra7 {
-            display: inline-block;
-            text-decoration: none;
-            vertical-align: middle;
-            margin-right: 0px;
-            margin-left: 0px;
-            text-align: center;
-            color: rgb(27, 27, 27);
-            text-transform: uppercase;
-            font-size: 13px;
-        }
         /********************************PARA EL HOVER*/
         .Calzado {
             margin-right: 0px;
