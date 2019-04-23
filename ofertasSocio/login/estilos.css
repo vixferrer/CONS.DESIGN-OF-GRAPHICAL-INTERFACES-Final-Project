@@ -164,11 +164,14 @@ html{
   }
 }
 
-@media screen and (min-width: 359px){
+@media screen and (max-width: 420px){
+  html{
+    height: 120%;
+  }
   
   .contenedor{
     height: 200px;
-    width: 70%;
+    width: 64%;
     margin-left: 15%;
   }
 
@@ -197,5 +200,4 @@ html{
     margin-top: 40px;
     margin-left: 23%;
   }
-   
 }
