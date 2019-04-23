@@ -255,7 +255,7 @@ input[type="radio"]{
 
 }
 
-@media screen and (max-width: 420px){
+/*@media screen and (max-width: 420px){
 	
 		.contenedor{
 		width: 100%;
@@ -307,9 +307,9 @@ input[type="radio"]{
 		
 	}
 
-}
+}*/
 
-@media screen and (max-width: 374px){
+@media screen and (max-width: 420px){
 	.contenedor{
 		width: 100%;
 	}
