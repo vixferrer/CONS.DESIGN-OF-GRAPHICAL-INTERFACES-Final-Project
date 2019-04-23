@@ -10,7 +10,6 @@
 
 body {
     background-color: #f3f9fb;
-    background-color:  #f3f9fb;
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Work Sans', sans-serif;
@@ -18,18 +17,23 @@ body {
 }
 
 .almacen{
-    justify-content: center;
+    align-items: center;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     background-color: #f3f9fb;
-    width: 70%;
+    width: 90%;
     display: flex;
-    left: 50%;
+}
+
+.estados{
+    text-align: center;
+    display: flex;
+    margin-left: 170px;
 }
 
 .estado{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
 .Calzado {
@@ -153,7 +157,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 }
 
 .Minibarra8 {
-     margin-left: 30px;
+     margin-left: 330px;
  
 }
 
@@ -204,7 +208,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 
     .Minibarra8 {
         left: 50.9%;
-        margin-left: 110px;
+        margin-left: 240px;
     }
 }
 
@@ -228,8 +232,8 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     }
 
     .Minibarra8 {
-    
-        margin-left: 90px;
+        left: 50.9%;
+        margin-left: 200px;
     }
 }
 @media screen and (max-width: 1300px) { /**************************1391px****************************/
@@ -252,8 +256,8 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     }
 
     .Minibarra8 {
-      
-        margin-left: 80px;
+        left: 50.9%;
+        margin-left: 200px;
     }
 }
 
@@ -294,7 +298,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
  
 
   .Minibarra8 {
-     margin-left: 0px;
+     margin-left: 100px;
  
 }
 }
