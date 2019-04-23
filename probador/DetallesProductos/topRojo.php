@@ -165,7 +165,7 @@
 								<span>Nuevo</span>
 							</div>
 							<h2 class="product-name"><?php echo $det[1];?></h2>
-							<h3 class="product-price"><?php echo $det[3];?></h3>
+							<h3 class="product-price"><?php echo $det[3];?>€</h3>
 							<p style="color:rgb(50, 151, 3);"><strong style="color:black">Disponibilidad:</strong> En stock</p>
 							<div class="product-options">
 								<ul class="size-option">
