@@ -110,7 +110,7 @@
                  }
         function pausa_alerta(espera) {
             alert("¡¡¡¡¡Vestuario listo!!!!!");
-            goTo('../../vestuario/probador.php');
+            goTo('../vestuario/probador.php');
                 }
     </script>
 
