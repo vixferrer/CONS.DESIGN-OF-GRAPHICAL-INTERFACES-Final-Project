@@ -215,7 +215,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 
     .Minibarra8 {
         left: 50.9%;
-        margin-left: 240px;
+        margin-left: 110px;
     }
 }
 
@@ -239,8 +239,8 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     }
 
     .Minibarra8 {
-        left: 50.9%;
-        margin-left: 200px;
+    
+        margin-left: 90px;
     }
 }
 @media screen and (max-width: 1300px) { /**************************1391px****************************/
@@ -263,8 +263,8 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
     }
 
     .Minibarra8 {
-        left: 50.9%;
-        margin-left: 200px;
+      
+        margin-left: 80px;
     }
 }
 
@@ -305,7 +305,7 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
  
 
   .Minibarra8 {
-     margin-left: 100px;
+     margin-left: 0px;
  
 }
 }
