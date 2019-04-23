@@ -85,7 +85,7 @@ header nav ul li::before {
                     background: #fff;
                 }
 
-header nav ul li:hover::before {/*Tamaño de barra del hover*/
+header nav ul li:hover::before {/*TamaÃ±o de barra del hover*/
     width: 100%;
 }
 
@@ -210,7 +210,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         color: #87c0cd;
     }
 
-    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
+    header nav ul li a.Ofertas:hover::before { /*TamaÃ±o de barra del hover*/
         width: 19.30%;
     }
 }
@@ -243,7 +243,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         padding-top: 3px;
     }
 
-    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
+    header nav ul li a.Ofertas:hover::before { /*TamaÃ±o de barra del hover*/
         width: 100%;
     }
 
@@ -286,7 +286,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         color: #87c0cd;
     }
 
-     header nav ul li a.Calzado:hover::before { /*Tamaño de barra del hover*/
+     header nav ul li a.Calzado:hover::before { /*TamaÃ±o de barra del hover*/
             width: 24.30%;
      }
 
@@ -320,7 +320,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         padding-top: 3px;
     }
 
-    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
+    header nav ul li a.Ofertas:hover::before { /*TamaÃ±o de barra del hover*/
         width: 100%;
     }
 
@@ -337,7 +337,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         padding-top: 3px;
     }
 
-    header nav ul li a.Calzado:hover::before { /*Tamaño de barra del hover*/
+    header nav ul li a.Calzado:hover::before { /*TamaÃ±o de barra del hover*/
         width: 100%;
     }
 
@@ -380,7 +380,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         color: #87c0cd;
     }
 
-        header nav ul li a.Faldas:hover::before { /*Tamaño de barra del hover*/
+        header nav ul li a.Faldas:hover::before { /*TamaÃ±o de barra del hover*/
             width: 24.30%;
         }
 }
@@ -393,7 +393,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         .menu_bar {
             display: block;
             width: 100%;
-            position: fixed;
+            position:absolute;
             top: 0;
             background: #fff;
         }
@@ -416,7 +416,7 @@ nav .estaSI:hover {/*Color de texto tras pasar el raton*/
         header nav {
             width: 50%;
             height: calc(100% - 80px);
-            position: fixed;
+            position: absolute;
             right: 100%;
             margin: 0;
             overflow: scroll;
