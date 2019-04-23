@@ -16,9 +16,12 @@ body {
     font-weight: 800;
 }
 
+
+
 .Calzado {
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
+   
 }
 
 .Ofertas {
@@ -133,11 +136,12 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 .Minibarra9 {
     left: 60.8%;
     border-right: 1.5px solid #fff;
-    border-left: 1px solid #000000
+    border-left: 1px solid #000000;
 }
 
 .Minibarra8 {
-    left: 60.9%;
+     margin-left: 260px;
+ 
 }
 
 /**********************************************************************************RESPONSIVE************************************************************************/
@@ -187,8 +191,59 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
 
     .Minibarra8 {
         left: 50.9%;
+        margin-left: 260px;
     }
 }
+
+@media screen and (max-width: 1350px) { /**************************1391px****************************/
+
+    .finalizar {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 614.3583px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
+
+    .Minibarra9 {
+        left: 50.8%;
+    }
+
+    .Minibarra8 {
+        left: 50.9%;
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 1300px) { /**************************1391px****************************/
+
+    .finalizar {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 614.3583px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
+
+    .Minibarra9 {
+        left: 50.8%;
+    }
+
+    .Minibarra8 {
+        left: 50.9%;
+        margin-left: 200px;
+    }
+}
+
 
 @media screen and (max-width: 1225px) { /**********************1226px************************/
 
@@ -223,13 +278,12 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
             width: 19.30%;
         }
 
-    .Minibarra9 {
-        left: 45.8%;
-    }
+ 
 
-    .Minibarra8 {
-        left: 45.9%;
-    }
+  .Minibarra8 {
+     margin-left: 100px;
+ 
+}
 }
 
 @media screen and (max-width: 1092px) { /************************1092px*************************/
