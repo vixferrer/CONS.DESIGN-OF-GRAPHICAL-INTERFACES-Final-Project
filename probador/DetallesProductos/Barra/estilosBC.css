@@ -72,16 +72,7 @@ header nav {
         }
 
 
-            header nav ul li::before {
-                content: '';
-                display: inline-block;
-                height: 4px;
-                position: absolute;
-                background-color: #87c0cd; /*color de mi barra*/
-                bottom: 0;
-                width: 0%;
-                transition: all ease-in-out 230ms;
-            }
+        
 
             header nav ul li:hover { /*Hover total su color*/
                 background: #fff;
@@ -494,10 +485,6 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
             background-color: #87c0cd
         }
 
-        header nav ul li:hover::before { /*Tama?o de barra del hover*/
-            width: 100%;
-            background-color: #87c0cd
-        }
         /******************************PARA QUE EL ICONO SE ILUMINE A LA VEZ********/
 
         /**.iconos {
