@@ -15,9 +15,33 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
+.almacen{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.estados{
+    display: flex;
+    left: 50%;
+   
+}
 
+.estado1{
+    margin-left: 170px;
 
+}
 
+.estado2{
+    margin-left: 115px;
+
+}
+.estado3{
+    margin-left: 120px;
+
+}
+.estado4{
+    margin-left: 120px;
+
+}
 .Calzado {
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
