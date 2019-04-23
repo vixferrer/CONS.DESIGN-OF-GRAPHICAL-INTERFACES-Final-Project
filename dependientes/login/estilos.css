@@ -154,13 +154,10 @@ html{
 }
 
 @media screen and (max-width: 500px){
-  
-  .fondo form{
-    width: 120%;
-  }
-  
-  .login{
-    width: 100%;
-  }
+   
+
+    .login{
+      width: 80%;
+    }
   
 }
