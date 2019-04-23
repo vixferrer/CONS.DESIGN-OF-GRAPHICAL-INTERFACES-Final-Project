@@ -29,7 +29,7 @@
 	<!-- BARRA DENAVEGACIÓN -->
 	<header>
 			<div class="menu_bar">
-				<a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+				<a href="../../index.php" class="bt-menu"><span class="icon-menu"></span>Vitago</a>
 			</div>
 			<nav>
 				<a href="../probador.php"><img src="Barra/Iconos/LOGO.png" class="logo"></a>
