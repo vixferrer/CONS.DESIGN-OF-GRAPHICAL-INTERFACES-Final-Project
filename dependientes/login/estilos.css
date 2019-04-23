@@ -153,11 +153,12 @@ html{
   border: 120%;
 }
 
+
 @media screen and (max-width: 500px){
    
+  .fondo{
+    width: 200%;
+  }
 
-    .login{
-      width: 80%;
-    }
   
 }
