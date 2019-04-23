@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 
+
+
+
 body {
   font-style: normal;
   line-height: 1.5;
@@ -25,10 +28,10 @@ body {
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 4.8rem;
+  font-size: 4rem;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -63,9 +66,9 @@ body {
     line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2rem;
+    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -1347,26 +1350,9 @@ pre {
 .navbar-toggleable-xl .navbar-toggler {
   display: none;
 }
-
 .card-img {
   width: auto;
-  position: relative;
 }
-
-.card-img .hoverImg {
-  left: 0;
-  top: 0;
-  position: absolute;
-  display: none;
-}
-
-.card-img:hover .hoverImg {
-  display: block;
-}
-
-
-
-
 .menu .navbar.collapsed:not(.beta-menu) {
   flex-direction: column;
   -webkit-flex-direction: column;
@@ -1901,8 +1887,8 @@ body {
   color: #767676 !important;
 }
 .cid-rockrWQ7pm {
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 45px;
   background-color: #f3f9fb;
 }
 .cid-rockrWQ7pm h4 {
@@ -1936,4 +1922,5 @@ body {
 }
 .cid-rockrWQ7pm H2 {
   color: #87c0cd;
+  text-align: left;
 }
