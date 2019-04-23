@@ -238,7 +238,7 @@ button.w3view-cart:focus{
 .bienvenido{
 	font-size:35px;
 	text-align:left;
-	margin-top: 3%;
+	margin-top: 5%;
 	color: black;
 }
 .vitago{
@@ -1518,10 +1518,16 @@ a.pa_italic:focus {
 	.panel-heading {
 		padding: 25px 15px;
 	}
+	.bienvenido{
+		margin-top: 20%;
+	}
 }
 @media screen and (max-width: 384px){
 	.panel-heading {
 		padding: 20px 15px;
+	}
+	.bienvenido{
+		margin-top: 24%;
 	}
 }
 @media screen and (max-width: 320px){
@@ -1530,6 +1536,10 @@ a.pa_italic:focus {
 	}
 	.panel-body {
 		padding: 1em;
+	}
+
+	.bienvenido{
+		margin-top: 32%;
 	}
 }
 /*-- single-page --*/ 
@@ -1962,10 +1972,17 @@ p.w3-agile{
 	.main-agileits {
 		width: 33%;
 	}
+	.bienvenido{
+		margin-top: 4%;
+	}
 }
 @media screen and (max-width: 1366px){
 	.main-agileits {
 		width: 35%;
+	}
+
+	.bienvenido{
+		margin-top: 4%;
 	}
 }
 @media screen and (max-width: 1280px){
@@ -1975,9 +1992,17 @@ p.w3-agile{
 	#PPsbmincart {
 		left: 64%;
 	}
+
+	.bienvenido{
+		margin-top: 4%;
+	}
 }
 
 @media screen and (max-width: 1080px){
+	.bienvenido{
+		margin-top: 4%;
+	}
+
 	.logo-w3 img{
 		width: 8%;
 		position: absolute;
@@ -2020,6 +2045,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 1024px){
+	.bienvenido{
+		margin-top: 10%;
+	}
+	
 	.main-agileits {
 		width: 46%;
 	}
@@ -2037,6 +2066,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 991px){
+	.bienvenido{
+		margin-top: 14%;
+	}
+
 	.logo-w3 img {
 		width: 10%;
 	}
@@ -2244,6 +2277,11 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 900px){
+
+	.bienvenido{
+		margin-top: 14%;
+	}
+
 	.main-agileits {
 		width: 53%;
 	}
@@ -2255,6 +2293,11 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 800px){
+
+	.bienvenido{
+		margin-top: 14%;
+	}
+
 	.logo-w3 a h1 {
 		padding-left: 40px;
 	}
@@ -2277,6 +2320,11 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 768px){
+
+	.bienvenido{
+		margin-top: 14%;
+	}
+
 	.navigation-agileits {
 		width: 64%;
 		float:left;
@@ -2315,6 +2363,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 736px){
+	.bienvenido{
+		margin-top: 14%;
+	}
+
 	.logo-w3 img {
 		top: 5px;
 	}
@@ -2430,7 +2482,12 @@ p.w3-agile{
 		float: none;
 	}
 }
+
 @media screen and (max-width: 667px){
+	.bienvenido{
+		margin-top: 14%;
+	}
+
 	.banner-bootom-w3-agileits h4 span {
 		font-size: 40px;
 	}
@@ -2545,6 +2602,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 640px){
+	.bienvenido{
+		margin-top: 16%;
+	}
+
 	.top-product-grids {
 		width: 50%;
 		float: left;
@@ -2598,6 +2659,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 600px){
+	.bienvenido{
+		margin-top: 16%;
+	}
+
 	.logo-w3 img {
 		width: 12%;
 	}
@@ -2647,7 +2712,12 @@ p.w3-agile{
 	}
 
 }
+
 @media screen and (max-width: 568px){
+	.bienvenido{
+		margin-top: 19%;
+	}
+
 	.logo-w3 img {
 		width: 13%;
 	}
@@ -2737,6 +2807,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 480px){
+	.bienvenido{
+		margin-top: 23%;
+	}
+
 	.logo-w3 a h1 {
 		font-size: 30px;
 		padding-left:35px;
@@ -2876,6 +2950,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 414px){
+	.bienvenido{
+		margin-top: 25%;
+	}
+
 	#PPsbmincart {
 		left: 6%;
 		width:360px;
@@ -2952,6 +3030,10 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 384px){
+	.bienvenido{
+		margin-top: 25%;
+	}
+
 	.ring-in {
 		position: relative;
 		width: 60%;
@@ -3011,10 +3093,14 @@ p.w3-agile{
 	}
 	#PPsbmincart {
 		left: 5%;
-		top:35%:
+		top:35%;
 	}
 }
 @media screen and (max-width: 375px){
+	.bienvenido{
+		margin-top: 30%;
+	}
+
 	ul.resp-tabs-list li:nth-child(2):before {
 		width: 5%;
 		left: 17%;
@@ -3037,7 +3123,12 @@ p.w3-agile{
 	}
 
 }
+
 @media screen and (max-width: 320px){
+	.bienvenido{
+		margin-top: 32%;
+	}
+
 	.logo-w3 img {
 		width: 10%;
 		left:47px;
