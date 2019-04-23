@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
-
 * {
     padding: 0;
     margin: 0;
@@ -12,16 +11,6 @@ body {
     background: #e6ecf0;
     background-size: 100%;
     background-repeat: no-repeat;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-}
-
-.Calzado {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-}
-
-.Ofertas {
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
@@ -74,7 +63,7 @@ header nav {
 
         header nav ul li {
             display: inline-block;
-            position: relative;
+            position:relative;
             vertical-align: center;
             padding-top: 5px;
             padding-bottom: 2px;
@@ -82,24 +71,23 @@ header nav {
         }
 
 
-            header nav ul li::before {
-                content: '';
-                display: inline-block;
-                height: 4px;
-                position: absolute;
-                background-color: #87c0cd; /*color de mi barra*/
-                bottom: 0;
-                width: 0%;
-                transition: all ease-in-out 230ms;
-            }
-
-            header nav ul li:hover { /*Hover total su color*/
-                background: #fff;
-            }
-
-                header nav ul li:hover::before { /*Tama�o de barra del hover*/
-                    width: 100%;
+header nav ul li::before {
+    content: '';
+    display: inline-block;
+    height: 4px;
+    position: absolute;
+    background-color: #87c0cd;/*color de mi barra*/
+    bottom: 0;
+    width: 0%;
+    transition: all ease-in-out 230ms;
+}
+                header nav ul li:hover {/*Hover total su color*/
+                    background: #fff;
                 }
+
+header nav ul li:hover::before {/*Tamaño de barra del hover*/
+    width: 100%;
+}
 
             header nav ul li a {
                 display: inline-block;
@@ -113,36 +101,27 @@ header nav {
                 font-size: 13px;
             }
 
-nav .estaSI:hover { /*Color de texto tras pasar el raton*/
+nav .estaSI:hover {/*Color de texto tras pasar el raton*/
     color: #87c0cd;
 }
+
+
 
 .finalizar {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-left: 110px;
     text-align: center;
     color: rgb(27, 27, 27);
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 3px;
-    cursor: pointer;
-}
-
-.Minibarra9 {
-    left: 60.8%;
-    border-right: 1.5px solid #fff;
-    border-left: 1px solid #000000
-}
-
-.Minibarra8 {
-    left: 60.9%;
 }
 
 /**********************************************************************************RESPONSIVE************************************************************************/
 
-@media screen and (max-width: 1545px) { /**************************1545px*************************/
+@media screen and (max-width: 1545px) {/**************************1545px*************************/
 
     .finalizar {
         display: inline-block;
@@ -157,16 +136,10 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
         padding-top: 3px;
     }
 
-    .Minibarra9 {
-        left: 55.8%;
-    }
 
-    .Minibarra8 {
-        left: 55.9%;
-    }
 }
 
-@media screen and (max-width: 1391px) { /**************************1391px****************************/
+@media screen and (max-width: 1391px) {/**************************1391px****************************/
 
     .finalizar {
         display: inline-block;
@@ -181,17 +154,35 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
         padding-top: 3px;
     }
 
-    .Minibarra9 {
-        left: 50.8%;
-    }
-
-    .Minibarra8 {
-        left: 50.9%;
-    }
 }
 
-@media screen and (max-width: 1225px) { /**********************1226px************************/
+@media screen and (max-width: 1225px) {/**********************1225px************************/
 
+    .finalizar {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
+
+    .Ofertas {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 0px;
+        margin-left: 468.7655px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
 
     header nav ul li.Minibarra9::before {
         content: '';
@@ -219,28 +210,55 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
         color: #87c0cd;
     }
 
-        header nav ul li a.Ofertas:hover::before { /*Tama�o de barra del hover*/
-            width: 19.30%;
-        }
-
-    .Minibarra9 {
-        left: 45.8%;
-    }
-
-    .Minibarra8 {
-        left: 45.9%;
+    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
+        width: 19.30%;
     }
 }
 
-@media screen and (max-width: 1092px) { /************************1092px*************************/
+@media screen and (max-width: 1092px) {/************************1092px*************************/
 
+    .finalizar {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
 
+    .Ofertas {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
 
-    header nav ul li a.Ofertas:hover::before { /*Tama�o de barra del hover*/
+    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
         width: 100%;
     }
 
-
+    .Calzado {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 0px;
+        margin-left: 346.2655px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
 
     header nav ul li.Minibarra8::before {
         content: '';
@@ -268,83 +286,14 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
         color: #87c0cd;
     }
 
-        header nav ul li a.Calzado:hover::before { /*Tama�o de barra del hover*/
+     header nav ul li a.Calzado:hover::before { /*Tamaño de barra del hover*/
             width: 24.30%;
-        }
+     }
 
-    .Minibarra9 {
-        left: 37.8%;
-    }
-
-    .Minibarra8 {
-        left: 37.9%;
-    }
 }
 
-@media screen and (max-width: 1024px) { /****************************************MENU**************************/
+@media screen and (max-width: 958px){/*************************958px*******************************************/
 
-    .Minibarra9 {
-        left: 0%;
-    }
-
-    .Minibarra8 {
-        left: 0%;
-    }                                  
-                                                                    
-    body {
-        padding-top: 80px;
-    }
-
-    .menu_bar {
-        display: block;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        background: #fff;
-    }
-
-        .menu_bar .bt-menu {
-            display: block;
-            padding: 20px;
-            color: #87c0cd;
-            overflow: hidden;
-            font-size: 25px;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        .menu_bar span {
-            float: right;
-            font-size: 40px;
-        }
-
-    header nav {
-        width: 50%;
-        height: calc(100% - 80px);
-        position: fixed;
-        right: 100%;
-        margin: 0;
-        overflow: scroll;
-        border-top: 1.5px solid #87c0cd;
-    }
-
-        header nav ul {
-            display: flex;
-            flex-direction: column;
-        }
-
-            header nav ul li {
-                display: inline-block;
-                border-right: 1.5px solid #fff;
-                border-bottom: 1px solid rgb(128, 128, 128, 0.25);
-                margin-left: 0px
-            }
-
-                header nav ul li a {
-                    display: block;
-                }
-
-    /*PARA QUE EN EL MENU SE CENTRE:*/
     .finalizar {
         display: inline-block;
         text-decoration: none;
@@ -355,135 +304,239 @@ nav .estaSI:hover { /*Color de texto tras pasar el raton*/
         color: rgb(27, 27, 27);
         text-transform: uppercase;
         font-size: 13px;
-    }
-
-    .Minibarra9 {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-        margin-right: 0px;
-        margin-left: 0px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-        border-left: 1.5px solid #fff;
-    }
-
-    .Minibarra8 {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-        margin-right: 0px;
-        margin-left: 0px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-    }
-
-    .Minibarra7 {
-        display: inline-block;
-        text-decoration: none;
-        vertical-align: middle;
-        margin-right: 0px;
-        margin-left: 0px;
-        text-align: center;
-        color: rgb(27, 27, 27);
-        text-transform: uppercase;
-        font-size: 13px;
-    }
-
-    .Faldas {
-        margin-right: 0px;
-        margin-left: 0px;
-        display: block;
-    }
-
-    .Calzado {
-        margin-right: 0px;
-        margin-left: 0px;
-        display: block;
+        padding-top: 3px;
     }
 
     .Ofertas {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
         margin-right: 0px;
         margin-left: 0px;
-        display: block;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
     }
 
-    header nav ul li a.Faldas:hover::before {
-        width: 0%;
-    }
-
-    header nav ul li a.Calzado:hover::before {
-        width: 0%;
-    }
-
-    header nav ul li a.Ofertas:hover::before {
-        width: 0%;
-    }
-
-    header nav ul li.Minibarra9::before {
-        width: 0%;
-        background-color: #87c0cd
-    }
-
-    header nav ul li.Minibarra8::before {
-        width: 0%;
-        background-color: #87c0cd
-    }
-
-    header nav ul li:hover::before { /*Tama�o de barra del hover*/
+    header nav ul li a.Ofertas:hover::before { /*Tamaño de barra del hover*/
         width: 100%;
-        background-color: #87c0cd
     }
 
-    @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
+    .Calzado {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
 
+    header nav ul li a.Calzado:hover::before { /*Tamaño de barra del hover*/
+        width: 100%;
+    }
 
-        .logo {
-            margin-top: 7px;
-            margin-right: 10px;
-            margin-left: 10px;
-            width: 200px;
-            height: 47px;
+    .Faldas {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        margin-right: 0px;
+        margin-left: 305.2655px;
+        text-align: center;
+        color: rgb(27, 27, 27);
+        text-transform: uppercase;
+        font-size: 13px;
+        padding-top: 3px;
+    }
+
+    header nav ul li.Minibarra7::before {
+        content: '';
+        display: flex;
+        height: 4px;
+        position: absolute;
+        background-color: #fff;
+        bottom: 0;
+        width: 0%;
+        transition: all ease-in-out 230ms;
+    }
+
+    header nav ul li a.Faldas::before {
+        content: '';
+        display: flex;
+        height: 4px;
+        position: absolute;
+        background-color: #87c0cd;
+        bottom: 0;
+        width: 0%;
+        transition: all ease-in-out 230ms;
+    }
+
+    header nav ul li a.Faldas:hover { /*Color de texto tras pasar el raton*/
+        color: #87c0cd;
+    }
+
+        header nav ul li a.Faldas:hover::before { /*Tamaño de barra del hover*/
+            width: 24.30%;
         }
-    }
-
-    @media screen and (max-width: 482px) { /*MENU PARA MOVILES*/
-
-
-        .logo {
-            margin-top: 7px;
-            margin-right: 10px;
-            margin-left: 10px;
-            width: 150px;
-            height: 47px;
-        }
-    }
-
-    @media screen and (max-width: 382px) { /*MENU PARA MOVILES*/
-
-
-        .logo {
-            margin-top: 7px;
-            margin-right: 10px;
-            margin-left: 10px;
-            width: 120px;
-            height: 47px;
-        }
-    }
-
-    @media screen and (max-width: 322px) { /*MENU PARA MOVILES*/
-
-
-        .logo {
-            margin-top: 7px;
-            margin-right: 10px;
-            margin-left: 10px;
-            width: 115px;
-            height: 47px;
-        }
-    }
 }
+
+    @media screen and (max-width: 850px) {/****************************************MENU**************************/
+        body {
+            padding-top: 80px;
+        }
+
+        .menu_bar {
+            display: block;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            background: #fff;
+        }
+
+            .menu_bar .bt-menu {
+                display: block;
+                padding: 20px;
+                color: #87c0cd;
+                overflow: hidden;
+                font-size: 25px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            .menu_bar span {
+                float: right;
+                font-size: 40px;
+            }
+
+        header nav {
+            width: 50%;
+            height: calc(100% - 80px);
+            position: fixed;
+            right: 100%;
+            margin: 0;
+            overflow: scroll;
+            border-top: 1.5px solid #87c0cd;
+        }
+
+            header nav ul {
+                display: flex;
+                flex-direction: column;
+            }
+
+                header nav ul li {
+                    display: inline-block;
+                    border-right: 1.5px solid #fff;
+                    margin-left: 0px
+                }
+
+                    header nav ul li a {
+                        display: block;
+                    }
+
+        /*PARA QUE EN EL MENU SE CENTRE:*/
+        .finalizar {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .Minibarra9 {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .Minibarra8 {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .Minibarra7 {
+            display: inline-block;
+            text-decoration: none;
+            vertical-align: middle;
+            margin-right: 10px;
+            margin-left: 10px;
+            text-align: center;
+            color: rgb(27, 27, 27);
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .Faldas {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        @media screen and (max-width: 582px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 200px;
+                height: 47px;
+            }
+        }
+
+        @media screen and (max-width: 482px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 150px;
+                height: 47px;
+            }
+        }
+
+        @media screen and (max-width: 382px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 120px;
+                height: 47px;
+            }
+        }
+
+        @media screen and (max-width: 322px) { /*MENU PARA MOVILES*/
+
+
+            .logo {
+                margin-top: 7px;
+                margin-right: 10px;
+                margin-left: 10px;
+                width: 115px;
+                height: 47px;
+            }
+        }
+    }
