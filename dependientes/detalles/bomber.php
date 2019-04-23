@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Camisa Hawaiana</title>
+    <title>Bomber</title>
     <link rel="shortcut icon" href="../../../assets/images/logo4.png" type="image/x-icon">
 
 	<link rel="stylesheet" href="../Barra/estilosB.css">
@@ -79,8 +79,8 @@
 	<!-- section -->
 	<div class="section">
 	<?php
-			include '../conexion.php';
-			$consulta='select * from camisas where id=4';
+			include '../../../conexion.php';
+			$consulta='select * from abrigos where id=8';
 			$sentencia = $pdo->prepare($consulta);
 			$sentencia->execute();
 			$det=$sentencia->fetch(PDO::FETCH_NUM);
@@ -97,28 +97,27 @@
 								<img src="img/<?php echo $det[2];?>">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaHawaiana2.jpg" alt="">
+								<img src="img/bomberAzul2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaHawaiana3.jpg" alt="">
+								<img src="img/bomberAzul3.jpg" alt="">
 							</div>
 						</div>
 						<div id="product-view">
 							<div class="product-view">
-								<img src="img/camisaHawaiana1.jpg" alt="">
+								<img src="img/bomberAzul1.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaHawaiana2.jpg" alt="">
+								<img src="img/bomberAzul2.jpg" alt="">
 							</div>
 							<div class="product-view">
-								<img src="img/camisaHawaiana3.jpg" alt="">
+								<img src="img/bomberAzul3.jpg" alt="">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
 							<div class="product-label">
-								<span>Nuevo</span>
 							</div>
 							<h2 class="product-name"><?php echo $det[1];?></h2>
 							<!-- <h3 class="product-price"><?php echo $det[3];?></h3> -->
@@ -132,11 +131,15 @@
 									<li><a href="#">L</a></li>
 									<li><a href="#">XL</a></li>
 								</ul>
+								<ul class="color-option">
+									<li><span class="text-uppercase">Color:</span></li>
+									<li class="active"><a href="#" style="background-color:rgb(44, 47, 88);"></a></li>
+								</ul>
 							</div>
 
 							<!-- <div class="product-btns">
 								<button class="primary-btn add-to-cart"  role="link" onclick="window.location.href = 'carritodecompras.php?id=<?php  echo $det[0];?>';">Añadir al vestuario 
-									<img src = "../Barra/Iconos/probadorBLANCO.png" 
+									<img src = "../../Iconos/probadorBLANCO.png" 
 										class="percha"></button>
 							</div> -->
 						</div>
